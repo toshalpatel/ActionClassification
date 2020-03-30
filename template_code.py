@@ -34,7 +34,7 @@ for device in gpu_devices: tf.config.experimental.set_memory_growth(device, True
 #Get feautres and labels for train data and just features for test
 actions_dict = read_mapping_dict(mapping_loc)
 data_feat, data_labels, data_labels_loc = load_data(train_split, actions_dict, GT_folder, DATA_folder, datatype = 'training')
-#data_feat, data_labels = load_data( train_split, actions_dict, GT_folder, DATA_folder, datatype = 'training')
+
 modified_labels_list = []
 for i in range(len(data_feat)):
     final = np.zeros((data_feat[i].shape[0], 48))
@@ -98,8 +98,8 @@ X_test_m, Y_test_, M_test = utils.mask_data(X_test, y_test, max_len, mask_value=
 # # X_test_m = x
 # # Y_test_ = y
 
-model, param_str = tf_models.ED_TCN(n_nodes, conv, n_classes, n_feat, max_len, causal=causal, 
-                            activation='norm_relu', return_param_str=True)
+#model, param_str = tf_models.ED_TCN(n_nodes, conv, n_classes, n_feat, max_len, causal=causal, 
+#                             activation='norm_relu', return_param_str=True)
 
 # if model_type == "tCNN":
 #     model, param_str = tf_models.temporal_convs_linear(n_nodes[0], conv, n_classes, n_feat, 
@@ -116,10 +116,9 @@ model, param_str = tf_models.ED_TCN(n_nodes, conv, n_classes, n_feat, max_len, c
 #     model, param_str = tf_models.Dilated_TCN(n_feat, n_classes, n_nodes[0], L, B, max_len=max_len, 
 #                             causal=causal, return_param_str=True)
 # elif model_type == "LSTM":
-#     model, param_str = tf_models.BidirLSTM(n_nodes[0], n_classes, n_feat, causal=causal, return_param_str=True)
+model, param_str = tf_models.BidirLSTM(n_nodes[0], n_classes, n_feat, causal=causal, return_param_str=True)
 
-
-checkpoint = ModelCheckpoint('results/model_tcn25-{epoch:03d}.h5', verbose=1, monitor='val_loss', save_best_only=True, mode='auto')  
+checkpoint = ModelCheckpoint('results/model_bilstm-{epoch:03d}.h5', verbose=1, monitor='val_loss', save_best_only=True, mode='auto')  
 
 # model.load_weights('results/model_secondTraining-038.h5')
 
@@ -186,7 +185,20 @@ for i in range(xx.shape[0]):
     for j in range(1,len(locations[i]) - 1):
         l.append(int(ss.mode(xx[i,locations[i][j]:locations[i][j+1]]).mode))
     labels.append(l)
-        
+
+not_same_labels=[]
+for i in range(xx.shape[0]):
+    l = [0]
+    for j in range(1,len(locations[i]) - 1):
+        seg = xx[i,locations[i][j]:locations[i][j+1]]
+        out=[]
+        for f in range(len(seg)):
+            if seg[f] == l[j-1]: out.append(-1)
+            else: out.append(seg[f])
+        if -1 in out: out.remove(-1)
+        l.append(int(ss.mode(out).mode))
+    del l[0]
+    not_same_labels.append(l)
 
 prob_labels = []
 for i in range(output.shape[0]):
@@ -203,13 +215,11 @@ for i in range(yy.shape[0]):
         l.append(int(ss.mode(yy[i,locations[i][j]:locations[i][j+1]]).mode))
     true_labels.append(l)
 
-print(true_labels[-1])
-print(prob_labels[-1])
-print(labels[-1])
 
 pred_labels=[]
 gt_labels=[]
 pprob_labels=[]
+ns_labels=[]
 
 for i in labels:
     for j in i:
@@ -223,77 +233,19 @@ for i in true_labels:
     for j in i:
         gt_labels.append(j)
         
+for i in not_same_labels:
+    for j in i:
+        ns_labels.append(j)
+        
 print(len(pred_labels))
 print(len(gt_labels))
 print(len(pprob_labels))
+print(len(ns_labels))
 
 print("pred_labels acc:")
 print(accuracy_score(gt_labels, pred_labels))
 print("prob_labels acc:")
 print(accuracy_score(gt_labels, pprob_labels))
-
-
-
-trial_metrics = metrics.ComputeMetrics(overlap=.1, bg_class=0)
-AP_test = model.predict(X_test_m, verbose=0)
-AP_test = utils.unmask(AP_test, M_test)
-P_test = [p.argmax(1) for p in AP_test])
-trial_metrics.add_predictions(split, P_test, y_test)       
-trial_metrics.print_trials()
-trial_metrics.print_scores()
-trial_metrics.print_trials()
-print()
-
-
-# output = model.predict(X_test_m, verbose=0)
-
-
-# locations = []
-# yy = np.argmax(Y_test_, axis=2)
-# for i in range(yy.shape[0]):
-#     out = [0]
-#     last = yy[i, 0]
-#     for j in range(1, yy.shape[1]):
-#         if(yy[i, j] != last):
-#             last = yy[i, j]
-#             out.append(j)
-#     locations.append(out)
-
-# xx = np.argmax(output, axis=2)
-
-
-# for i in range(xx.shape[0]):
-#     for j in range(xx.shape[1]):
-#         if(xx[i, j] == None):
-#             xx[i, j] = -1
-
-        
-# for i in range(yy.shape[0]):
-#     for j in range(yy.shape[1]):
-#         if(yy[i, j] == None):
-#             yy[i, j] = -1
-
-        
-# labels = []
-# for i in range(xx.shape[0]):
-#     l = []
-#     for j in range(1,len(locations[i]) - 1):
-#         l.append(int(ss.mode(xx[i,locations[i][j]:locations[i][j+1]]).mode))
-#     labels.append(l)
-        
-
-# prob_labels = []
-# for i in range(output.shape[0]):
-#     l = []
-#     for j in range(1,len(locations[i]) - 1):
-#         l.append(np.argmax(np.sum(output[i, locations[i][j]:locations[i][j+1], :], axis=0)))
-#     prob_labels.append(l)
-
-
-# true_labels = []
-# for i in range(yy.shape[0]):
-#     l = []
-#     for j in range(1,len(locations[i]) - 1):
-#         l.append(int(ss.mode(yy[i,locations[i][j]:locations[i][j+1]]).mode))
-#     true_labels.append(l)
+print("ns_labels acc:")
+print(accuracy_score(gt_labels, ns_labels))
 

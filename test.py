@@ -54,7 +54,7 @@ y_train = modified_labels_list
 print("data loaded successfully!")
 
 n_nodes = [64, 96]
-nb_epoch = 5
+nb_epoch = 50
 video_rate = 3
 
 conv = 25
@@ -141,6 +141,7 @@ for i in test_segments:
     test_labels_loc.append(out)
     
 
+## majority voting
 ans_labels=[]
 l=[]
 for i in range(xx.shape[0]):
