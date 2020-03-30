@@ -10,6 +10,9 @@ __pycache__/
 data/
 results/
 
+*.out
+*.sh
+
 # Distribution / packaging
 .Python
 build/
