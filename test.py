@@ -54,7 +54,7 @@ y_train = modified_labels_list
 print("data loaded successfully!")
 
 n_nodes = [64, 96]
-nb_epoch = 50
+nb_epoch = 150
 video_rate = 3
 
 conv = 25
@@ -101,7 +101,7 @@ model, param_str = tf_models.ED_TCN(n_nodes, conv, n_classes, n_feat, max_len, c
 # model_lstm, param_str = tf_models.BidirLSTM(n_nodes[0], n_classes, n_feat, causal=causal, return_param_str=True)
 
 
-checkpoint = ModelCheckpoint('results/model_test_edtcn-{epoch:03d}.h5', verbose=1, monitor='loss', save_best_only=True, mode='auto')  
+checkpoint = ModelCheckpoint('results/model_test_edtcn.h5', verbose=1, monitor='loss', save_best_only=True, mode='auto')  
 
 # model.load_weights('results/model_secondTraining-038.h5')
 
@@ -112,10 +112,10 @@ model.fit(X_train_m, Y_train_, nb_epoch=nb_epoch, batch_size=8,
 
 # serialize model to JSON
 model_json = model.to_json()
-with open("model.json", "w") as json_file:
+with open("model_test_edtcn.json", "w") as json_file:
     json_file.write(model_json)
 # serialize weights to HDF5
-model.save_weights("model.h5")
+model.save_weights("model_test_edtcn.h5")
 print("Saved model")
 
 
@@ -146,7 +146,7 @@ ans_labels=[]
 l=[]
 for i in range(xx.shape[0]):
     x=[]
-    for j in range(1,len(test_labels_loc[i]) - 1):
+    for j in range(len(test_labels_loc[i]) - 1):
         l.append(int(ss.mode(xx[i,test_labels_loc[i][j]:test_labels_loc[i][j+1]]).mode))
         x.append(int(ss.mode(xx[i,test_labels_loc[i][j]:test_labels_loc[i][j+1]]).mode))
     ans_labels.append(x)

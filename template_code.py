@@ -98,8 +98,8 @@ X_test_m, Y_test_, M_test = utils.mask_data(X_test, y_test, max_len, mask_value=
 # # X_test_m = x
 # # Y_test_ = y
 
-#model, param_str = tf_models.ED_TCN(n_nodes, conv, n_classes, n_feat, max_len, causal=causal, 
-#                             activation='norm_relu', return_param_str=True)
+model, param_str = tf_models.ED_TCN(n_nodes, conv, n_classes, n_feat, max_len, causal=causal, 
+                            activation='norm_relu', return_param_str=True)
 
 # if model_type == "tCNN":
 #     model, param_str = tf_models.temporal_convs_linear(n_nodes[0], conv, n_classes, n_feat, 
@@ -112,13 +112,12 @@ X_test_m, Y_test_, M_test = utils.mask_data(X_test, y_test, max_len, mask_value=
 # elif model_type == "TDNN":
 #     model, param_str = tf_models.TimeDelayNeuralNetwork(n_nodes, conv, n_classes, n_feat, max_len, 
 #                        causal=causal, activation='tanh', return_param_str=True)
-# elif model_type == "DilatedTCN":
-#     model, param_str = tf_models.Dilated_TCN(n_feat, n_classes, n_nodes[0], L, B, max_len=max_len, 
-#                             causal=causal, return_param_str=True)
+# elif model_type == "DilatedTCN"
+# model, param_str = tf_models.Dilated_TCN(n_feat, n_classes, n_nodes[0], L, B, max_len=max_len,                            causal=causal, return_param_str=True)
 # elif model_type == "LSTM":
-model, param_str = tf_models.BidirLSTM(n_nodes[0], n_classes, n_feat, causal=causal, return_param_str=True)
+#model, param_str = tf_models.BidirLSTM(n_nodes[0], n_classes, n_feat, causal=causal, return_param_str=True)
 
-checkpoint = ModelCheckpoint('results/model_bilstm-{epoch:03d}.h5', verbose=1, monitor='val_loss', save_best_only=True, mode='auto')  
+checkpoint = ModelCheckpoint('results/model_dtcn-{epoch:03d}.h5', verbose=1, monitor='val_loss', save_best_only=True, mode='auto')  
 
 # model.load_weights('results/model_secondTraining-038.h5')
 
@@ -248,4 +247,3 @@ print("prob_labels acc:")
 print(accuracy_score(gt_labels, pprob_labels))
 print("ns_labels acc:")
 print(accuracy_score(gt_labels, ns_labels))
-

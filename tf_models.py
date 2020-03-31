@@ -1,7 +1,7 @@
 import numpy as np
 
 from keras.models import Sequential, Model
-from keras.layers import Input, Dense, TimeDistributed, merge, Lambda
+from keras.layers import Input, Dense, TimeDistributed, Concatenate, Lambda
 from keras.layers.core import *
 from keras.layers.convolutional import *
 from keras.layers.recurrent import *
@@ -318,7 +318,7 @@ def BidirLSTM(n_nodes, n_classes, n_feat, max_len=None,
     # Birdirectional LSTM
     if not causal:
         model_backwards = LSTM(n_nodes, return_sequences=True, go_backwards=True)(inputs)
-        model = Merge(mode="concat")([model, model_backwards])
+        model = Concatenate()([model, model_backwards])
 
     model = TimeDistributed(Dense(n_classes, activation="softmax"))(model)
     
