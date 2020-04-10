@@ -47,10 +47,11 @@ def load_one_data(split_load, actions_dict, GT_folder, DATA_folder, datatype='tr
         return data_breakfast
 
 
-def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'training',):
+def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'training', SIL = True, segments = None):
     file_ptr = open(split_load, 'r')
     content_all = file_ptr.read().split('\n')[1:-1]
     content_all = [x.strip('./data/groundTruth/') + 't' for x in content_all]
+    count=0
 
     if datatype == 'training':
         data_breakfast = []
@@ -66,20 +67,41 @@ def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'trai
             label_curr_video = []
             for iik in range(len(curr_gt)):
                 label_curr_video.append( actions_dict[curr_gt[iik]] )
+                
+            #### removing SIL ####
+            if not SIL:
+                ls = [i for i, e in enumerate(label_curr_video) if e != 0]
+                seg_start = ls[0]
+                seg_end = ls[-1]
+                label_curr_video = label_curr_video[seg_start:seg_end+1]
+                curr_data = curr_data[seg_start:seg_end+1]
+            ######################
+            
+#             count+=1
+#             if count>10: break
          
-            data_breakfast.append(torch.tensor(curr_data,  dtype=torch.float64 ) )
+            data_breakfast.append(torch.tensor(curr_data,  dtype=torch.float64))
             labels_breakfast.append(torch.tensor(label_curr_video, dtype=torch.float64))
-    
+            
         # labels_uniq, labels_uniq_loc = get_label_bounds(labels_breakfast)
         print("Finish Load the Training data and labels!!!")     
         return data_breakfast, labels_breakfast
+    
     if datatype == 'test':
         data_breakfast = []
+        video_count = 0
+        
         for content in content_all:
         
             loc_curr_data = DATA_folder + os.path.splitext(content)[0] + '.gz'
         
             curr_data = np.loadtxt(loc_curr_data, dtype='float32')
+            
+            #### removing SIL ####
+            if not SIL:
+                curr_data = curr_data[int(segments[video_count][0]):int(segments[video_count][-1])+1]
+                video_count += 1
+            ######################
             
             data_breakfast.append(torch.tensor(curr_data,  dtype=torch.float64 ) )
     

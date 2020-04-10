@@ -4,6 +4,7 @@ import torch
 from torch import nn, optim
 import torch.nn.functional as F
 
+from model import BaselineLinear
 from model import MultiStageTCN
 from my_data_loader import MyDataLoader
 import os
@@ -14,6 +15,7 @@ from read_datasetBreakfast import read_mapping_dict, load_one_data, load_test_se
 
 torch.cuda.empty_cache()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(device)
 seed = 5242
 random.seed(seed)
 torch.manual_seed(seed)
@@ -31,7 +33,7 @@ test_split = os.path.join(COMP_PATH, 'splits/test.split1.bundle') #Test Split
 GT_folder = os.path.join(COMP_PATH, 'groundTruth/') #Ground Truth Labels for each training video
 DATA_folder = os.path.join(COMP_PATH, 'data/') #Frame I3D features for all videos
 mapping_loc = os.path.join(COMP_PATH, 'splits/mapping_bf.txt')
-model_folder = os.path.join(COMP_PATH, './models/')
+model_folder = os.path.join(COMP_PATH, './models/stage3/')
 test_segment_loc = os.path.join(COMP_PATH, './test_segment.txt')
 predict_result_loc = os.path.join(COMP_PATH, './ans.csv')
 record_file_loc = os.path.join(COMP_PATH, './record.txt')
@@ -44,22 +46,28 @@ if not os.path.exists(model_folder):
 
 output_feature_dim = len(actions_dict)
 
-num_stages = 4
+num_stages = 3
 num_layers_per_stage = 12
-num_features_per_layer = 64 #number of features that are extracted
+num_features_per_layer = 64
 input_features_dim = 400
-batch_size = 16 
-#batch size =1 is not good as during backprop, if each training example is considered, it will affect the gradient a lot. Hence, if we consider more number of training examples, higher batch size is better 
+batch_size = 8
 lr = 0.0005
 training_epochs = 100
 start_epoch = 0
-predict_epoch = 75
-test_ratio = 0.95
+predict_epoch = 77
+test_ratio = 0.9
 MSE_loss_factor = 0.20
+model_ = ['BaselineLinear','MultiStageTCN'][1]
+print(model_)
+SIL = True #whether we want SIL in the dataset or not
 
-model = MultiStageTCN(num_stages, num_layers_per_stage, num_features_per_layer, input_features_dim, output_feature_dim)
-ce = nn.CrossEntropyLoss(ignore_index=-100)
-mse = nn.MSELoss(reduction='none')
+if model_ == 'BaselineLinear':
+    model = BaselineLinear(input_features_dim, output_feature_dim)
+    ce = nn.CrossEntropyLoss(ignore_index=-100)
+elif model_ == 'MultiStageTCN':
+    model = MultiStageTCN(num_stages, num_layers_per_stage, num_features_per_layer, input_features_dim, output_feature_dim)
+    ce = nn.CrossEntropyLoss(ignore_index=-100)
+    mse = nn.MSELoss(reduction='none')
 
 
 def train():
@@ -84,10 +92,17 @@ def train():
             optimizer.zero_grad()
             predictions, mask = model(batch_inputs_tensor_with_mask)
 
-            loss = 0
-            for p in predictions:
-                loss += ce(p.transpose(2, 1).contiguous().view(-1, output_feature_dim), batch_target.view(-1))
-                loss += MSE_loss_factor * torch.mean(torch.clamp(mse(F.log_softmax(p[:, :, 1:], dim=1), F.log_softmax(p.detach()[:, :, :-1], dim=1)), min=0, max=16) * mask[:, 0:output_feature_dim, 1:])
+            if model_ == 'BaselineLinear':
+                loss = 0
+                for p in predictions:
+                    loss += ce(p.transpose(2, 1).contiguous().view(-1, output_feature_dim), batch_target.view(-1))
+                    
+            elif model_ == 'MultiStageTCN':
+                loss = 0
+                for p in predictions:
+                    loss += ce(p.transpose(2, 1).contiguous().view(-1, output_feature_dim), batch_target.view(-1))
+                    loss += MSE_loss_factor * torch.mean(torch.clamp(mse(F.log_softmax(p[:, :, 1:], dim=1), F.log_softmax(p.detach()[:, :, :-1], dim=1)), \
+                                                                     min=0, max=16) * mask[:, 0:output_feature_dim, 1:])
 
             epoch_loss += loss.item()
             loss.backward()
@@ -124,7 +139,8 @@ def validate():
             loss = 0
             for p in predictions:
                 loss += ce(p.transpose(2, 1).contiguous().view(-1, output_feature_dim), targets.view(-1))
-                loss += MSE_loss_factor * torch.mean(torch.clamp(mse(F.log_softmax(p[:, :, 1:], dim=1), F.log_softmax(p.detach()[:, :, :-1], dim=1)), min=0, max=16) * mask[:, :output_feature_dim, 1:])
+                loss += MSE_loss_factor * torch.mean(torch.clamp(mse(F.log_softmax(p[:, :, 1:], dim=1), F.log_softmax(p.detach()[:, :, :-1], dim=1)), \
+                                                                 min=0, max=16) * mask[:, :output_feature_dim, 1:])
 
             epoch_loss += loss.item()
 
@@ -153,6 +169,11 @@ def predict():
             _, predicted = torch.max(predictions[-1].data, 1)
             predicted = predicted.squeeze()          
             
+            #### remove SIL ####
+            if not SIL:
+                segments[number] = [int(x) - int(segments[number][0]) for x in segments[number]]
+            ####################
+            
             for i in range(len(segments[number]) - 1):
                 start = int(segments[number][i])
                 end = int(segments[number][i+1])
@@ -171,6 +192,7 @@ def predict():
                         action = prediction
                 ans.append(action)
 
+
     print("Total Segment： %d" % len(ans))
     with open(predict_result_loc, "w") as f:
         f.write("Id,Category\n")
@@ -180,11 +202,11 @@ def predict():
 
 
 if args.action == "train":
-    data_breakfast, labels_breakfast = load_data(train_split, actions_dict, GT_folder, DATA_folder, datatype='training')
+    data_breakfast, labels_breakfast = load_data(train_split, actions_dict, GT_folder, DATA_folder, datatype='training',SIL=SIL)
     data_loader = MyDataLoader(actions_dict, data_breakfast, labels_breakfast, test_ratio)
     train()
 
 if args.action == "predict":
-    data_breakfast = load_data(test_split, actions_dict, GT_folder, DATA_folder, datatype='test')
     segments = load_test_segments(test_segment_loc)
+    data_breakfast = load_data(test_split, actions_dict, GT_folder, DATA_folder, datatype='test', segments= segments, SIL=SIL)
     predict()
