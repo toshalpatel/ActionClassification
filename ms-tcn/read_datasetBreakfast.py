@@ -3,7 +3,7 @@ import torch
 import numpy as np
 import os.path 
  
- 
+
 def _isArrayLike(obj):
     return hasattr(obj, '__iter__') and hasattr(obj, '__len__')
 
@@ -77,9 +77,9 @@ def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'trai
                 curr_data = curr_data[seg_start:seg_end+1]
             ######################
             
-#             count+=1
-#             if count>10: break
-         
+            count+=1
+            if count>10: break
+                
             data_breakfast.append(torch.tensor(curr_data,  dtype=torch.float64))
             labels_breakfast.append(torch.tensor(label_curr_video, dtype=torch.float64))
             

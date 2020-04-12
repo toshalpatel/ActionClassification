@@ -1,0 +1,6 @@
+Namespace(action='predict')
+Finish Load the Test data!!!
+Total Segment： 1284
+Namespace(action='predict')
+Finish Load the Test data!!!
+Total Segment： 1284

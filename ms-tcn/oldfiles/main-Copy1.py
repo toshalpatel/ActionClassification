@@ -4,9 +4,9 @@ import torch
 from torch import nn, optim
 import torch.nn.functional as F
 
+from model import BaselineLinear
 from model import MultiStageTCN
 from my_data_loader import MyDataLoader
-from utils import visualize
 import os
 import argparse
 import random
@@ -28,7 +28,6 @@ args = parser.parse_args()
 
 COMP_PATH = ''
 
-## input data
 train_split = os.path.join(COMP_PATH, 'splits/train.split1.bundle') #Train Split
 test_split = os.path.join(COMP_PATH, 'splits/test.split1.bundle') #Test Split
 GT_folder = os.path.join(COMP_PATH, 'groundTruth/') #Ground Truth Labels for each training video
@@ -36,6 +35,8 @@ DATA_folder = os.path.join(COMP_PATH, 'data/') #Frame I3D features for all video
 mapping_loc = os.path.join(COMP_PATH, 'splits/mapping_bf.txt')
 model_folder = os.path.join(COMP_PATH, './models/')
 test_segment_loc = os.path.join(COMP_PATH, './test_segment.txt')
+predict_result_loc = os.path.join(COMP_PATH, './ans.csv')
+record_file_loc = os.path.join(COMP_PATH, './record.txt')
 
 
 actions_dict = read_mapping_dict(mapping_loc)
@@ -43,11 +44,9 @@ actions_dict = read_mapping_dict(mapping_loc)
 if not os.path.exists(model_folder):
     os.makedirs(model_folder)
 
-    
-## Parameters
 output_feature_dim = len(actions_dict)
 
-num_stages = 4
+num_stages = 5
 num_layers_per_stage = 12
 num_features_per_layer = 64
 input_features_dim = 400
@@ -55,31 +54,20 @@ batch_size = 8
 lr = 0.0005
 training_epochs = 100
 start_epoch = 0
-predict_epoch = 75
+predict_epoch = 131
 test_ratio = 0.9
 MSE_loss_factor = 0.20
+model_ = ['BaselineLinear','MultiStageTCN'][0]
+print(model_)
+SIL = True #whether we want SIL in the dataset or not
 
-SIL = True #whether we want SIL in the dataset (True) or not (False)
-
-
-## records and prediction file paths
-record_file = str(num_stages)+"-"+str(num_layers_per_stage)+"-"+str(num_features_per_layer)+"-"+str(batch_size)+"-"+str(MSE_loss_factor)
-record_file_loc = os.path.join(COMP_PATH, './record/'+record_file+'.txt')
-ans = record_file + str(predict_epoch)
-predict_result_loc = os.path.join(COMP_PATH, './result/'+ans+'.csv')
-
-if not SIL:
-    record_file_loc = os.path.join(COMP_PATH, './record/'+record_file+'-1.txt')
-    predict_result_loc = os.path.join(COMP_PATH, './result/'+ans+'-1.csv')
-
-
-
-## MS-TCN Model
-model = MultiStageTCN(num_stages, num_layers_per_stage, num_features_per_layer, input_features_dim, output_feature_dim)
-ce = nn.CrossEntropyLoss(ignore_index=-100)
-mse = nn.MSELoss(reduction='none')
-
-
+if model_ == 'BaselineLinear':
+    model = BaselineLinear(input_features_dim, output_feature_dim)
+    ce = nn.CrossEntropyLoss(ignore_index=-100)
+elif model_ == 'MultiStageTCN':
+    model = MultiStageTCN(num_stages, num_layers_per_stage, num_features_per_layer, input_features_dim, output_feature_dim)
+    ce = nn.CrossEntropyLoss(ignore_index=-100)
+    mse = nn.MSELoss(reduction='none')
 
 
 def train():
@@ -103,12 +91,21 @@ def train():
             batch_inputs_tensor_with_mask, batch_target = batch_inputs_tensor_with_mask.to(device), batch_target.to(device)
             
             optimizer.zero_grad()
-            predictions, mask = model(batch_inputs_tensor_with_mask)
-            loss = 0
-            for p in predictions:
-                loss += ce(p.transpose(2, 1).contiguous().view(-1, output_feature_dim), batch_target.view(-1))
-                loss += MSE_loss_factor * torch.mean(torch.clamp(mse(F.log_softmax(p[:, :, 1:], dim=1), F.log_softmax(p.detach()[:, :, :-1], dim=1)), \
-                                                                min=0, max=16) * mask[:, 0:output_feature_dim, 1:])
+
+            if model_ == 'BaselineLinear':
+                predictions = model(batch_inputs_tensor_with_mask.reshape(batch_size,-1))
+                import pdb
+                pdb.set_trace()
+                loss = 0
+                loss = ce(predictions.transpose(2, 1).contiguous().view(-1, output_feature_dim), batch_target.view(-1))
+                    
+            elif model_ == 'MultiStageTCN':
+                predictions, mask = model(batch_inputs_tensor_with_mask)
+                loss = 0
+                for p in predictions:
+                    loss += ce(p.transpose(2, 1).contiguous().view(-1, output_feature_dim), batch_target.view(-1))
+                    loss += MSE_loss_factor * torch.mean(torch.clamp(mse(F.log_softmax(p[:, :, 1:], dim=1), F.log_softmax(p.detach()[:, :, :-1], dim=1)), \
+                                                                     min=0, max=16) * mask[:, 0:output_feature_dim, 1:])
 
             epoch_loss += loss.item()
             loss.backward()
@@ -211,11 +208,8 @@ if args.action == "train":
     data_breakfast, labels_breakfast = load_data(train_split, actions_dict, GT_folder, DATA_folder, datatype='training',SIL=SIL)
     data_loader = MyDataLoader(actions_dict, data_breakfast, labels_breakfast, test_ratio)
     train()
-    visualize(record_file)
-
 
 if args.action == "predict":
     segments = load_test_segments(test_segment_loc)
     data_breakfast = load_data(test_split, actions_dict, GT_folder, DATA_folder, datatype='test', segments= segments, SIL=SIL)
     predict()
-

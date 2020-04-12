@@ -72,18 +72,3 @@ class MultiStageTCN(nn.Module):
         return outputs, mask
     
 
-class BaselineLinear(nn.Module):
-    def __init__(self, input_features_dim, output_feature_dim):
-        super(BaselineLinear, self).__init__()
-        self.fc1 = nn.Linear(in_features = 362, out_features = 2*input_features_dim, bias=True)
-        self.fc2 = nn.Linear(in_features = 800, out_features = 100, bias=True)
-        self.fc3 = nn.Linear(in_features = 100, out_features = 10, bias=True)
-        self.fc4 = nn.Linear(in_features = 10, out_features = 1, bias=True)
-        self.softmax = nn.Softmax(dim=1)
-
-    def forward(self, x):
-        x = nn.functional.relu(self.fc1(x))
-        x = nn.functional.relu(self.fc2(x))
-        x = nn.functional.relu(self.fc3(x))
-        x = torch.sigmoid(self.fc4(x))
-        return x

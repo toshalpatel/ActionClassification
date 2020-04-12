@@ -1,0 +1,3301 @@
+Finish Load the Training data and labels!!!
+--- 7.150223970413208 seconds ---
+batch_number = 10, loss = 17.672185, acc = 0.035289
+--- 13.762533187866211 seconds ---
+batch_number = 20, loss = 16.835595, acc = 0.069216
+--- 20.1640202999115 seconds ---
+batch_number = 30, loss = 16.092884, acc = 0.087351
+--- 28.273044109344482 seconds ---
+batch_number = 40, loss = 15.447087, acc = 0.111419
+--- 36.747758865356445 seconds ---
+batch_number = 50, loss = 14.953724, acc = 0.125500
+--- 43.91252899169922 seconds ---
+batch_number = 60, loss = 14.645968, acc = 0.130475
+--- 51.57559561729431 seconds ---
+batch_number = 70, loss = 14.313046, acc = 0.132613
+--- 58.58523440361023 seconds ---
+batch_number = 80, loss = 14.065024, acc = 0.135823
+--- 66.5819354057312 seconds ---
+batch_number = 90, loss = 13.843109, acc = 0.141622
+--- 74.30002880096436 seconds ---
+batch_number = 100, loss = 13.639357, acc = 0.152742
+--- 81.7518527507782 seconds ---
+batch_number = 110, loss = 13.435096, acc = 0.158192
+--- 88.3021547794342 seconds ---
+batch_number = 120, loss = 13.249198, acc = 0.161843
+--- 96.16227841377258 seconds ---
+batch_number = 130, loss = 13.029243, acc = 0.172556
+--- 104.09898281097412 seconds ---
+batch_number = 140, loss = 12.855559, acc = 0.179953
+--- 111.78134942054749 seconds ---
+batch_number = 150, loss = 12.690671, acc = 0.184642
+--- 118.86091566085815 seconds ---
+batch_number = 160, loss = 12.534345, acc = 0.189385
+[epoch 1]: train_loss = 1.571920, train_acc = 0.192127, validation_loss = 9.108352, validation_acc = 0.375652
+--- 133.08929419517517 seconds ---
+batch_number = 10, loss = 9.231284, acc = 0.236077
+--- 140.04029822349548 seconds ---
+batch_number = 20, loss = 9.729568, acc = 0.242341
+--- 148.37564253807068 seconds ---
+batch_number = 30, loss = 9.602258, acc = 0.263557
+--- 155.08499264717102 seconds ---
+batch_number = 40, loss = 9.652542, acc = 0.260221
+--- 161.87914323806763 seconds ---
+batch_number = 50, loss = 9.655735, acc = 0.263853
+--- 169.89012694358826 seconds ---
+batch_number = 60, loss = 9.573035, acc = 0.276626
+--- 178.68432331085205 seconds ---
+batch_number = 70, loss = 9.433405, acc = 0.285738
+--- 185.92317414283752 seconds ---
+batch_number = 80, loss = 9.377828, acc = 0.292731
+--- 192.41409826278687 seconds ---
+batch_number = 90, loss = 9.337549, acc = 0.292937
+--- 200.66466355323792 seconds ---
+batch_number = 100, loss = 9.312686, acc = 0.295154
+--- 207.49735569953918 seconds ---
+batch_number = 110, loss = 9.276703, acc = 0.297578
+--- 214.49458932876587 seconds ---
+batch_number = 120, loss = 9.279317, acc = 0.302488
+--- 222.05397486686707 seconds ---
+batch_number = 130, loss = 9.235834, acc = 0.306144
+--- 229.64515495300293 seconds ---
+batch_number = 140, loss = 9.176971, acc = 0.307769
+--- 237.29488945007324 seconds ---
+batch_number = 150, loss = 9.185617, acc = 0.308016
+--- 244.4889669418335 seconds ---
+batch_number = 160, loss = 9.170513, acc = 0.311210
+[epoch 2]: train_loss = 1.154689, train_acc = 0.315751, validation_loss = 7.536067, validation_acc = 0.497862
+--- 259.2467987537384 seconds ---
+batch_number = 10, loss = 7.226338, acc = 0.418807
+--- 266.696879863739 seconds ---
+batch_number = 20, loss = 7.622108, acc = 0.395853
+--- 274.46802735328674 seconds ---
+batch_number = 30, loss = 7.859651, acc = 0.387225
+--- 283.2840337753296 seconds ---
+batch_number = 40, loss = 7.725191, acc = 0.402675
+--- 289.31526279449463 seconds ---
+batch_number = 50, loss = 7.859283, acc = 0.401189
+--- 298.0877022743225 seconds ---
+batch_number = 60, loss = 7.858165, acc = 0.408856
+--- 304.481814622879 seconds ---
+batch_number = 70, loss = 7.984694, acc = 0.396777
+--- 311.6109073162079 seconds ---
+batch_number = 80, loss = 7.997941, acc = 0.393593
+--- 317.72709035873413 seconds ---
+batch_number = 90, loss = 7.965299, acc = 0.394862
+--- 325.39120388031006 seconds ---
+batch_number = 100, loss = 7.895728, acc = 0.394012
+--- 332.5344748497009 seconds ---
+batch_number = 110, loss = 7.823468, acc = 0.400010
+--- 339.76210045814514 seconds ---
+batch_number = 120, loss = 7.761163, acc = 0.402839
+--- 346.48751997947693 seconds ---
+batch_number = 130, loss = 7.738030, acc = 0.403629
+--- 354.65198588371277 seconds ---
+batch_number = 140, loss = 7.743135, acc = 0.407998
+--- 362.39240431785583 seconds ---
+batch_number = 150, loss = 7.755670, acc = 0.407762
+--- 370.1815128326416 seconds ---
+batch_number = 160, loss = 7.699998, acc = 0.410205
+[epoch 3]: train_loss = 0.982954, train_acc = 0.408037, validation_loss = 7.053323, validation_acc = 0.504316
+--- 386.714492559433 seconds ---
+batch_number = 10, loss = 6.798747, acc = 0.469079
+--- 394.31014132499695 seconds ---
+batch_number = 20, loss = 7.333688, acc = 0.456579
+--- 402.04288125038147 seconds ---
+batch_number = 30, loss = 7.607379, acc = 0.425488
+--- 409.99009585380554 seconds ---
+batch_number = 40, loss = 7.340324, acc = 0.431700
+--- 417.42738223075867 seconds ---
+batch_number = 50, loss = 7.259597, acc = 0.437453
+--- 425.16609501838684 seconds ---
+batch_number = 60, loss = 7.149423, acc = 0.454832
+--- 432.26605582237244 seconds ---
+batch_number = 70, loss = 7.127651, acc = 0.454320
+--- 439.03840708732605 seconds ---
+batch_number = 80, loss = 7.168308, acc = 0.450332
+--- 446.59758710861206 seconds ---
+batch_number = 90, loss = 7.182489, acc = 0.448788
+--- 454.1096200942993 seconds ---
+batch_number = 100, loss = 7.196676, acc = 0.446280
+--- 461.5719118118286 seconds ---
+batch_number = 110, loss = 7.196016, acc = 0.446920
+--- 468.63368797302246 seconds ---
+batch_number = 120, loss = 7.162572, acc = 0.452359
+--- 476.15127396583557 seconds ---
+batch_number = 130, loss = 7.189561, acc = 0.452808
+--- 483.5349848270416 seconds ---
+batch_number = 140, loss = 7.137206, acc = 0.457750
+--- 490.48438811302185 seconds ---
+batch_number = 150, loss = 7.085612, acc = 0.461150
+--- 496.9780476093292 seconds ---
+batch_number = 160, loss = 7.051716, acc = 0.463601
+[epoch 4]: train_loss = 0.890794, train_acc = 0.464374, validation_loss = 5.970771, validation_acc = 0.575865
+--- 511.07150769233704 seconds ---
+batch_number = 10, loss = 5.793547, acc = 0.539607
+--- 518.1517095565796 seconds ---
+batch_number = 20, loss = 6.140431, acc = 0.521775
+--- 525.6056396961212 seconds ---
+batch_number = 30, loss = 6.364294, acc = 0.506261
+--- 533.8620707988739 seconds ---
+batch_number = 40, loss = 6.317805, acc = 0.515713
+--- 541.9495530128479 seconds ---
+batch_number = 50, loss = 6.292872, acc = 0.524947
+--- 549.3525559902191 seconds ---
+batch_number = 60, loss = 6.280041, acc = 0.523900
+--- 557.626800775528 seconds ---
+batch_number = 70, loss = 6.280700, acc = 0.523195
+--- 565.00741314888 seconds ---
+batch_number = 80, loss = 6.202771, acc = 0.527979
+--- 571.6409602165222 seconds ---
+batch_number = 90, loss = 6.191509, acc = 0.529667
+--- 579.0171465873718 seconds ---
+batch_number = 100, loss = 6.227703, acc = 0.530804
+--- 587.182966709137 seconds ---
+batch_number = 110, loss = 6.201088, acc = 0.538211
+--- 594.5279514789581 seconds ---
+batch_number = 120, loss = 6.165147, acc = 0.542540
+--- 601.1704249382019 seconds ---
+batch_number = 130, loss = 6.185361, acc = 0.542206
+--- 607.6086602210999 seconds ---
+batch_number = 140, loss = 6.141113, acc = 0.546187
+--- 615.7343218326569 seconds ---
+batch_number = 150, loss = 6.150758, acc = 0.549059
+--- 622.7061500549316 seconds ---
+batch_number = 160, loss = 6.172900, acc = 0.549936
+[epoch 5]: train_loss = 0.778214, train_acc = 0.550156, validation_loss = 5.586103, validation_acc = 0.592358
+--- 637.5353808403015 seconds ---
+batch_number = 10, loss = 5.023133, acc = 0.594234
+--- 645.2312772274017 seconds ---
+batch_number = 20, loss = 5.324435, acc = 0.587127
+--- 653.0026686191559 seconds ---
+batch_number = 30, loss = 5.813066, acc = 0.567793
+--- 660.8128049373627 seconds ---
+batch_number = 40, loss = 5.858704, acc = 0.579663
+--- 666.547746181488 seconds ---
+batch_number = 50, loss = 5.977616, acc = 0.575720
+--- 675.8122107982635 seconds ---
+batch_number = 60, loss = 5.878679, acc = 0.585130
+--- 682.5646660327911 seconds ---
+batch_number = 70, loss = 5.896239, acc = 0.591623
+--- 690.6094424724579 seconds ---
+batch_number = 80, loss = 6.008962, acc = 0.586468
+--- 696.9721274375916 seconds ---
+batch_number = 90, loss = 6.098547, acc = 0.582250
+--- 703.3391013145447 seconds ---
+batch_number = 100, loss = 6.219696, acc = 0.576347
+--- 711.2183909416199 seconds ---
+batch_number = 110, loss = 6.203037, acc = 0.579585
+--- 718.434807062149 seconds ---
+batch_number = 120, loss = 6.162927, acc = 0.582173
+--- 725.8205692768097 seconds ---
+batch_number = 130, loss = 6.130237, acc = 0.582075
+--- 733.0963711738586 seconds ---
+batch_number = 140, loss = 6.124892, acc = 0.582504
+--- 739.3896117210388 seconds ---
+batch_number = 150, loss = 6.130164, acc = 0.582132
+--- 747.0930180549622 seconds ---
+batch_number = 160, loss = 6.110339, acc = 0.582822
+[epoch 6]: train_loss = 0.770720, train_acc = 0.583048, validation_loss = 5.217443, validation_acc = 0.648706
+--- 762.4829938411713 seconds ---
+batch_number = 10, loss = 4.885467, acc = 0.614526
+--- 768.8235931396484 seconds ---
+batch_number = 20, loss = 5.074140, acc = 0.623107
+--- 775.2602782249451 seconds ---
+batch_number = 30, loss = 5.210028, acc = 0.627450
+--- 782.310186624527 seconds ---
+batch_number = 40, loss = 5.233000, acc = 0.631248
+--- 789.8962025642395 seconds ---
+batch_number = 50, loss = 5.186429, acc = 0.638547
+--- 798.2372553348541 seconds ---
+batch_number = 60, loss = 5.152889, acc = 0.641950
+--- 806.9707555770874 seconds ---
+batch_number = 70, loss = 5.234655, acc = 0.641115
+--- 813.6178722381592 seconds ---
+batch_number = 80, loss = 5.616457, acc = 0.618170
+--- 819.5377459526062 seconds ---
+batch_number = 90, loss = 5.685131, acc = 0.612281
+--- 827.1809461116791 seconds ---
+batch_number = 100, loss = 5.740467, acc = 0.607403
+--- 835.0819265842438 seconds ---
+batch_number = 110, loss = 5.701292, acc = 0.612832
+--- 843.0400047302246 seconds ---
+batch_number = 120, loss = 5.651864, acc = 0.616448
+--- 850.1097493171692 seconds ---
+batch_number = 130, loss = 5.617408, acc = 0.621771
+--- 856.9075326919556 seconds ---
+batch_number = 140, loss = 5.588508, acc = 0.623331
+--- 864.9782440662384 seconds ---
+batch_number = 150, loss = 5.563628, acc = 0.624109
+--- 872.2893950939178 seconds ---
+batch_number = 160, loss = 5.543812, acc = 0.625938
+[epoch 7]: train_loss = 0.700272, train_acc = 0.625811, validation_loss = 4.800416, validation_acc = 0.671683
+--- 886.5699126720428 seconds ---
+batch_number = 10, loss = 4.505336, acc = 0.669483
+--- 893.4725215435028 seconds ---
+batch_number = 20, loss = 4.985212, acc = 0.655574
+--- 901.7334153652191 seconds ---
+batch_number = 30, loss = 4.937897, acc = 0.664571
+--- 909.1902611255646 seconds ---
+batch_number = 40, loss = 4.977211, acc = 0.665141
+--- 917.2123093605042 seconds ---
+batch_number = 50, loss = 4.933072, acc = 0.668525
+--- 925.4204242229462 seconds ---
+batch_number = 60, loss = 4.828235, acc = 0.678443
+--- 932.973913192749 seconds ---
+batch_number = 70, loss = 4.929179, acc = 0.670973
+--- 939.3151452541351 seconds ---
+batch_number = 80, loss = 4.954366, acc = 0.669258
+--- 946.2599034309387 seconds ---
+batch_number = 90, loss = 4.973282, acc = 0.667160
+--- 953.5889902114868 seconds ---
+batch_number = 100, loss = 4.933887, acc = 0.670843
+--- 960.3962190151215 seconds ---
+batch_number = 110, loss = 4.930926, acc = 0.669653
+--- 968.4498560428619 seconds ---
+batch_number = 120, loss = 4.950145, acc = 0.667818
+--- 975.173309803009 seconds ---
+batch_number = 130, loss = 4.941935, acc = 0.669419
+--- 982.2178235054016 seconds ---
+batch_number = 140, loss = 4.963257, acc = 0.667501
+--- 989.1069378852844 seconds ---
+batch_number = 150, loss = 4.947311, acc = 0.669253
+--- 996.7146551609039 seconds ---
+batch_number = 160, loss = 4.946080, acc = 0.670530
+[epoch 8]: train_loss = 0.624228, train_acc = 0.671911, validation_loss = 4.838641, validation_acc = 0.664958
+--- 1011.5594000816345 seconds ---
+batch_number = 10, loss = 4.133936, acc = 0.720432
+--- 1018.9291641712189 seconds ---
+batch_number = 20, loss = 4.381507, acc = 0.706539
+--- 1026.3365428447723 seconds ---
+batch_number = 30, loss = 4.807791, acc = 0.692467
+--- 1034.8596761226654 seconds ---
+batch_number = 40, loss = 4.940478, acc = 0.679121
+--- 1042.1694793701172 seconds ---
+batch_number = 50, loss = 5.021745, acc = 0.668945
+--- 1049.5574514865875 seconds ---
+batch_number = 60, loss = 5.057728, acc = 0.665699
+--- 1056.6255679130554 seconds ---
+batch_number = 70, loss = 5.020574, acc = 0.670287
+--- 1063.5910277366638 seconds ---
+batch_number = 80, loss = 4.974568, acc = 0.672452
+--- 1071.8664808273315 seconds ---
+batch_number = 90, loss = 4.966385, acc = 0.672076
+--- 1079.1196258068085 seconds ---
+batch_number = 100, loss = 4.966476, acc = 0.673535
+--- 1088.053573846817 seconds ---
+batch_number = 110, loss = 4.895250, acc = 0.679891
+--- 1095.2799789905548 seconds ---
+batch_number = 120, loss = 4.859399, acc = 0.684005
+--- 1101.7478063106537 seconds ---
+batch_number = 130, loss = 4.839729, acc = 0.686758
+--- 1108.143728017807 seconds ---
+batch_number = 140, loss = 4.812967, acc = 0.689502
+--- 1115.3273556232452 seconds ---
+batch_number = 150, loss = 4.789350, acc = 0.690753
+--- 1121.5110211372375 seconds ---
+batch_number = 160, loss = 4.818390, acc = 0.688543
+[epoch 9]: train_loss = 0.607806, train_acc = 0.689564, validation_loss = 4.386453, validation_acc = 0.722081
+--- 1136.7668845653534 seconds ---
+batch_number = 10, loss = 3.710266, acc = 0.752774
+--- 1144.1010301113129 seconds ---
+batch_number = 20, loss = 4.287662, acc = 0.723633
+--- 1152.2545928955078 seconds ---
+batch_number = 30, loss = 4.580671, acc = 0.709659
+--- 1158.8295488357544 seconds ---
+batch_number = 40, loss = 4.705646, acc = 0.692197
+--- 1165.8349149227142 seconds ---
+batch_number = 50, loss = 4.697373, acc = 0.690323
+--- 1173.002179145813 seconds ---
+batch_number = 60, loss = 4.706973, acc = 0.692422
+--- 1180.4375493526459 seconds ---
+batch_number = 70, loss = 4.932052, acc = 0.684316
+--- 1186.7514889240265 seconds ---
+batch_number = 80, loss = 4.954148, acc = 0.682907
+--- 1193.825118303299 seconds ---
+batch_number = 90, loss = 4.907945, acc = 0.687884
+--- 1201.622844696045 seconds ---
+batch_number = 100, loss = 4.821772, acc = 0.695496
+--- 1209.5412607192993 seconds ---
+batch_number = 110, loss = 4.785249, acc = 0.701603
+--- 1215.4039914608002 seconds ---
+batch_number = 120, loss = 4.747128, acc = 0.703942
+--- 1224.8746995925903 seconds ---
+batch_number = 130, loss = 4.729395, acc = 0.705124
+--- 1232.788661956787 seconds ---
+batch_number = 140, loss = 4.677493, acc = 0.709562
+--- 1238.8190689086914 seconds ---
+batch_number = 150, loss = 4.698454, acc = 0.709120
+--- 1247.3905727863312 seconds ---
+batch_number = 160, loss = 4.717774, acc = 0.707296
+[epoch 10]: train_loss = 0.596766, train_acc = 0.708512, validation_loss = 4.791624, validation_acc = 0.714035
+--- 1262.5247869491577 seconds ---
+batch_number = 10, loss = 4.083969, acc = 0.744218
+--- 1269.279583454132 seconds ---
+batch_number = 20, loss = 4.476529, acc = 0.712143
+--- 1276.8338613510132 seconds ---
+batch_number = 30, loss = 4.601344, acc = 0.700784
+--- 1284.7809517383575 seconds ---
+batch_number = 40, loss = 4.506329, acc = 0.711977
+--- 1293.7200906276703 seconds ---
+batch_number = 50, loss = 4.449981, acc = 0.718297
+--- 1300.683708190918 seconds ---
+batch_number = 60, loss = 4.463920, acc = 0.716895
+--- 1309.1955652236938 seconds ---
+batch_number = 70, loss = 4.435162, acc = 0.722151
+--- 1315.0831134319305 seconds ---
+batch_number = 80, loss = 4.400875, acc = 0.724486
+--- 1322.7985315322876 seconds ---
+batch_number = 90, loss = 4.359504, acc = 0.728775
+--- 1331.5256412029266 seconds ---
+batch_number = 100, loss = 4.262950, acc = 0.736433
+--- 1338.9153599739075 seconds ---
+batch_number = 110, loss = 4.223419, acc = 0.739389
+--- 1345.800455570221 seconds ---
+batch_number = 120, loss = 4.245022, acc = 0.736308
+--- 1351.908151626587 seconds ---
+batch_number = 130, loss = 4.267199, acc = 0.734773
+--- 1359.360568523407 seconds ---
+batch_number = 140, loss = 4.321544, acc = 0.730770
+--- 1367.9355690479279 seconds ---
+batch_number = 150, loss = 4.334303, acc = 0.730457
+--- 1374.1067972183228 seconds ---
+batch_number = 160, loss = 4.348452, acc = 0.729229
+[epoch 11]: train_loss = 0.548044, train_acc = 0.730865, validation_loss = 4.325855, validation_acc = 0.731524
+--- 1388.301945924759 seconds ---
+batch_number = 10, loss = 3.167523, acc = 0.798227
+--- 1395.333224773407 seconds ---
+batch_number = 20, loss = 3.548763, acc = 0.775108
+--- 1403.9712085723877 seconds ---
+batch_number = 30, loss = 3.515714, acc = 0.787373
+--- 1410.9214873313904 seconds ---
+batch_number = 40, loss = 3.655572, acc = 0.784386
+--- 1416.939713716507 seconds ---
+batch_number = 50, loss = 3.699236, acc = 0.782976
+--- 1424.2342221736908 seconds ---
+batch_number = 60, loss = 3.701427, acc = 0.784918
+--- 1431.003110408783 seconds ---
+batch_number = 70, loss = 3.777872, acc = 0.780863
+--- 1439.0694870948792 seconds ---
+batch_number = 80, loss = 3.881024, acc = 0.771816
+--- 1447.1066451072693 seconds ---
+batch_number = 90, loss = 3.945770, acc = 0.763880
+--- 1455.5390768051147 seconds ---
+batch_number = 100, loss = 4.124569, acc = 0.750372
+--- 1463.2904500961304 seconds ---
+batch_number = 110, loss = 4.190453, acc = 0.743545
+--- 1469.598351240158 seconds ---
+batch_number = 120, loss = 4.249445, acc = 0.741232
+--- 1476.7714731693268 seconds ---
+batch_number = 130, loss = 4.218230, acc = 0.744791
+--- 1484.6345643997192 seconds ---
+batch_number = 140, loss = 4.235272, acc = 0.746073
+--- 1492.9894752502441 seconds ---
+batch_number = 150, loss = 4.226944, acc = 0.748105
+--- 1498.9797174930573 seconds ---
+batch_number = 160, loss = 4.247832, acc = 0.746822
+[epoch 12]: train_loss = 0.542158, train_acc = 0.745072, validation_loss = 3.803644, validation_acc = 0.740688
+--- 1512.5993432998657 seconds ---
+batch_number = 10, loss = 3.693550, acc = 0.738187
+--- 1520.6506135463715 seconds ---
+batch_number = 20, loss = 3.806046, acc = 0.758479
+--- 1527.5530285835266 seconds ---
+batch_number = 30, loss = 3.751708, acc = 0.769772
+--- 1535.34308719635 seconds ---
+batch_number = 40, loss = 3.688419, acc = 0.783408
+--- 1545.267281293869 seconds ---
+batch_number = 50, loss = 3.663444, acc = 0.787504
+--- 1551.6199748516083 seconds ---
+batch_number = 60, loss = 3.668094, acc = 0.789834
+--- 1558.5926005840302 seconds ---
+batch_number = 70, loss = 3.642785, acc = 0.791031
+--- 1566.4856882095337 seconds ---
+batch_number = 80, loss = 3.621848, acc = 0.793166
+--- 1573.892158985138 seconds ---
+batch_number = 90, loss = 3.623962, acc = 0.793888
+--- 1581.870584487915 seconds ---
+batch_number = 100, loss = 3.674980, acc = 0.789629
+--- 1589.675549030304 seconds ---
+batch_number = 110, loss = 3.652323, acc = 0.791251
+--- 1598.11301445961 seconds ---
+batch_number = 120, loss = 3.641176, acc = 0.792454
+--- 1605.5765645503998 seconds ---
+batch_number = 130, loss = 3.616718, acc = 0.795015
+--- 1612.206844329834 seconds ---
+batch_number = 140, loss = 3.616547, acc = 0.795181
+--- 1619.2701773643494 seconds ---
+batch_number = 150, loss = 3.607199, acc = 0.795325
+--- 1627.430323600769 seconds ---
+batch_number = 160, loss = 3.580077, acc = 0.797371
+[epoch 13]: train_loss = 0.456132, train_acc = 0.796952, validation_loss = 3.602524, validation_acc = 0.773658
+--- 1642.5841150283813 seconds ---
+batch_number = 10, loss = 2.863101, acc = 0.837108
+--- 1649.3803613185883 seconds ---
+batch_number = 20, loss = 3.129598, acc = 0.819920
+--- 1657.428789138794 seconds ---
+batch_number = 30, loss = 3.165172, acc = 0.824406
+--- 1665.0842645168304 seconds ---
+batch_number = 40, loss = 3.176854, acc = 0.824084
+--- 1671.7530858516693 seconds ---
+batch_number = 50, loss = 3.305898, acc = 0.815772
+--- 1679.0804026126862 seconds ---
+batch_number = 60, loss = 3.330513, acc = 0.816234
+--- 1685.0320200920105 seconds ---
+batch_number = 70, loss = 3.369751, acc = 0.816271
+--- 1692.7042384147644 seconds ---
+batch_number = 80, loss = 3.340723, acc = 0.818679
+--- 1699.9184720516205 seconds ---
+batch_number = 90, loss = 3.343589, acc = 0.820513
+--- 1706.962553024292 seconds ---
+batch_number = 100, loss = 3.346068, acc = 0.820099
+--- 1714.5330603122711 seconds ---
+batch_number = 110, loss = 3.348734, acc = 0.818576
+--- 1722.2899017333984 seconds ---
+batch_number = 120, loss = 3.371033, acc = 0.816181
+--- 1730.8552696704865 seconds ---
+batch_number = 130, loss = 3.373841, acc = 0.816084
+--- 1737.8439395427704 seconds ---
+batch_number = 140, loss = 3.378224, acc = 0.816017
+--- 1745.4965507984161 seconds ---
+batch_number = 150, loss = 3.383074, acc = 0.815451
+--- 1753.2869987487793 seconds ---
+batch_number = 160, loss = 3.384377, acc = 0.815578
+[epoch 14]: train_loss = 0.426616, train_acc = 0.815739, validation_loss = 3.557040, validation_acc = 0.780158
+--- 1768.1923243999481 seconds ---
+batch_number = 10, loss = 2.891260, acc = 0.842161
+--- 1774.1050531864166 seconds ---
+batch_number = 20, loss = 3.048479, acc = 0.834731
+--- 1781.8891286849976 seconds ---
+batch_number = 30, loss = 3.034851, acc = 0.842657
+--- 1789.29723238945 seconds ---
+batch_number = 40, loss = 3.108732, acc = 0.836742
+--- 1797.9482984542847 seconds ---
+batch_number = 50, loss = 3.130440, acc = 0.837018
+--- 1805.783793926239 seconds ---
+batch_number = 60, loss = 3.105141, acc = 0.840054
+--- 1813.0787143707275 seconds ---
+batch_number = 70, loss = 3.111871, acc = 0.839402
+--- 1818.7834784984589 seconds ---
+batch_number = 80, loss = 3.133532, acc = 0.840144
+--- 1827.3189420700073 seconds ---
+batch_number = 90, loss = 3.145543, acc = 0.838486
+--- 1836.5146622657776 seconds ---
+batch_number = 100, loss = 3.124119, acc = 0.840084
+--- 1843.6518959999084 seconds ---
+batch_number = 110, loss = 3.133615, acc = 0.839864
+--- 1849.685133934021 seconds ---
+batch_number = 120, loss = 3.175291, acc = 0.837605
+--- 1857.7850244045258 seconds ---
+batch_number = 130, loss = 3.167909, acc = 0.837832
+--- 1865.4374794960022 seconds ---
+batch_number = 140, loss = 3.168309, acc = 0.836721
+--- 1872.4159569740295 seconds ---
+batch_number = 150, loss = 3.168059, acc = 0.836417
+--- 1880.1515905857086 seconds ---
+batch_number = 160, loss = 3.181773, acc = 0.834898
+[epoch 15]: train_loss = 0.404513, train_acc = 0.833824, validation_loss = 3.629701, validation_acc = 0.759965
+--- 1894.038568496704 seconds ---
+batch_number = 10, loss = 2.509718, acc = 0.875146
+--- 1901.290190935135 seconds ---
+batch_number = 20, loss = 2.908249, acc = 0.847078
+--- 1908.8069989681244 seconds ---
+batch_number = 30, loss = 3.045184, acc = 0.838247
+--- 1916.1212015151978 seconds ---
+batch_number = 40, loss = 3.212651, acc = 0.831861
+--- 1923.2391610145569 seconds ---
+batch_number = 50, loss = 3.301510, acc = 0.821638
+--- 1931.4484877586365 seconds ---
+batch_number = 60, loss = 3.306680, acc = 0.818037
+--- 1938.1789329051971 seconds ---
+batch_number = 70, loss = 3.313574, acc = 0.817654
+--- 1946.4066364765167 seconds ---
+batch_number = 80, loss = 3.279263, acc = 0.822168
+--- 1951.7005007266998 seconds ---
+batch_number = 90, loss = 3.289978, acc = 0.822722
+--- 1959.0101807117462 seconds ---
+batch_number = 100, loss = 3.311034, acc = 0.821289
+--- 1967.5580189228058 seconds ---
+batch_number = 110, loss = 3.294137, acc = 0.822525
+--- 1975.1699800491333 seconds ---
+batch_number = 120, loss = 3.275353, acc = 0.823821
+--- 1982.9028491973877 seconds ---
+batch_number = 130, loss = 3.251379, acc = 0.826046
+--- 1991.5268352031708 seconds ---
+batch_number = 140, loss = 3.212616, acc = 0.829615
+--- 1998.7353599071503 seconds ---
+batch_number = 150, loss = 3.211337, acc = 0.829085
+--- 2006.7168655395508 seconds ---
+batch_number = 160, loss = 3.200291, acc = 0.830055
+[epoch 16]: train_loss = 0.402766, train_acc = 0.830924, validation_loss = 3.386353, validation_acc = 0.794837
+--- 2020.9125163555145 seconds ---
+batch_number = 10, loss = 2.629917, acc = 0.874543
+--- 2027.1542513370514 seconds ---
+batch_number = 20, loss = 2.767447, acc = 0.872586
+--- 2034.1259417533875 seconds ---
+batch_number = 30, loss = 2.827331, acc = 0.865339
+--- 2041.4353485107422 seconds ---
+batch_number = 40, loss = 2.832335, acc = 0.864271
+--- 2049.495929479599 seconds ---
+batch_number = 50, loss = 2.834602, acc = 0.861802
+--- 2057.723892688751 seconds ---
+batch_number = 60, loss = 2.959451, acc = 0.852610
+--- 2065.701178073883 seconds ---
+batch_number = 70, loss = 2.972926, acc = 0.853063
+--- 2071.609837770462 seconds ---
+batch_number = 80, loss = 3.039227, acc = 0.850246
+--- 2078.472146987915 seconds ---
+batch_number = 90, loss = 3.058468, acc = 0.848020
+--- 2086.427171945572 seconds ---
+batch_number = 100, loss = 3.128225, acc = 0.842934
+--- 2093.3621690273285 seconds ---
+batch_number = 110, loss = 3.177476, acc = 0.839423
+--- 2100.7499237060547 seconds ---
+batch_number = 120, loss = 3.271853, acc = 0.831970
+--- 2107.312077522278 seconds ---
+batch_number = 130, loss = 3.405649, acc = 0.822917
+--- 2115.02397441864 seconds ---
+batch_number = 140, loss = 3.513037, acc = 0.815214
+--- 2123.9699878692627 seconds ---
+batch_number = 150, loss = 3.597301, acc = 0.809487
+--- 2131.584664583206 seconds ---
+batch_number = 160, loss = 3.616266, acc = 0.807087
+[epoch 17]: train_loss = 0.458167, train_acc = 0.806539, validation_loss = 3.352105, validation_acc = 0.773967
+--- 2146.351259946823 seconds ---
+batch_number = 10, loss = 2.701347, acc = 0.856651
+--- 2154.1781103610992 seconds ---
+batch_number = 20, loss = 2.797736, acc = 0.861601
+--- 2161.1079053878784 seconds ---
+batch_number = 30, loss = 2.936695, acc = 0.855348
+--- 2169.5044090747833 seconds ---
+batch_number = 40, loss = 2.904157, acc = 0.857891
+--- 2175.666835308075 seconds ---
+batch_number = 50, loss = 2.952880, acc = 0.854184
+--- 2183.6849563121796 seconds ---
+batch_number = 60, loss = 2.999301, acc = 0.851159
+--- 2191.4620785713196 seconds ---
+batch_number = 70, loss = 3.041191, acc = 0.847459
+--- 2198.9302904605865 seconds ---
+batch_number = 80, loss = 3.031842, acc = 0.850360
+--- 2205.900836467743 seconds ---
+batch_number = 90, loss = 3.031955, acc = 0.850326
+--- 2213.248512506485 seconds ---
+batch_number = 100, loss = 3.039501, acc = 0.849957
+--- 2220.256250858307 seconds ---
+batch_number = 110, loss = 3.046940, acc = 0.850397
+--- 2228.410532951355 seconds ---
+batch_number = 120, loss = 3.026207, acc = 0.853285
+--- 2235.90647315979 seconds ---
+batch_number = 130, loss = 3.004549, acc = 0.854680
+--- 2243.5450727939606 seconds ---
+batch_number = 140, loss = 3.013172, acc = 0.853975
+--- 2250.1867122650146 seconds ---
+batch_number = 150, loss = 3.044534, acc = 0.852892
+--- 2257.3523309230804 seconds ---
+batch_number = 160, loss = 3.057921, acc = 0.851272
+[epoch 18]: train_loss = 0.386607, train_acc = 0.851484, validation_loss = 3.358278, validation_acc = 0.792747
+--- 2271.765850543976 seconds ---
+batch_number = 10, loss = 2.442383, acc = 0.878620
+--- 2279.9661684036255 seconds ---
+batch_number = 20, loss = 2.530765, acc = 0.876572
+--- 2287.9980032444 seconds ---
+batch_number = 30, loss = 2.569043, acc = 0.880454
+--- 2294.5976433753967 seconds ---
+batch_number = 40, loss = 2.589440, acc = 0.881015
+--- 2302.2292969226837 seconds ---
+batch_number = 50, loss = 2.588366, acc = 0.879464
+--- 2309.9545900821686 seconds ---
+batch_number = 60, loss = 2.556664, acc = 0.883304
+--- 2316.55681347847 seconds ---
+batch_number = 70, loss = 2.553883, acc = 0.884716
+--- 2322.8716158866882 seconds ---
+batch_number = 80, loss = 2.576622, acc = 0.883813
+--- 2328.7572255134583 seconds ---
+batch_number = 90, loss = 2.606023, acc = 0.883774
+--- 2336.5085022449493 seconds ---
+batch_number = 100, loss = 2.613547, acc = 0.882737
+--- 2343.749047756195 seconds ---
+batch_number = 110, loss = 2.657284, acc = 0.878369
+--- 2351.783438205719 seconds ---
+batch_number = 120, loss = 2.696086, acc = 0.874087
+--- 2359.352639913559 seconds ---
+batch_number = 130, loss = 2.746501, acc = 0.871364
+--- 2366.8395371437073 seconds ---
+batch_number = 140, loss = 2.789955, acc = 0.869031
+--- 2374.6948642730713 seconds ---
+batch_number = 150, loss = 2.800155, acc = 0.868607
+--- 2382.8210260868073 seconds ---
+batch_number = 160, loss = 2.817043, acc = 0.867005
+[epoch 19]: train_loss = 0.363875, train_acc = 0.862885, validation_loss = 4.516189, validation_acc = 0.701501
+--- 2396.972652196884 seconds ---
+batch_number = 10, loss = 4.581985, acc = 0.735025
+--- 2404.5955498218536 seconds ---
+batch_number = 20, loss = 3.916301, acc = 0.796229
+--- 2410.9413158893585 seconds ---
+batch_number = 30, loss = 3.919317, acc = 0.790963
+--- 2417.723939180374 seconds ---
+batch_number = 40, loss = 3.792963, acc = 0.797891
+--- 2425.402769088745 seconds ---
+batch_number = 50, loss = 3.629547, acc = 0.809351
+--- 2432.7753891944885 seconds ---
+batch_number = 60, loss = 3.538789, acc = 0.818173
+--- 2440.1090455055237 seconds ---
+batch_number = 70, loss = 3.468111, acc = 0.822615
+--- 2449.0393941402435 seconds ---
+batch_number = 80, loss = 3.397120, acc = 0.829947
+--- 2456.554676055908 seconds ---
+batch_number = 90, loss = 3.336069, acc = 0.833378
+--- 2464.055303812027 seconds ---
+batch_number = 100, loss = 3.342575, acc = 0.831872
+--- 2471.7060537338257 seconds ---
+batch_number = 110, loss = 3.302605, acc = 0.834544
+--- 2479.0887801647186 seconds ---
+batch_number = 120, loss = 3.265032, acc = 0.837354
+--- 2485.8063819408417 seconds ---
+batch_number = 130, loss = 3.264584, acc = 0.837638
+--- 2493.661150455475 seconds ---
+batch_number = 140, loss = 3.246037, acc = 0.838626
+--- 2500.882423400879 seconds ---
+batch_number = 150, loss = 3.269228, acc = 0.837246
+--- 2508.8975524902344 seconds ---
+batch_number = 160, loss = 3.292817, acc = 0.835885
+[epoch 20]: train_loss = 0.414990, train_acc = 0.836423, validation_loss = 3.570205, validation_acc = 0.791760
+--- 2522.839134454727 seconds ---
+batch_number = 10, loss = 2.887020, acc = 0.859283
+--- 2530.307312965393 seconds ---
+batch_number = 20, loss = 2.805846, acc = 0.871786
+--- 2537.6344344615936 seconds ---
+batch_number = 30, loss = 2.740877, acc = 0.875334
+--- 2545.7149000167847 seconds ---
+batch_number = 40, loss = 2.770037, acc = 0.873662
+--- 2552.3033859729767 seconds ---
+batch_number = 50, loss = 2.729996, acc = 0.877028
+--- 2559.2347145080566 seconds ---
+batch_number = 60, loss = 2.739946, acc = 0.878091
+--- 2566.1627616882324 seconds ---
+batch_number = 70, loss = 2.731085, acc = 0.877327
+--- 2573.3727827072144 seconds ---
+batch_number = 80, loss = 2.714399, acc = 0.879725
+--- 2579.7008600234985 seconds ---
+batch_number = 90, loss = 2.748618, acc = 0.879072
+--- 2587.242110490799 seconds ---
+batch_number = 100, loss = 2.732190, acc = 0.879977
+--- 2594.8090677261353 seconds ---
+batch_number = 110, loss = 2.700201, acc = 0.882073
+--- 2602.183670759201 seconds ---
+batch_number = 120, loss = 2.689795, acc = 0.883680
+--- 2610.05974650383 seconds ---
+batch_number = 130, loss = 2.677954, acc = 0.883585
+--- 2617.5937995910645 seconds ---
+batch_number = 140, loss = 2.675857, acc = 0.883619
+--- 2625.9823372364044 seconds ---
+batch_number = 150, loss = 2.661105, acc = 0.884791
+--- 2633.705200433731 seconds ---
+batch_number = 160, loss = 2.670409, acc = 0.883848
+[epoch 21]: train_loss = 0.337702, train_acc = 0.883606, validation_loss = 3.827472, validation_acc = 0.797114
+--- 2648.7473335266113 seconds ---
+batch_number = 10, loss = 2.930568, acc = 0.832843
+--- 2655.2873826026917 seconds ---
+batch_number = 20, loss = 3.236250, acc = 0.827327
+--- 2662.954371213913 seconds ---
+batch_number = 30, loss = 3.265870, acc = 0.831185
+--- 2670.2177748680115 seconds ---
+batch_number = 40, loss = 3.166602, acc = 0.837066
+--- 2678.6100747585297 seconds ---
+batch_number = 50, loss = 3.115587, acc = 0.844408
+--- 2685.608268260956 seconds ---
+batch_number = 60, loss = 3.052357, acc = 0.849270
+--- 2693.3508989810944 seconds ---
+batch_number = 70, loss = 2.973790, acc = 0.856419
+--- 2700.8823626041412 seconds ---
+batch_number = 80, loss = 2.970067, acc = 0.858269
+--- 2707.257356405258 seconds ---
+batch_number = 90, loss = 2.978628, acc = 0.856892
+--- 2713.4175226688385 seconds ---
+batch_number = 100, loss = 3.006047, acc = 0.855354
+--- 2720.645428419113 seconds ---
+batch_number = 110, loss = 2.991007, acc = 0.857318
+--- 2727.9377064704895 seconds ---
+batch_number = 120, loss = 2.985425, acc = 0.857811
+--- 2735.82892036438 seconds ---
+batch_number = 130, loss = 2.961662, acc = 0.860536
+--- 2743.133445739746 seconds ---
+batch_number = 140, loss = 2.953801, acc = 0.860223
+--- 2749.8506326675415 seconds ---
+batch_number = 150, loss = 2.932283, acc = 0.862213
+--- 2757.814007282257 seconds ---
+batch_number = 160, loss = 2.904857, acc = 0.864853
+[epoch 22]: train_loss = 0.365633, train_acc = 0.866494, validation_loss = 3.035892, validation_acc = 0.825678
+--- 2772.477150917053 seconds ---
+batch_number = 10, loss = 2.205893, acc = 0.897280
+--- 2779.3097705841064 seconds ---
+batch_number = 20, loss = 2.438751, acc = 0.884023
+--- 2787.3888902664185 seconds ---
+batch_number = 30, loss = 2.435941, acc = 0.889332
+--- 2795.2700169086456 seconds ---
+batch_number = 40, loss = 2.395189, acc = 0.891930
+--- 2801.400853872299 seconds ---
+batch_number = 50, loss = 2.408099, acc = 0.893178
+--- 2809.4596304893494 seconds ---
+batch_number = 60, loss = 2.373696, acc = 0.898033
+--- 2815.900876045227 seconds ---
+batch_number = 70, loss = 2.362302, acc = 0.899099
+--- 2824.1921520233154 seconds ---
+batch_number = 80, loss = 2.336638, acc = 0.901488
+--- 2831.347601413727 seconds ---
+batch_number = 90, loss = 2.339916, acc = 0.902400
+--- 2838.5153834819794 seconds ---
+batch_number = 100, loss = 2.331847, acc = 0.902894
+--- 2845.9204666614532 seconds ---
+batch_number = 110, loss = 2.340821, acc = 0.902136
+--- 2851.8760018348694 seconds ---
+batch_number = 120, loss = 2.359205, acc = 0.901470
+--- 2859.732395887375 seconds ---
+batch_number = 130, loss = 2.366828, acc = 0.901340
+--- 2866.6718249320984 seconds ---
+batch_number = 140, loss = 2.406724, acc = 0.899053
+--- 2876.1706426143646 seconds ---
+batch_number = 150, loss = 2.420895, acc = 0.897875
+--- 2883.233275413513 seconds ---
+batch_number = 160, loss = 2.448524, acc = 0.896691
+[epoch 23]: train_loss = 0.310153, train_acc = 0.897087, validation_loss = 3.020264, validation_acc = 0.828433
+--- 2897.763746023178 seconds ---
+batch_number = 10, loss = 2.092360, acc = 0.901653
+--- 2904.5897426605225 seconds ---
+batch_number = 20, loss = 2.212306, acc = 0.899340
+--- 2912.3789205551147 seconds ---
+batch_number = 30, loss = 2.292981, acc = 0.906206
+--- 2918.8468096256256 seconds ---
+batch_number = 40, loss = 2.303495, acc = 0.906271
+--- 2926.8284809589386 seconds ---
+batch_number = 50, loss = 2.262053, acc = 0.910567
+--- 2935.3053646087646 seconds ---
+batch_number = 60, loss = 2.233880, acc = 0.912532
+--- 2942.1975610256195 seconds ---
+batch_number = 70, loss = 2.231319, acc = 0.913319
+--- 2950.2592298984528 seconds ---
+batch_number = 80, loss = 2.228904, acc = 0.913932
+--- 2957.5277132987976 seconds ---
+batch_number = 90, loss = 2.216199, acc = 0.914973
+--- 2965.3738906383514 seconds ---
+batch_number = 100, loss = 2.205521, acc = 0.915465
+--- 2973.085242509842 seconds ---
+batch_number = 110, loss = 2.202788, acc = 0.915767
+--- 2981.265077352524 seconds ---
+batch_number = 120, loss = 2.209123, acc = 0.914625
+--- 2989.3557999134064 seconds ---
+batch_number = 130, loss = 2.221706, acc = 0.913620
+--- 2996.7402951717377 seconds ---
+batch_number = 140, loss = 2.224024, acc = 0.913486
+--- 3003.0472168922424 seconds ---
+batch_number = 150, loss = 2.229476, acc = 0.913474
+--- 3010.1034812927246 seconds ---
+batch_number = 160, loss = 2.237686, acc = 0.912732
+[epoch 24]: train_loss = 0.285761, train_acc = 0.911980, validation_loss = 3.022436, validation_acc = 0.833148
+--- 3023.8578226566315 seconds ---
+batch_number = 10, loss = 2.051690, acc = 0.914869
+--- 3029.100934267044 seconds ---
+batch_number = 20, loss = 2.246877, acc = 0.908180
+--- 3036.3871693611145 seconds ---
+batch_number = 30, loss = 2.237455, acc = 0.913005
+--- 3044.6862711906433 seconds ---
+batch_number = 40, loss = 2.193678, acc = 0.915240
+--- 3052.1380627155304 seconds ---
+batch_number = 50, loss = 2.175430, acc = 0.916156
+--- 3058.799110174179 seconds ---
+batch_number = 60, loss = 2.184544, acc = 0.915062
+--- 3065.390414953232 seconds ---
+batch_number = 70, loss = 2.181987, acc = 0.914897
+--- 3073.293567419052 seconds ---
+batch_number = 80, loss = 2.177187, acc = 0.916077
+--- 3080.8996782302856 seconds ---
+batch_number = 90, loss = 2.192959, acc = 0.914670
+--- 3089.1099672317505 seconds ---
+batch_number = 100, loss = 2.187183, acc = 0.915281
+--- 3096.9282507896423 seconds ---
+batch_number = 110, loss = 2.188516, acc = 0.915299
+--- 3104.760105609894 seconds ---
+batch_number = 120, loss = 2.178154, acc = 0.915767
+--- 3112.346526622772 seconds ---
+batch_number = 130, loss = 2.170838, acc = 0.916385
+--- 3119.6799821853638 seconds ---
+batch_number = 140, loss = 2.177190, acc = 0.916056
+--- 3126.0080392360687 seconds ---
+batch_number = 150, loss = 2.194592, acc = 0.914854
+--- 3132.690248966217 seconds ---
+batch_number = 160, loss = 2.221590, acc = 0.913789
+[epoch 25]: train_loss = 0.281509, train_acc = 0.913504, validation_loss = 3.157369, validation_acc = 0.818553
+--- 3147.6495831012726 seconds ---
+batch_number = 10, loss = 2.162622, acc = 0.902662
+--- 3155.5584716796875 seconds ---
+batch_number = 20, loss = 2.181626, acc = 0.905532
+--- 3162.4325454235077 seconds ---
+batch_number = 30, loss = 2.195779, acc = 0.908456
+--- 3169.3571071624756 seconds ---
+batch_number = 40, loss = 2.195507, acc = 0.908181
+--- 3175.742304801941 seconds ---
+batch_number = 50, loss = 2.264133, acc = 0.906383
+--- 3182.9867560863495 seconds ---
+batch_number = 60, loss = 2.271406, acc = 0.906315
+--- 3190.6589164733887 seconds ---
+batch_number = 70, loss = 2.233953, acc = 0.909431
+--- 3198.2800171375275 seconds ---
+batch_number = 80, loss = 2.207238, acc = 0.912153
+--- 3205.826438188553 seconds ---
+batch_number = 90, loss = 2.206001, acc = 0.912768
+--- 3213.3946805000305 seconds ---
+batch_number = 100, loss = 2.195736, acc = 0.913633
+--- 3222.1070370674133 seconds ---
+batch_number = 110, loss = 2.172707, acc = 0.914907
+--- 3229.2178041934967 seconds ---
+batch_number = 120, loss = 2.162497, acc = 0.915493
+--- 3237.165979862213 seconds ---
+batch_number = 130, loss = 2.145187, acc = 0.917162
+--- 3245.503517150879 seconds ---
+batch_number = 140, loss = 2.134498, acc = 0.918040
+--- 3252.505389213562 seconds ---
+batch_number = 150, loss = 2.140436, acc = 0.918182
+--- 3259.074961900711 seconds ---
+batch_number = 160, loss = 2.139960, acc = 0.918754
+[epoch 26]: train_loss = 0.268930, train_acc = 0.919379, validation_loss = 2.447501, validation_acc = 0.865331
+--- 3275.4979631900787 seconds ---
+batch_number = 10, loss = 1.669592, acc = 0.938046
+--- 3284.690828561783 seconds ---
+batch_number = 20, loss = 1.722505, acc = 0.936685
+--- 3290.552581310272 seconds ---
+batch_number = 30, loss = 1.799262, acc = 0.936452
+--- 3297.200841188431 seconds ---
+batch_number = 40, loss = 1.849313, acc = 0.935264
+--- 3305.972645521164 seconds ---
+batch_number = 50, loss = 1.858954, acc = 0.934747
+--- 3312.9551689624786 seconds ---
+batch_number = 60, loss = 1.866514, acc = 0.934515
+--- 3320.174391269684 seconds ---
+batch_number = 70, loss = 1.903395, acc = 0.934066
+--- 3327.3115735054016 seconds ---
+batch_number = 80, loss = 1.932054, acc = 0.932565
+--- 3333.657904624939 seconds ---
+batch_number = 90, loss = 1.952012, acc = 0.931539
+--- 3341.1437520980835 seconds ---
+batch_number = 100, loss = 2.000546, acc = 0.927527
+--- 3347.241089820862 seconds ---
+batch_number = 110, loss = 2.114718, acc = 0.921259
+--- 3355.2945232391357 seconds ---
+batch_number = 120, loss = 2.203791, acc = 0.914837
+--- 3363.1182420253754 seconds ---
+batch_number = 130, loss = 2.280595, acc = 0.907383
+--- 3369.4623765945435 seconds ---
+batch_number = 140, loss = 2.346356, acc = 0.903623
+--- 3376.1081290245056 seconds ---
+batch_number = 150, loss = 2.375817, acc = 0.901160
+--- 3383.4222350120544 seconds ---
+batch_number = 160, loss = 2.401921, acc = 0.898737
+[epoch 27]: train_loss = 0.304467, train_acc = 0.897944, validation_loss = 2.769622, validation_acc = 0.839550
+--- 3399.682344675064 seconds ---
+batch_number = 10, loss = 2.073367, acc = 0.897046
+--- 3407.12437582016 seconds ---
+batch_number = 20, loss = 2.155261, acc = 0.900872
+--- 3412.4445173740387 seconds ---
+batch_number = 30, loss = 2.239195, acc = 0.899486
+--- 3420.236474275589 seconds ---
+batch_number = 40, loss = 2.252290, acc = 0.904278
+--- 3428.337641954422 seconds ---
+batch_number = 50, loss = 2.260602, acc = 0.905963
+--- 3435.927862882614 seconds ---
+batch_number = 60, loss = 2.267438, acc = 0.904797
+--- 3441.6545221805573 seconds ---
+batch_number = 70, loss = 2.291770, acc = 0.902370
+--- 3449.5931012630463 seconds ---
+batch_number = 80, loss = 2.330106, acc = 0.898818
+--- 3456.8426525592804 seconds ---
+batch_number = 90, loss = 2.357841, acc = 0.897378
+--- 3463.7013914585114 seconds ---
+batch_number = 100, loss = 2.355857, acc = 0.898628
+--- 3471.309323787689 seconds ---
+batch_number = 110, loss = 2.350710, acc = 0.899949
+--- 3479.0528059005737 seconds ---
+batch_number = 120, loss = 2.320449, acc = 0.902555
+--- 3487.6317365169525 seconds ---
+batch_number = 130, loss = 2.284654, acc = 0.905430
+--- 3495.369786500931 seconds ---
+batch_number = 140, loss = 2.269426, acc = 0.906544
+--- 3503.277901172638 seconds ---
+batch_number = 150, loss = 2.249367, acc = 0.907665
+--- 3510.489641427994 seconds ---
+batch_number = 160, loss = 2.235651, acc = 0.908713
+[epoch 28]: train_loss = 0.280761, train_acc = 0.910175, validation_loss = 2.962252, validation_acc = 0.828072
+--- 3526.6894583702087 seconds ---
+batch_number = 10, loss = 1.666198, acc = 0.941528
+--- 3534.4332716464996 seconds ---
+batch_number = 20, loss = 1.759215, acc = 0.938325
+--- 3542.728233575821 seconds ---
+batch_number = 30, loss = 1.799696, acc = 0.939005
+--- 3550.479478597641 seconds ---
+batch_number = 40, loss = 1.814213, acc = 0.939046
+--- 3557.628071308136 seconds ---
+batch_number = 50, loss = 1.824247, acc = 0.938331
+--- 3564.2304203510284 seconds ---
+batch_number = 60, loss = 1.838863, acc = 0.937959
+--- 3571.2069590091705 seconds ---
+batch_number = 70, loss = 1.852250, acc = 0.937346
+--- 3578.852243423462 seconds ---
+batch_number = 80, loss = 1.850869, acc = 0.936706
+--- 3586.616286277771 seconds ---
+batch_number = 90, loss = 1.845335, acc = 0.937334
+--- 3594.214659690857 seconds ---
+batch_number = 100, loss = 1.846853, acc = 0.937682
+--- 3602.0910861492157 seconds ---
+batch_number = 110, loss = 1.845501, acc = 0.937844
+--- 3609.512303829193 seconds ---
+batch_number = 120, loss = 1.854441, acc = 0.937607
+--- 3616.3890137672424 seconds ---
+batch_number = 130, loss = 1.859314, acc = 0.937157
+--- 3623.570210456848 seconds ---
+batch_number = 140, loss = 1.862523, acc = 0.936982
+--- 3630.8151767253876 seconds ---
+batch_number = 150, loss = 1.870277, acc = 0.936553
+--- 3637.876537322998 seconds ---
+batch_number = 160, loss = 1.867312, acc = 0.936497
+[epoch 29]: train_loss = 0.237243, train_acc = 0.936145, validation_loss = 3.588739, validation_acc = 0.740150
+--- 3653.3800666332245 seconds ---
+batch_number = 10, loss = 2.514183, acc = 0.851796
+--- 3660.5344994068146 seconds ---
+batch_number = 20, loss = 2.566544, acc = 0.866776
+--- 3667.9000792503357 seconds ---
+batch_number = 30, loss = 2.657314, acc = 0.862435
+--- 3674.567865371704 seconds ---
+batch_number = 40, loss = 2.732180, acc = 0.864775
+--- 3682.757640838623 seconds ---
+batch_number = 50, loss = 2.713863, acc = 0.867754
+--- 3691.120600938797 seconds ---
+batch_number = 60, loss = 2.730237, acc = 0.866659
+--- 3697.323180437088 seconds ---
+batch_number = 70, loss = 2.839124, acc = 0.861136
+--- 3703.9952051639557 seconds ---
+batch_number = 80, loss = 2.923831, acc = 0.852652
+--- 3710.951901912689 seconds ---
+batch_number = 90, loss = 3.013451, acc = 0.847542
+--- 3719.1396613121033 seconds ---
+batch_number = 100, loss = 2.994429, acc = 0.849757
+--- 3725.691281557083 seconds ---
+batch_number = 110, loss = 3.054037, acc = 0.847381
+--- 3733.493725299835 seconds ---
+batch_number = 120, loss = 3.062894, acc = 0.848417
+--- 3740.447335243225 seconds ---
+batch_number = 130, loss = 3.065148, acc = 0.848435
+--- 3747.312919139862 seconds ---
+batch_number = 140, loss = 3.094915, acc = 0.847671
+--- 3754.9361889362335 seconds ---
+batch_number = 150, loss = 3.127397, acc = 0.845175
+--- 3762.865615129471 seconds ---
+batch_number = 160, loss = 3.125010, acc = 0.845687
+[epoch 30]: train_loss = 0.395536, train_acc = 0.845201, validation_loss = 3.319140, validation_acc = 0.793792
+--- 3777.855213165283 seconds ---
+batch_number = 10, loss = 2.879755, acc = 0.853875
+--- 3784.928324699402 seconds ---
+batch_number = 20, loss = 2.691701, acc = 0.875995
+--- 3793.0388264656067 seconds ---
+batch_number = 30, loss = 2.645453, acc = 0.884240
+--- 3799.8005714416504 seconds ---
+batch_number = 40, loss = 2.603565, acc = 0.889195
+--- 3807.916736841202 seconds ---
+batch_number = 50, loss = 2.515934, acc = 0.893616
+--- 3816.538718223572 seconds ---
+batch_number = 60, loss = 2.420540, acc = 0.898892
+--- 3825.896844625473 seconds ---
+batch_number = 70, loss = 2.374581, acc = 0.903990
+--- 3834.035595178604 seconds ---
+batch_number = 80, loss = 2.329206, acc = 0.907182
+--- 3841.074754714966 seconds ---
+batch_number = 90, loss = 2.310812, acc = 0.908652
+--- 3848.283485174179 seconds ---
+batch_number = 100, loss = 2.295087, acc = 0.910026
+--- 3855.1186797618866 seconds ---
+batch_number = 110, loss = 2.279066, acc = 0.911728
+--- 3861.885345697403 seconds ---
+batch_number = 120, loss = 2.263529, acc = 0.912966
+--- 3868.8985290527344 seconds ---
+batch_number = 130, loss = 2.239149, acc = 0.913904
+--- 3876.0666897296906 seconds ---
+batch_number = 140, loss = 2.227063, acc = 0.914241
+--- 3882.7192747592926 seconds ---
+batch_number = 150, loss = 2.211784, acc = 0.915373
+--- 3890.7886402606964 seconds ---
+batch_number = 160, loss = 2.198617, acc = 0.916350
+[epoch 31]: train_loss = 0.277212, train_acc = 0.916708, validation_loss = 2.700699, validation_acc = 0.852664
+--- 3904.506616592407 seconds ---
+batch_number = 10, loss = 1.776618, acc = 0.941123
+--- 3912.8493423461914 seconds ---
+batch_number = 20, loss = 1.800516, acc = 0.947095
+--- 3920.536244392395 seconds ---
+batch_number = 30, loss = 1.780536, acc = 0.946400
+--- 3928.2285487651825 seconds ---
+batch_number = 40, loss = 1.726765, acc = 0.947809
+--- 3935.299022436142 seconds ---
+batch_number = 50, loss = 1.763940, acc = 0.945106
+--- 3942.6167459487915 seconds ---
+batch_number = 60, loss = 1.788286, acc = 0.944016
+--- 3949.790091276169 seconds ---
+batch_number = 70, loss = 1.787743, acc = 0.943310
+--- 3957.326443195343 seconds ---
+batch_number = 80, loss = 1.780060, acc = 0.943702
+--- 3966.533355474472 seconds ---
+batch_number = 90, loss = 1.761670, acc = 0.944960
+--- 3972.8632056713104 seconds ---
+batch_number = 100, loss = 1.768044, acc = 0.945073
+--- 3980.1011819839478 seconds ---
+batch_number = 110, loss = 1.782599, acc = 0.944883
+--- 3985.9323971271515 seconds ---
+batch_number = 120, loss = 1.799658, acc = 0.943681
+--- 3994.5383479595184 seconds ---
+batch_number = 130, loss = 1.803632, acc = 0.943842
+--- 4001.370398759842 seconds ---
+batch_number = 140, loss = 1.805958, acc = 0.943413
+--- 4008.606724500656 seconds ---
+batch_number = 150, loss = 1.809249, acc = 0.942874
+--- 4015.3884410858154 seconds ---
+batch_number = 160, loss = 1.818003, acc = 0.942818
+[epoch 32]: train_loss = 0.230549, train_acc = 0.942672, validation_loss = 2.489847, validation_acc = 0.857822
+--- 4029.2193953990936 seconds ---
+batch_number = 10, loss = 1.495029, acc = 0.953636
+--- 4037.3241424560547 seconds ---
+batch_number = 20, loss = 1.542809, acc = 0.952103
+--- 4044.9354178905487 seconds ---
+batch_number = 30, loss = 1.585806, acc = 0.952322
+--- 4052.8768303394318 seconds ---
+batch_number = 40, loss = 1.616321, acc = 0.951884
+--- 4060.7480838298798 seconds ---
+batch_number = 50, loss = 1.615390, acc = 0.951791
+--- 4067.652816057205 seconds ---
+batch_number = 60, loss = 1.643122, acc = 0.950741
+--- 4074.5632553100586 seconds ---
+batch_number = 70, loss = 1.652875, acc = 0.949692
+--- 4081.723351955414 seconds ---
+batch_number = 80, loss = 1.673621, acc = 0.949391
+--- 4089.1378524303436 seconds ---
+batch_number = 90, loss = 1.675592, acc = 0.949542
+--- 4097.234703063965 seconds ---
+batch_number = 100, loss = 1.678536, acc = 0.949047
+--- 4104.565146446228 seconds ---
+batch_number = 110, loss = 1.684644, acc = 0.948750
+--- 4112.091566324234 seconds ---
+batch_number = 120, loss = 1.673287, acc = 0.949207
+--- 4119.799550533295 seconds ---
+batch_number = 130, loss = 1.678423, acc = 0.948779
+--- 4127.484207391739 seconds ---
+batch_number = 140, loss = 1.677563, acc = 0.948787
+--- 4134.436593294144 seconds ---
+batch_number = 150, loss = 1.681160, acc = 0.948532
+--- 4141.929909944534 seconds ---
+batch_number = 160, loss = 1.676849, acc = 0.948750
+[epoch 33]: train_loss = 0.213091, train_acc = 0.948621, validation_loss = 2.534197, validation_acc = 0.865832
+--- 4156.687544584274 seconds ---
+batch_number = 10, loss = 1.469563, acc = 0.951593
+--- 4164.941644668579 seconds ---
+batch_number = 20, loss = 1.502954, acc = 0.955168
+--- 4171.811873435974 seconds ---
+batch_number = 30, loss = 1.565484, acc = 0.954339
+--- 4179.206258535385 seconds ---
+batch_number = 40, loss = 1.564422, acc = 0.954463
+--- 4186.256856203079 seconds ---
+batch_number = 50, loss = 1.566860, acc = 0.954867
+--- 4194.19633102417 seconds ---
+batch_number = 60, loss = 1.584567, acc = 0.952844
+--- 4202.070723772049 seconds ---
+batch_number = 70, loss = 1.596877, acc = 0.951955
+--- 4210.291942834854 seconds ---
+batch_number = 80, loss = 1.592017, acc = 0.952271
+--- 4217.4837284088135 seconds ---
+batch_number = 90, loss = 1.591752, acc = 0.952570
+--- 4224.785857915878 seconds ---
+batch_number = 100, loss = 1.597028, acc = 0.952058
+--- 4232.560461521149 seconds ---
+batch_number = 110, loss = 1.591967, acc = 0.952800
+--- 4239.287951231003 seconds ---
+batch_number = 120, loss = 1.605923, acc = 0.952635
+--- 4246.600165128708 seconds ---
+batch_number = 130, loss = 1.616630, acc = 0.952234
+--- 4254.591630220413 seconds ---
+batch_number = 140, loss = 1.614660, acc = 0.952567
+--- 4260.7685515880585 seconds ---
+batch_number = 150, loss = 1.622066, acc = 0.952229
+--- 4267.056090831757 seconds ---
+batch_number = 160, loss = 1.627074, acc = 0.951826
+[epoch 34]: train_loss = 0.207018, train_acc = 0.951821, validation_loss = 2.574035, validation_acc = 0.855718
+--- 4281.1909968853 seconds ---
+batch_number = 10, loss = 1.499774, acc = 0.944345
+--- 4289.8234622478485 seconds ---
+batch_number = 20, loss = 1.486894, acc = 0.955300
+--- 4296.280077457428 seconds ---
+batch_number = 30, loss = 1.536793, acc = 0.954158
+--- 4302.9579865932465 seconds ---
+batch_number = 40, loss = 1.573868, acc = 0.952969
+--- 4311.19709610939 seconds ---
+batch_number = 50, loss = 1.566896, acc = 0.953627
+--- 4318.931946516037 seconds ---
+batch_number = 60, loss = 1.564116, acc = 0.954454
+--- 4326.190546035767 seconds ---
+batch_number = 70, loss = 1.557763, acc = 0.954064
+--- 4334.049336671829 seconds ---
+batch_number = 80, loss = 1.569504, acc = 0.952683
+--- 4340.920410394669 seconds ---
+batch_number = 90, loss = 1.579283, acc = 0.952626
+--- 4349.012733459473 seconds ---
+batch_number = 100, loss = 1.573777, acc = 0.953115
+--- 4355.331889629364 seconds ---
+batch_number = 110, loss = 1.581534, acc = 0.953303
+--- 4361.991992473602 seconds ---
+batch_number = 120, loss = 1.594564, acc = 0.952790
+--- 4368.948085069656 seconds ---
+batch_number = 130, loss = 1.604958, acc = 0.952667
+--- 4376.510699033737 seconds ---
+batch_number = 140, loss = 1.613625, acc = 0.951993
+--- 4383.597045183182 seconds ---
+batch_number = 150, loss = 1.623880, acc = 0.951609
+--- 4391.320155143738 seconds ---
+batch_number = 160, loss = 1.630314, acc = 0.951141
+[epoch 35]: train_loss = 0.205507, train_acc = 0.951435, validation_loss = 2.587909, validation_acc = 0.857421
+--- 4406.990432739258 seconds ---
+batch_number = 10, loss = 1.394991, acc = 0.959353
+--- 4415.291401147842 seconds ---
+batch_number = 20, loss = 1.423430, acc = 0.958901
+--- 4423.647791385651 seconds ---
+batch_number = 30, loss = 1.470679, acc = 0.957342
+--- 4429.979802846909 seconds ---
+batch_number = 40, loss = 1.527918, acc = 0.954187
+--- 4437.101123809814 seconds ---
+batch_number = 50, loss = 1.523873, acc = 0.955122
+--- 4444.339490890503 seconds ---
+batch_number = 60, loss = 1.524279, acc = 0.955817
+--- 4452.376663684845 seconds ---
+batch_number = 70, loss = 1.514932, acc = 0.956330
+--- 4458.243764400482 seconds ---
+batch_number = 80, loss = 1.541891, acc = 0.955102
+--- 4465.310899972916 seconds ---
+batch_number = 90, loss = 1.560042, acc = 0.953862
+--- 4472.558688402176 seconds ---
+batch_number = 100, loss = 1.565464, acc = 0.954031
+--- 4479.288217306137 seconds ---
+batch_number = 110, loss = 1.572746, acc = 0.953375
+--- 4487.005282640457 seconds ---
+batch_number = 120, loss = 1.575085, acc = 0.953394
+--- 4495.64512181282 seconds ---
+batch_number = 130, loss = 1.575200, acc = 0.952783
+--- 4502.426777601242 seconds ---
+batch_number = 140, loss = 1.581454, acc = 0.952460
+--- 4509.966892957687 seconds ---
+batch_number = 150, loss = 1.584830, acc = 0.952302
+--- 4518.3890244960785 seconds ---
+batch_number = 160, loss = 1.585080, acc = 0.952206
+[epoch 36]: train_loss = 0.201344, train_acc = 0.952058, validation_loss = 2.589591, validation_acc = 0.863335
+--- 4533.981617927551 seconds ---
+batch_number = 10, loss = 1.425530, acc = 0.953500
+--- 4541.932153463364 seconds ---
+batch_number = 20, loss = 1.529063, acc = 0.951267
+--- 4549.739011764526 seconds ---
+batch_number = 30, loss = 1.520884, acc = 0.950747
+--- 4557.58091711998 seconds ---
+batch_number = 40, loss = 1.536313, acc = 0.950467
+--- 4564.54481959343 seconds ---
+batch_number = 50, loss = 1.579461, acc = 0.949005
+--- 4570.9336314201355 seconds ---
+batch_number = 60, loss = 1.602943, acc = 0.948423
+--- 4577.427530765533 seconds ---
+batch_number = 70, loss = 1.625883, acc = 0.947725
+--- 4584.686597585678 seconds ---
+batch_number = 80, loss = 1.639171, acc = 0.946406
+--- 4590.835237026215 seconds ---
+batch_number = 90, loss = 1.638811, acc = 0.946308
+--- 4598.3888647556305 seconds ---
+batch_number = 100, loss = 1.646774, acc = 0.945885
+--- 4605.438836097717 seconds ---
+batch_number = 110, loss = 1.646003, acc = 0.945653
+--- 4612.799177646637 seconds ---
+batch_number = 120, loss = 1.659894, acc = 0.944699
+--- 4621.374202489853 seconds ---
+batch_number = 130, loss = 1.669107, acc = 0.943682
+--- 4628.713586807251 seconds ---
+batch_number = 140, loss = 1.684914, acc = 0.942850
+--- 4636.934107303619 seconds ---
+batch_number = 150, loss = 1.689503, acc = 0.942432
+--- 4643.672175884247 seconds ---
+batch_number = 160, loss = 1.698258, acc = 0.941953
+[epoch 37]: train_loss = 0.215379, train_acc = 0.941891, validation_loss = 2.667752, validation_acc = 0.847844
+--- 4658.680148363113 seconds ---
+batch_number = 10, loss = 1.411689, acc = 0.951656
+--- 4666.842544078827 seconds ---
+batch_number = 20, loss = 1.486605, acc = 0.952367
+--- 4673.98192358017 seconds ---
+batch_number = 30, loss = 1.590346, acc = 0.949223
+--- 4680.866110801697 seconds ---
+batch_number = 40, loss = 1.705688, acc = 0.941511
+--- 4689.008627176285 seconds ---
+batch_number = 50, loss = 1.778810, acc = 0.933690
+--- 4697.718827724457 seconds ---
+batch_number = 60, loss = 1.862824, acc = 0.927607
+--- 4704.932981014252 seconds ---
+batch_number = 70, loss = 2.123614, acc = 0.914118
+--- 4712.152917146683 seconds ---
+batch_number = 80, loss = 2.351244, acc = 0.904088
+--- 4719.812157154083 seconds ---
+batch_number = 90, loss = 2.539977, acc = 0.891030
+--- 4727.591802120209 seconds ---
+batch_number = 100, loss = 2.633818, acc = 0.883291
+--- 4734.493368148804 seconds ---
+batch_number = 110, loss = 2.813929, acc = 0.873471
+--- 4742.086034536362 seconds ---
+batch_number = 120, loss = 2.882156, acc = 0.867107
+--- 4749.607731819153 seconds ---
+batch_number = 130, loss = 2.886396, acc = 0.866641
+--- 4756.6454265117645 seconds ---
+batch_number = 140, loss = 2.875690, acc = 0.867997
+--- 4763.038867712021 seconds ---
+batch_number = 150, loss = 2.851031, acc = 0.870474
+--- 4771.017882823944 seconds ---
+batch_number = 160, loss = 2.832375, acc = 0.871680
+[epoch 38]: train_loss = 0.357690, train_acc = 0.872045, validation_loss = 3.462695, validation_acc = 0.758982
+--- 4785.210129737854 seconds ---
+batch_number = 10, loss = 1.993152, acc = 0.916834
+--- 4791.417233705521 seconds ---
+batch_number = 20, loss = 2.432262, acc = 0.897280
+--- 4798.443941831589 seconds ---
+batch_number = 30, loss = 2.484038, acc = 0.895055
+--- 4805.6085686683655 seconds ---
+batch_number = 40, loss = 2.388943, acc = 0.900202
+--- 4813.341706752777 seconds ---
+batch_number = 50, loss = 2.372467, acc = 0.901844
+--- 4821.949322223663 seconds ---
+batch_number = 60, loss = 2.370638, acc = 0.902569
+--- 4829.733681440353 seconds ---
+batch_number = 70, loss = 2.411156, acc = 0.900613
+--- 4837.270213365555 seconds ---
+batch_number = 80, loss = 2.472355, acc = 0.897108
+--- 4844.48956990242 seconds ---
+batch_number = 90, loss = 2.515254, acc = 0.896425
+--- 4850.576554059982 seconds ---
+batch_number = 100, loss = 2.752904, acc = 0.882185
+--- 4857.611401796341 seconds ---
+batch_number = 110, loss = 2.840556, acc = 0.875228
+--- 4865.278723716736 seconds ---
+batch_number = 120, loss = 3.004909, acc = 0.861838
+--- 4871.879386663437 seconds ---
+batch_number = 130, loss = 3.055270, acc = 0.857154
+--- 4879.150522470474 seconds ---
+batch_number = 140, loss = 3.087581, acc = 0.854607
+--- 4887.5721917152405 seconds ---
+batch_number = 150, loss = 3.102294, acc = 0.855287
+--- 4895.113261461258 seconds ---
+batch_number = 160, loss = 3.106765, acc = 0.856501
+[epoch 39]: train_loss = 0.393872, train_acc = 0.856265, validation_loss = 4.834836, validation_acc = 0.732967
+--- 4909.104242324829 seconds ---
+batch_number = 10, loss = 3.017128, acc = 0.862481
+--- 4917.020839929581 seconds ---
+batch_number = 20, loss = 3.110900, acc = 0.868501
+--- 4923.848951339722 seconds ---
+batch_number = 30, loss = 2.991714, acc = 0.873692
+--- 4931.4251046180725 seconds ---
+batch_number = 40, loss = 2.870992, acc = 0.883216
+--- 4938.04724240303 seconds ---
+batch_number = 50, loss = 2.803745, acc = 0.887667
+--- 4944.866988658905 seconds ---
+batch_number = 60, loss = 2.757518, acc = 0.890684
+--- 4953.126896619797 seconds ---
+batch_number = 70, loss = 2.671967, acc = 0.895756
+--- 4959.787020683289 seconds ---
+batch_number = 80, loss = 2.614434, acc = 0.899552
+--- 4967.763644695282 seconds ---
+batch_number = 90, loss = 2.538106, acc = 0.903100
+--- 4974.477038383484 seconds ---
+batch_number = 100, loss = 2.492576, acc = 0.906383
+--- 4982.038307666779 seconds ---
+batch_number = 110, loss = 2.441137, acc = 0.909520
+--- 4990.576224803925 seconds ---
+batch_number = 120, loss = 2.396261, acc = 0.911661
+--- 4997.4675171375275 seconds ---
+batch_number = 130, loss = 2.366191, acc = 0.914359
+--- 5003.746063232422 seconds ---
+batch_number = 140, loss = 2.340357, acc = 0.915854
+--- 5012.714921474457 seconds ---
+batch_number = 150, loss = 2.302098, acc = 0.918354
+--- 5021.390522480011 seconds ---
+batch_number = 160, loss = 2.275951, acc = 0.920263
+[epoch 40]: train_loss = 0.284783, train_acc = 0.921394, validation_loss = 2.641131, validation_acc = 0.866728
+--- 5037.251202344894 seconds ---
+batch_number = 10, loss = 1.506121, acc = 0.954225
+--- 5044.036972045898 seconds ---
+batch_number = 20, loss = 1.613787, acc = 0.952963
+--- 5051.9765338897705 seconds ---
+batch_number = 30, loss = 1.612157, acc = 0.954327
+--- 5059.476249217987 seconds ---
+batch_number = 40, loss = 1.632811, acc = 0.954671
+--- 5066.334039211273 seconds ---
+batch_number = 50, loss = 1.659515, acc = 0.953977
+--- 5073.267080545425 seconds ---
+batch_number = 60, loss = 1.652005, acc = 0.954047
+--- 5080.466510772705 seconds ---
+batch_number = 70, loss = 1.657042, acc = 0.953704
+--- 5087.067169904709 seconds ---
+batch_number = 80, loss = 1.660830, acc = 0.954151
+--- 5093.889874696732 seconds ---
+batch_number = 90, loss = 1.665105, acc = 0.954332
+--- 5102.976700782776 seconds ---
+batch_number = 100, loss = 1.654467, acc = 0.954499
+--- 5110.753011226654 seconds ---
+batch_number = 110, loss = 1.642060, acc = 0.955078
+--- 5118.462554693222 seconds ---
+batch_number = 120, loss = 1.631622, acc = 0.955535
+--- 5126.069646120071 seconds ---
+batch_number = 130, loss = 1.629958, acc = 0.956231
+--- 5132.55459523201 seconds ---
+batch_number = 140, loss = 1.631975, acc = 0.956526
+--- 5139.696377277374 seconds ---
+batch_number = 150, loss = 1.637854, acc = 0.956390
+--- 5147.864925146103 seconds ---
+batch_number = 160, loss = 1.628111, acc = 0.956516
+[epoch 41]: train_loss = 0.205562, train_acc = 0.956519, validation_loss = 2.357285, validation_acc = 0.876773
+--- 5163.270050287247 seconds ---
+batch_number = 10, loss = 1.316485, acc = 0.962035
+--- 5170.891974687576 seconds ---
+batch_number = 20, loss = 1.421222, acc = 0.960049
+--- 5178.434668064117 seconds ---
+batch_number = 30, loss = 1.469602, acc = 0.959922
+--- 5185.210704088211 seconds ---
+batch_number = 40, loss = 1.492419, acc = 0.959072
+--- 5191.870210409164 seconds ---
+batch_number = 50, loss = 1.518246, acc = 0.957983
+--- 5199.378686666489 seconds ---
+batch_number = 60, loss = 1.519442, acc = 0.958747
+--- 5206.500622749329 seconds ---
+batch_number = 70, loss = 1.535290, acc = 0.958304
+--- 5214.450829982758 seconds ---
+batch_number = 80, loss = 1.529967, acc = 0.959090
+--- 5222.633939743042 seconds ---
+batch_number = 90, loss = 1.527435, acc = 0.959206
+--- 5230.220751285553 seconds ---
+batch_number = 100, loss = 1.514651, acc = 0.959320
+--- 5238.017164945602 seconds ---
+batch_number = 110, loss = 1.509470, acc = 0.960014
+--- 5245.0955419540405 seconds ---
+batch_number = 120, loss = 1.510818, acc = 0.960356
+--- 5253.53507566452 seconds ---
+batch_number = 130, loss = 1.506088, acc = 0.960496
+--- 5260.310694694519 seconds ---
+batch_number = 140, loss = 1.517329, acc = 0.960371
+--- 5268.259370326996 seconds ---
+batch_number = 150, loss = 1.513459, acc = 0.960169
+--- 5275.220335960388 seconds ---
+batch_number = 160, loss = 1.517986, acc = 0.960052
+[epoch 42]: train_loss = 0.192296, train_acc = 0.959993, validation_loss = 2.397877, validation_acc = 0.877568
+--- 5289.31356716156 seconds ---
+batch_number = 10, loss = 1.280279, acc = 0.971879
+--- 5297.4408411979675 seconds ---
+batch_number = 20, loss = 1.358290, acc = 0.966772
+--- 5305.143695831299 seconds ---
+batch_number = 30, loss = 1.359403, acc = 0.966204
+--- 5312.530066013336 seconds ---
+batch_number = 40, loss = 1.376045, acc = 0.966428
+--- 5318.795493364334 seconds ---
+batch_number = 50, loss = 1.380865, acc = 0.966625
+--- 5325.939600467682 seconds ---
+batch_number = 60, loss = 1.384297, acc = 0.966283
+--- 5333.792285919189 seconds ---
+batch_number = 70, loss = 1.390052, acc = 0.965626
+--- 5340.27698636055 seconds ---
+batch_number = 80, loss = 1.401293, acc = 0.965115
+--- 5347.7200083732605 seconds ---
+batch_number = 90, loss = 1.409769, acc = 0.965304
+--- 5356.764951705933 seconds ---
+batch_number = 100, loss = 1.398423, acc = 0.965391
+--- 5363.820426702499 seconds ---
+batch_number = 110, loss = 1.416667, acc = 0.964800
+--- 5370.865151166916 seconds ---
+batch_number = 120, loss = 1.423508, acc = 0.964419
+--- 5378.278771400452 seconds ---
+batch_number = 130, loss = 1.425481, acc = 0.964118
+--- 5386.53239774704 seconds ---
+batch_number = 140, loss = 1.423015, acc = 0.964099
+--- 5393.912933111191 seconds ---
+batch_number = 150, loss = 1.421897, acc = 0.963942
+--- 5400.662013053894 seconds ---
+batch_number = 160, loss = 1.430954, acc = 0.963908
+[epoch 43]: train_loss = 0.181497, train_acc = 0.963690, validation_loss = 2.377960, validation_acc = 0.873660
+--- 5414.52370595932 seconds ---
+batch_number = 10, loss = 1.247735, acc = 0.965126
+--- 5422.009780883789 seconds ---
+batch_number = 20, loss = 1.292600, acc = 0.966370
+--- 5430.178811788559 seconds ---
+batch_number = 30, loss = 1.290952, acc = 0.966204
+--- 5437.850109100342 seconds ---
+batch_number = 40, loss = 1.329977, acc = 0.966274
+--- 5445.171542882919 seconds ---
+batch_number = 50, loss = 1.344571, acc = 0.966053
+--- 5451.637413024902 seconds ---
+batch_number = 60, loss = 1.365841, acc = 0.965512
+--- 5459.727534770966 seconds ---
+batch_number = 70, loss = 1.364088, acc = 0.966219
+--- 5467.370802164078 seconds ---
+batch_number = 80, loss = 1.359237, acc = 0.966278
+--- 5474.747324228287 seconds ---
+batch_number = 90, loss = 1.356466, acc = 0.966278
+--- 5482.7456295490265 seconds ---
+batch_number = 100, loss = 1.350819, acc = 0.966371
+--- 5490.534014225006 seconds ---
+batch_number = 110, loss = 1.352269, acc = 0.966690
+--- 5498.40731549263 seconds ---
+batch_number = 120, loss = 1.362154, acc = 0.966606
+--- 5505.79238653183 seconds ---
+batch_number = 130, loss = 1.366831, acc = 0.966153
+--- 5513.573583126068 seconds ---
+batch_number = 140, loss = 1.368006, acc = 0.965736
+--- 5521.502769708633 seconds ---
+batch_number = 150, loss = 1.366188, acc = 0.965705
+--- 5527.967732429504 seconds ---
+batch_number = 160, loss = 1.370194, acc = 0.965786
+[epoch 44]: train_loss = 0.173218, train_acc = 0.965804, validation_loss = 2.339167, validation_acc = 0.873843
+--- 5543.32120347023 seconds ---
+batch_number = 10, loss = 1.175651, acc = 0.969948
+--- 5551.298392295837 seconds ---
+batch_number = 20, loss = 1.266125, acc = 0.967917
+--- 5558.999588251114 seconds ---
+batch_number = 30, loss = 1.264523, acc = 0.967999
+--- 5566.183061122894 seconds ---
+batch_number = 40, loss = 1.301602, acc = 0.967301
+--- 5572.431370973587 seconds ---
+batch_number = 50, loss = 1.306418, acc = 0.967180
+--- 5579.908430814743 seconds ---
+batch_number = 60, loss = 1.324698, acc = 0.966787
+--- 5588.088356733322 seconds ---
+batch_number = 70, loss = 1.321294, acc = 0.966283
+--- 5595.750324964523 seconds ---
+batch_number = 80, loss = 1.322779, acc = 0.966085
+--- 5602.498703479767 seconds ---
+batch_number = 90, loss = 1.329344, acc = 0.965783
+--- 5609.278378725052 seconds ---
+batch_number = 100, loss = 1.329041, acc = 0.966188
+--- 5617.27065372467 seconds ---
+batch_number = 110, loss = 1.326176, acc = 0.966634
+--- 5624.564779281616 seconds ---
+batch_number = 120, loss = 1.325763, acc = 0.966512
+--- 5631.449844360352 seconds ---
+batch_number = 130, loss = 1.332124, acc = 0.966422
+--- 5638.899215221405 seconds ---
+batch_number = 140, loss = 1.333465, acc = 0.966326
+--- 5646.099103450775 seconds ---
+batch_number = 150, loss = 1.333727, acc = 0.966094
+--- 5653.883272409439 seconds ---
+batch_number = 160, loss = 1.339610, acc = 0.965799
+[epoch 45]: train_loss = 0.170083, train_acc = 0.965774, validation_loss = 2.478012, validation_acc = 0.867578
+--- 5670.2839341163635 seconds ---
+batch_number = 10, loss = 1.315117, acc = 0.962506
+--- 5677.088411808014 seconds ---
+batch_number = 20, loss = 1.398119, acc = 0.958827
+--- 5683.12441444397 seconds ---
+batch_number = 30, loss = 1.433352, acc = 0.959484
+--- 5689.719960689545 seconds ---
+batch_number = 40, loss = 1.445727, acc = 0.959708
+--- 5697.20192193985 seconds ---
+batch_number = 50, loss = 1.432489, acc = 0.960784
+--- 5706.115285158157 seconds ---
+batch_number = 60, loss = 1.392290, acc = 0.962690
+--- 5714.450413227081 seconds ---
+batch_number = 70, loss = 1.368272, acc = 0.963739
+--- 5721.9022653102875 seconds ---
+batch_number = 80, loss = 1.358348, acc = 0.964213
+--- 5728.855689287186 seconds ---
+batch_number = 90, loss = 1.358245, acc = 0.964455
+--- 5736.173084020615 seconds ---
+batch_number = 100, loss = 1.362272, acc = 0.964647
+--- 5743.229128360748 seconds ---
+batch_number = 110, loss = 1.357139, acc = 0.964567
+--- 5749.748557567596 seconds ---
+batch_number = 120, loss = 1.365975, acc = 0.964196
+--- 5756.881739854813 seconds ---
+batch_number = 130, loss = 1.373687, acc = 0.963693
+--- 5764.953139543533 seconds ---
+batch_number = 140, loss = 1.369717, acc = 0.963745
+--- 5773.069706916809 seconds ---
+batch_number = 150, loss = 1.370106, acc = 0.963547
+--- 5778.935797214508 seconds ---
+batch_number = 160, loss = 1.381654, acc = 0.962926
+[epoch 46]: train_loss = 0.174310, train_acc = 0.963019, validation_loss = 2.662925, validation_acc = 0.865591
+--- 5792.603679180145 seconds ---
+batch_number = 10, loss = 1.258104, acc = 0.958195
+--- 5799.875138044357 seconds ---
+batch_number = 20, loss = 1.323923, acc = 0.957671
+--- 5807.12592124939 seconds ---
+batch_number = 30, loss = 1.334774, acc = 0.958938
+--- 5814.144288301468 seconds ---
+batch_number = 40, loss = 1.370539, acc = 0.959711
+--- 5821.428463459015 seconds ---
+batch_number = 50, loss = 1.373171, acc = 0.959310
+--- 5829.42373085022 seconds ---
+batch_number = 60, loss = 1.378199, acc = 0.959273
+--- 5838.273687839508 seconds ---
+batch_number = 70, loss = 1.364480, acc = 0.960690
+--- 5845.986469745636 seconds ---
+batch_number = 80, loss = 1.368749, acc = 0.960906
+--- 5854.376129150391 seconds ---
+batch_number = 90, loss = 1.364066, acc = 0.961341
+--- 5861.645991325378 seconds ---
+batch_number = 100, loss = 1.362848, acc = 0.960560
+--- 5869.208114147186 seconds ---
+batch_number = 110, loss = 1.359369, acc = 0.961095
+--- 5877.029308319092 seconds ---
+batch_number = 120, loss = 1.356124, acc = 0.961567
+--- 5883.766229152679 seconds ---
+batch_number = 130, loss = 1.360273, acc = 0.961875
+--- 5891.796321153641 seconds ---
+batch_number = 140, loss = 1.355460, acc = 0.961994
+--- 5899.1142518520355 seconds ---
+batch_number = 150, loss = 1.353056, acc = 0.962057
+--- 5907.145963668823 seconds ---
+batch_number = 160, loss = 1.344409, acc = 0.962415
+[epoch 47]: train_loss = 0.170179, train_acc = 0.962481, validation_loss = 2.404411, validation_acc = 0.870837
+--- 5922.552312612534 seconds ---
+batch_number = 10, loss = 1.054696, acc = 0.973483
+--- 5929.620957374573 seconds ---
+batch_number = 20, loss = 1.216676, acc = 0.970541
+--- 5937.106809616089 seconds ---
+batch_number = 30, loss = 1.226896, acc = 0.969625
+--- 5945.544579982758 seconds ---
+batch_number = 40, loss = 1.235206, acc = 0.969044
+--- 5952.972281694412 seconds ---
+batch_number = 50, loss = 1.256814, acc = 0.967655
+--- 5958.989992856979 seconds ---
+batch_number = 60, loss = 1.292648, acc = 0.966905
+--- 5966.634202957153 seconds ---
+batch_number = 70, loss = 1.297880, acc = 0.966739
+--- 5973.852904558182 seconds ---
+batch_number = 80, loss = 1.319093, acc = 0.965757
+--- 5982.1238486766815 seconds ---
+batch_number = 90, loss = 1.322826, acc = 0.964660
+--- 5990.032331466675 seconds ---
+batch_number = 100, loss = 1.332777, acc = 0.963859
+--- 5998.264135122299 seconds ---
+batch_number = 110, loss = 1.342450, acc = 0.963363
+--- 6006.724837303162 seconds ---
+batch_number = 120, loss = 1.344031, acc = 0.962977
+--- 6014.668812036514 seconds ---
+batch_number = 130, loss = 1.345373, acc = 0.962717
+--- 6021.8154973983765 seconds ---
+batch_number = 140, loss = 1.355515, acc = 0.962080
+--- 6028.553579568863 seconds ---
+batch_number = 150, loss = 1.362588, acc = 0.961735
+--- 6034.720727920532 seconds ---
+batch_number = 160, loss = 1.366865, acc = 0.961528
+[epoch 48]: train_loss = 0.174268, train_acc = 0.961264, validation_loss = 2.535218, validation_acc = 0.865226
+--- 6048.56507563591 seconds ---
+batch_number = 10, loss = 1.311054, acc = 0.953313
+--- 6056.6158883571625 seconds ---
+batch_number = 20, loss = 1.329876, acc = 0.957500
+--- 6064.491947650909 seconds ---
+batch_number = 30, loss = 1.346237, acc = 0.956563
+--- 6072.001881361008 seconds ---
+batch_number = 40, loss = 1.394585, acc = 0.953695
+--- 6080.06786608696 seconds ---
+batch_number = 50, loss = 1.400713, acc = 0.954163
+--- 6086.730089187622 seconds ---
+batch_number = 60, loss = 1.390795, acc = 0.956386
+--- 6093.081756353378 seconds ---
+batch_number = 70, loss = 1.387678, acc = 0.957743
+--- 6098.866174936295 seconds ---
+batch_number = 80, loss = 1.390657, acc = 0.958603
+--- 6106.39147400856 seconds ---
+batch_number = 90, loss = 1.380168, acc = 0.959779
+--- 6114.313631772995 seconds ---
+batch_number = 100, loss = 1.365163, acc = 0.960383
+--- 6121.121834993362 seconds ---
+batch_number = 110, loss = 1.360507, acc = 0.960558
+--- 6127.938760280609 seconds ---
+batch_number = 120, loss = 1.365559, acc = 0.961234
+--- 6134.720265865326 seconds ---
+batch_number = 130, loss = 1.361821, acc = 0.961140
+--- 6142.448739767075 seconds ---
+batch_number = 140, loss = 1.347876, acc = 0.961810
+--- 6150.258986949921 seconds ---
+batch_number = 150, loss = 1.343751, acc = 0.961926
+--- 6157.90173125267 seconds ---
+batch_number = 160, loss = 1.339401, acc = 0.962199
+[epoch 49]: train_loss = 0.169555, train_acc = 0.962265, validation_loss = 2.365917, validation_acc = 0.875546
+--- 6171.370732545853 seconds ---
+batch_number = 10, loss = 1.122212, acc = 0.964593
+--- 6179.142413139343 seconds ---
+batch_number = 20, loss = 1.195642, acc = 0.967156
+--- 6186.257192373276 seconds ---
+batch_number = 30, loss = 1.245473, acc = 0.966909
+--- 6192.950530290604 seconds ---
+batch_number = 40, loss = 1.322267, acc = 0.962825
+--- 6200.5826778411865 seconds ---
+batch_number = 50, loss = 1.528373, acc = 0.942903
+--- 6209.160060882568 seconds ---
+batch_number = 60, loss = 2.026515, acc = 0.906185
+--- 6217.9153571128845 seconds ---
+batch_number = 70, loss = 2.354499, acc = 0.879173
+--- 6224.558492898941 seconds ---
+batch_number = 80, loss = 2.483331, acc = 0.874272
+--- 6231.557324409485 seconds ---
+batch_number = 90, loss = 2.495340, acc = 0.873759
+--- 6239.0295333862305 seconds ---
+batch_number = 100, loss = 2.485478, acc = 0.875612
+--- 6246.132688522339 seconds ---
+batch_number = 110, loss = 2.493240, acc = 0.874951
+--- 6252.944242715836 seconds ---
+batch_number = 120, loss = 2.484631, acc = 0.876309
+--- 6259.829689741135 seconds ---
+batch_number = 130, loss = 2.497484, acc = 0.876856
+--- 6267.331788778305 seconds ---
+batch_number = 140, loss = 2.511929, acc = 0.877098
+--- 6274.493619441986 seconds ---
+batch_number = 150, loss = 2.508935, acc = 0.878212
+--- 6281.650996208191 seconds ---
+batch_number = 160, loss = 2.502099, acc = 0.879064
+[epoch 50]: train_loss = 0.315125, train_acc = 0.880040, validation_loss = 3.626992, validation_acc = 0.803174
+--- 6296.607760429382 seconds ---
+batch_number = 10, loss = 1.850858, acc = 0.900224
+--- 6303.936673879623 seconds ---
+batch_number = 20, loss = 2.414555, acc = 0.881096
+--- 6311.045698642731 seconds ---
+batch_number = 30, loss = 2.442236, acc = 0.888434
+--- 6317.370899915695 seconds ---
+batch_number = 40, loss = 2.792506, acc = 0.882921
+--- 6325.316406011581 seconds ---
+batch_number = 50, loss = 2.846642, acc = 0.877468
+--- 6331.78201675415 seconds ---
+batch_number = 60, loss = 2.927349, acc = 0.871552
+--- 6338.44081902504 seconds ---
+batch_number = 70, loss = 2.883921, acc = 0.872921
+--- 6347.314737081528 seconds ---
+batch_number = 80, loss = 2.785296, acc = 0.881017
+--- 6356.199620008469 seconds ---
+batch_number = 90, loss = 2.688424, acc = 0.886857
+--- 6363.562625169754 seconds ---
+batch_number = 100, loss = 2.600648, acc = 0.892652
+--- 6370.540582895279 seconds ---
+batch_number = 110, loss = 2.532205, acc = 0.896538
+--- 6377.523227930069 seconds ---
+batch_number = 120, loss = 2.500719, acc = 0.897952
+--- 6383.9166395664215 seconds ---
+batch_number = 130, loss = 2.539562, acc = 0.895582
+--- 6391.629186630249 seconds ---
+batch_number = 140, loss = 2.613203, acc = 0.889736
+--- 6400.445143222809 seconds ---
+batch_number = 150, loss = 2.656642, acc = 0.885569
+--- 6406.709217309952 seconds ---
+batch_number = 160, loss = 2.678043, acc = 0.884469
+[epoch 51]: train_loss = 0.341216, train_acc = 0.884366, validation_loss = 3.968179, validation_acc = 0.770617
+--- 6421.867292881012 seconds ---
+batch_number = 10, loss = 2.471400, acc = 0.867391
+--- 6429.111501216888 seconds ---
+batch_number = 20, loss = 2.413902, acc = 0.881595
+--- 6436.521813392639 seconds ---
+batch_number = 30, loss = 2.346763, acc = 0.892227
+--- 6443.808452367783 seconds ---
+batch_number = 40, loss = 2.312047, acc = 0.897835
+--- 6450.4525945186615 seconds ---
+batch_number = 50, loss = 2.246643, acc = 0.904440
+--- 6457.04620552063 seconds ---
+batch_number = 60, loss = 2.196885, acc = 0.909661
+--- 6464.506686210632 seconds ---
+batch_number = 70, loss = 2.138954, acc = 0.914511
+--- 6473.273929834366 seconds ---
+batch_number = 80, loss = 2.086941, acc = 0.919267
+--- 6480.693638801575 seconds ---
+batch_number = 90, loss = 2.058342, acc = 0.921976
+--- 6487.476681947708 seconds ---
+batch_number = 100, loss = 2.029416, acc = 0.924900
+--- 6494.131558418274 seconds ---
+batch_number = 110, loss = 2.015272, acc = 0.927108
+--- 6501.859684467316 seconds ---
+batch_number = 120, loss = 1.987821, acc = 0.929235
+--- 6508.1974630355835 seconds ---
+batch_number = 130, loss = 1.961412, acc = 0.930777
+--- 6515.889753818512 seconds ---
+batch_number = 140, loss = 1.931528, acc = 0.932852
+--- 6523.943765878677 seconds ---
+batch_number = 150, loss = 1.897112, acc = 0.934952
+--- 6530.591107368469 seconds ---
+batch_number = 160, loss = 1.876280, acc = 0.936604
+[epoch 52]: train_loss = 0.236290, train_acc = 0.937364, validation_loss = 2.637243, validation_acc = 0.852654
+--- 6544.465074300766 seconds ---
+batch_number = 10, loss = 1.332780, acc = 0.966669
+--- 6551.440731287003 seconds ---
+batch_number = 20, loss = 1.418236, acc = 0.961997
+--- 6558.9038717746735 seconds ---
+batch_number = 30, loss = 1.404035, acc = 0.964548
+--- 6566.028842926025 seconds ---
+batch_number = 40, loss = 1.429757, acc = 0.964239
+--- 6572.093316078186 seconds ---
+batch_number = 50, loss = 1.462558, acc = 0.962639
+--- 6579.736420631409 seconds ---
+batch_number = 60, loss = 1.454376, acc = 0.963545
+--- 6586.313510656357 seconds ---
+batch_number = 70, loss = 1.450712, acc = 0.963259
+--- 6593.868766069412 seconds ---
+batch_number = 80, loss = 1.441715, acc = 0.963339
+--- 6601.92276763916 seconds ---
+batch_number = 90, loss = 1.417192, acc = 0.964058
+--- 6609.295766830444 seconds ---
+batch_number = 100, loss = 1.413351, acc = 0.964698
+--- 6616.821191310883 seconds ---
+batch_number = 110, loss = 1.408512, acc = 0.965177
+--- 6622.979254484177 seconds ---
+batch_number = 120, loss = 1.410789, acc = 0.965282
+--- 6630.5405259132385 seconds ---
+batch_number = 130, loss = 1.410486, acc = 0.965301
+--- 6638.368401527405 seconds ---
+batch_number = 140, loss = 1.398861, acc = 0.965956
+--- 6646.61785697937 seconds ---
+batch_number = 150, loss = 1.394256, acc = 0.966220
+--- 6652.491418838501 seconds ---
+batch_number = 160, loss = 1.400297, acc = 0.966156
+[epoch 53]: train_loss = 0.176577, train_acc = 0.966474, validation_loss = 2.433834, validation_acc = 0.868082
+--- 6667.774591445923 seconds ---
+batch_number = 10, loss = 1.150108, acc = 0.971258
+--- 6674.038184404373 seconds ---
+batch_number = 20, loss = 1.225726, acc = 0.970430
+--- 6680.565876722336 seconds ---
+batch_number = 30, loss = 1.257094, acc = 0.970490
+--- 6687.5993757247925 seconds ---
+batch_number = 40, loss = 1.245209, acc = 0.970882
+--- 6694.818180322647 seconds ---
+batch_number = 50, loss = 1.257108, acc = 0.970827
+--- 6702.553137302399 seconds ---
+batch_number = 60, loss = 1.257197, acc = 0.970001
+--- 6710.842557430267 seconds ---
+batch_number = 70, loss = 1.247776, acc = 0.970897
+--- 6719.083917140961 seconds ---
+batch_number = 80, loss = 1.250896, acc = 0.971003
+--- 6727.581451416016 seconds ---
+batch_number = 90, loss = 1.241902, acc = 0.971010
+--- 6735.178012371063 seconds ---
+batch_number = 100, loss = 1.238950, acc = 0.970739
+--- 6742.488070726395 seconds ---
+batch_number = 110, loss = 1.252554, acc = 0.970766
+--- 6749.426338672638 seconds ---
+batch_number = 120, loss = 1.257396, acc = 0.971026
+--- 6755.990880012512 seconds ---
+batch_number = 130, loss = 1.257381, acc = 0.971140
+--- 6762.933751821518 seconds ---
+batch_number = 140, loss = 1.261101, acc = 0.971276
+--- 6769.975032091141 seconds ---
+batch_number = 150, loss = 1.265516, acc = 0.971186
+--- 6778.28009557724 seconds ---
+batch_number = 160, loss = 1.259736, acc = 0.971423
+[epoch 54]: train_loss = 0.159277, train_acc = 0.971494, validation_loss = 2.421775, validation_acc = 0.867382
+--- 6792.366604804993 seconds ---
+batch_number = 10, loss = 1.172495, acc = 0.971059
+--- 6799.284605979919 seconds ---
+batch_number = 20, loss = 1.214704, acc = 0.970677
+--- 6805.9605259895325 seconds ---
+batch_number = 30, loss = 1.248167, acc = 0.972129
+--- 6813.098942279816 seconds ---
+batch_number = 40, loss = 1.248543, acc = 0.972623
+--- 6819.858337163925 seconds ---
+batch_number = 50, loss = 1.259099, acc = 0.972510
+--- 6827.469483375549 seconds ---
+batch_number = 60, loss = 1.238986, acc = 0.973362
+--- 6834.412384748459 seconds ---
+batch_number = 70, loss = 1.233509, acc = 0.973531
+--- 6841.587764263153 seconds ---
+batch_number = 80, loss = 1.215728, acc = 0.973909
+--- 6850.244039773941 seconds ---
+batch_number = 90, loss = 1.206678, acc = 0.974160
+--- 6857.312702655792 seconds ---
+batch_number = 100, loss = 1.214437, acc = 0.973905
+--- 6864.9569754600525 seconds ---
+batch_number = 110, loss = 1.211151, acc = 0.974130
+--- 6871.3117599487305 seconds ---
+batch_number = 120, loss = 1.221265, acc = 0.974229
+--- 6878.799869775772 seconds ---
+batch_number = 130, loss = 1.218566, acc = 0.974102
+--- 6885.590533733368 seconds ---
+batch_number = 140, loss = 1.224604, acc = 0.973995
+--- 6893.349615573883 seconds ---
+batch_number = 150, loss = 1.220087, acc = 0.973878
+--- 6900.218202114105 seconds ---
+batch_number = 160, loss = 1.222142, acc = 0.973440
+[epoch 55]: train_loss = 0.154246, train_acc = 0.973392, validation_loss = 2.426429, validation_acc = 0.864774
+--- 6914.824196577072 seconds ---
+batch_number = 10, loss = 0.987956, acc = 0.975325
+--- 6922.639367818832 seconds ---
+batch_number = 20, loss = 1.067450, acc = 0.976364
+--- 6930.883150577545 seconds ---
+batch_number = 30, loss = 1.069930, acc = 0.975654
+--- 6938.985929965973 seconds ---
+batch_number = 40, loss = 1.084865, acc = 0.975584
+--- 6944.629611968994 seconds ---
+batch_number = 50, loss = 1.131306, acc = 0.974571
+--- 6951.6175355911255 seconds ---
+batch_number = 60, loss = 1.157848, acc = 0.974257
+--- 6961.348414897919 seconds ---
+batch_number = 70, loss = 1.138207, acc = 0.974749
+--- 6967.732947349548 seconds ---
+batch_number = 80, loss = 1.161294, acc = 0.974599
+--- 6974.824577093124 seconds ---
+batch_number = 90, loss = 1.169635, acc = 0.973963
+--- 6982.411857366562 seconds ---
+batch_number = 100, loss = 1.175445, acc = 0.973830
+--- 6989.4290063381195 seconds ---
+batch_number = 110, loss = 1.185752, acc = 0.973369
+--- 6997.347373962402 seconds ---
+batch_number = 120, loss = 1.182917, acc = 0.973509
+--- 7003.98641872406 seconds ---
+batch_number = 130, loss = 1.182737, acc = 0.973583
+--- 7011.65448474884 seconds ---
+batch_number = 140, loss = 1.181660, acc = 0.973714
+--- 7018.009172201157 seconds ---
+batch_number = 150, loss = 1.187822, acc = 0.973509
+--- 7024.7873067855835 seconds ---
+batch_number = 160, loss = 1.188598, acc = 0.973625
+[epoch 56]: train_loss = 0.150491, train_acc = 0.973599, validation_loss = 2.552120, validation_acc = 0.860121
+--- 7040.823030233383 seconds ---
+batch_number = 10, loss = 0.953433, acc = 0.977355
+--- 7047.731138944626 seconds ---
+batch_number = 20, loss = 1.060892, acc = 0.976059
+--- 7055.902697324753 seconds ---
+batch_number = 30, loss = 1.057556, acc = 0.976697
+--- 7062.6691365242 seconds ---
+batch_number = 40, loss = 1.081136, acc = 0.976402
+--- 7069.101534366608 seconds ---
+batch_number = 50, loss = 1.111963, acc = 0.975591
+--- 7075.794831991196 seconds ---
+batch_number = 60, loss = 1.126757, acc = 0.975942
+--- 7083.010452985764 seconds ---
+batch_number = 70, loss = 1.131485, acc = 0.975317
+--- 7090.5972011089325 seconds ---
+batch_number = 80, loss = 1.133948, acc = 0.975338
+--- 7098.15275144577 seconds ---
+batch_number = 90, loss = 1.133701, acc = 0.975548
+--- 7105.766555547714 seconds ---
+batch_number = 100, loss = 1.128936, acc = 0.975641
+--- 7113.711530208588 seconds ---
+batch_number = 110, loss = 1.128969, acc = 0.975248
+--- 7120.990034818649 seconds ---
+batch_number = 120, loss = 1.135617, acc = 0.974774
+--- 7129.917688846588 seconds ---
+batch_number = 130, loss = 1.136535, acc = 0.974606
+--- 7137.7275450229645 seconds ---
+batch_number = 140, loss = 1.138812, acc = 0.974833
+--- 7146.657246589661 seconds ---
+batch_number = 150, loss = 1.134753, acc = 0.975083
+--- 7153.120458602905 seconds ---
+batch_number = 160, loss = 1.135929, acc = 0.974984
+[epoch 57]: train_loss = 0.144094, train_acc = 0.974945, validation_loss = 2.448562, validation_acc = 0.860821
+--- 7166.979341983795 seconds ---
+batch_number = 10, loss = 1.070774, acc = 0.968983
+--- 7174.149170637131 seconds ---
+batch_number = 20, loss = 1.054446, acc = 0.971344
+--- 7182.228402376175 seconds ---
+batch_number = 30, loss = 1.057382, acc = 0.974523
+--- 7188.9715576171875 seconds ---
+batch_number = 40, loss = 1.085608, acc = 0.974357
+--- 7197.111941337585 seconds ---
+batch_number = 50, loss = 1.080024, acc = 0.975146
+--- 7205.217289447784 seconds ---
+batch_number = 60, loss = 1.094802, acc = 0.975501
+--- 7213.33198595047 seconds ---
+batch_number = 70, loss = 1.091548, acc = 0.975264
+--- 7220.3623483181 seconds ---
+batch_number = 80, loss = 1.094358, acc = 0.975216
+--- 7229.674662351608 seconds ---
+batch_number = 90, loss = 1.095255, acc = 0.975726
+--- 7237.8266224861145 seconds ---
+batch_number = 100, loss = 1.089438, acc = 0.975714
+--- 7245.979177951813 seconds ---
+batch_number = 110, loss = 1.089910, acc = 0.975483
+--- 7252.9987280368805 seconds ---
+batch_number = 120, loss = 1.095768, acc = 0.975445
+--- 7258.844033956528 seconds ---
+batch_number = 130, loss = 1.108544, acc = 0.975241
+--- 7266.392412185669 seconds ---
+batch_number = 140, loss = 1.118700, acc = 0.974877
+--- 7272.3207948207855 seconds ---
+batch_number = 150, loss = 1.128187, acc = 0.974422
+--- 7279.761846065521 seconds ---
+batch_number = 160, loss = 1.130654, acc = 0.973628
+[epoch 58]: train_loss = 0.143645, train_acc = 0.973498, validation_loss = 2.639144, validation_acc = 0.854963
+--- 7293.994785308838 seconds ---
+batch_number = 10, loss = 1.032757, acc = 0.969471
+--- 7302.1010501384735 seconds ---
+batch_number = 20, loss = 1.048231, acc = 0.971572
+--- 7309.496205806732 seconds ---
+batch_number = 30, loss = 1.079715, acc = 0.971988
+--- 7317.5557696819305 seconds ---
+batch_number = 40, loss = 1.076533, acc = 0.973798
+--- 7324.100941181183 seconds ---
+batch_number = 50, loss = 1.095896, acc = 0.973569
+--- 7330.572719097137 seconds ---
+batch_number = 60, loss = 1.124409, acc = 0.972804
+--- 7337.876282691956 seconds ---
+batch_number = 70, loss = 1.129362, acc = 0.973301
+--- 7345.351268529892 seconds ---
+batch_number = 80, loss = 1.129715, acc = 0.973196
+--- 7352.581471443176 seconds ---
+batch_number = 90, loss = 1.138951, acc = 0.973166
+--- 7360.2185735702515 seconds ---
+batch_number = 100, loss = 1.141076, acc = 0.972921
+--- 7367.133412837982 seconds ---
+batch_number = 110, loss = 1.142275, acc = 0.973106
+--- 7374.8928027153015 seconds ---
+batch_number = 120, loss = 1.135941, acc = 0.973288
+--- 7382.721709251404 seconds ---
+batch_number = 130, loss = 1.138881, acc = 0.973007
+--- 7390.283653020859 seconds ---
+batch_number = 140, loss = 1.136164, acc = 0.973002
+--- 7398.144651651382 seconds ---
+batch_number = 150, loss = 1.136759, acc = 0.972880
+--- 7404.878356456757 seconds ---
+batch_number = 160, loss = 1.136444, acc = 0.972844
+[epoch 59]: train_loss = 0.144079, train_acc = 0.972644, validation_loss = 2.480068, validation_acc = 0.867652
+--- 7420.559784889221 seconds ---
+batch_number = 10, loss = 1.009311, acc = 0.972363
+--- 7427.234277248383 seconds ---
+batch_number = 20, loss = 1.191519, acc = 0.969258
+--- 7435.232574462891 seconds ---
+batch_number = 30, loss = 1.213496, acc = 0.967185
+--- 7441.501914262772 seconds ---
+batch_number = 40, loss = 1.227399, acc = 0.965885
+--- 7448.385771036148 seconds ---
+batch_number = 50, loss = 1.240645, acc = 0.964513
+--- 7456.51472735405 seconds ---
+batch_number = 60, loss = 1.235250, acc = 0.965001
+--- 7464.51256775856 seconds ---
+batch_number = 70, loss = 1.238763, acc = 0.965548
+--- 7473.235358715057 seconds ---
+batch_number = 80, loss = 1.230319, acc = 0.965907
+--- 7480.347493648529 seconds ---
+batch_number = 90, loss = 1.229824, acc = 0.966675
+--- 7488.196533679962 seconds ---
+batch_number = 100, loss = 1.226515, acc = 0.966778
+--- 7495.218139410019 seconds ---
+batch_number = 110, loss = 1.221849, acc = 0.967347
+--- 7501.409904003143 seconds ---
+batch_number = 120, loss = 1.222945, acc = 0.967856
+--- 7508.001180171967 seconds ---
+batch_number = 130, loss = 1.213714, acc = 0.968083
+--- 7514.650944232941 seconds ---
+batch_number = 140, loss = 1.205620, acc = 0.968407
+--- 7522.480548620224 seconds ---
+batch_number = 150, loss = 1.199605, acc = 0.968561
+--- 7529.853260040283 seconds ---
+batch_number = 160, loss = 1.198774, acc = 0.968507
+[epoch 60]: train_loss = 0.152023, train_acc = 0.968650, validation_loss = 2.662720, validation_acc = 0.855327
+--- 7544.427550792694 seconds ---
+batch_number = 10, loss = 1.178156, acc = 0.959534
+--- 7551.705952167511 seconds ---
+batch_number = 20, loss = 1.285883, acc = 0.956440
+--- 7559.174134254456 seconds ---
+batch_number = 30, loss = 1.351181, acc = 0.953084
+--- 7566.726970911026 seconds ---
+batch_number = 40, loss = 1.349574, acc = 0.954627
+--- 7574.060090065002 seconds ---
+batch_number = 50, loss = 1.397067, acc = 0.951760
+--- 7582.088809967041 seconds ---
+batch_number = 60, loss = 1.415408, acc = 0.950239
+--- 7589.063100099564 seconds ---
+batch_number = 70, loss = 1.423772, acc = 0.950437
+--- 7595.988984584808 seconds ---
+batch_number = 80, loss = 1.440837, acc = 0.949453
+--- 7603.779713869095 seconds ---
+batch_number = 90, loss = 1.438885, acc = 0.949842
+--- 7612.241150140762 seconds ---
+batch_number = 100, loss = 1.450047, acc = 0.949252
+--- 7619.295171260834 seconds ---
+batch_number = 110, loss = 1.452534, acc = 0.949622
+--- 7626.188761711121 seconds ---
+batch_number = 120, loss = 1.467111, acc = 0.948813
+--- 7634.183370113373 seconds ---
+batch_number = 130, loss = 1.464543, acc = 0.949126
+--- 7642.262254238129 seconds ---
+batch_number = 140, loss = 1.455539, acc = 0.949742
+--- 7649.251859664917 seconds ---
+batch_number = 150, loss = 1.453829, acc = 0.950228
+--- 7655.957072496414 seconds ---
+batch_number = 160, loss = 1.448778, acc = 0.950629
+[epoch 61]: train_loss = 0.182812, train_acc = 0.950805, validation_loss = 2.959705, validation_acc = 0.840120
+--- 7669.676707029343 seconds ---
+batch_number = 10, loss = 1.191015, acc = 0.960559
+--- 7677.074452638626 seconds ---
+batch_number = 20, loss = 1.223972, acc = 0.963393
+--- 7684.721886634827 seconds ---
+batch_number = 30, loss = 1.203051, acc = 0.965538
+--- 7691.689718961716 seconds ---
+batch_number = 40, loss = 1.207670, acc = 0.966360
+--- 7698.982399463654 seconds ---
+batch_number = 50, loss = 1.250002, acc = 0.964759
+--- 7707.121042966843 seconds ---
+batch_number = 60, loss = 1.314383, acc = 0.961688
+--- 7714.889207839966 seconds ---
+batch_number = 70, loss = 1.494705, acc = 0.952143
+--- 7722.372918605804 seconds ---
+batch_number = 80, loss = 1.769175, acc = 0.934955
+--- 7728.543969869614 seconds ---
+batch_number = 90, loss = 2.241811, acc = 0.906152
+--- 7735.99739408493 seconds ---
+batch_number = 100, loss = 2.577512, acc = 0.875967
+--- 7744.1499791145325 seconds ---
+batch_number = 110, loss = 2.749600, acc = 0.863622
+--- 7751.360347747803 seconds ---
+batch_number = 120, loss = 2.863664, acc = 0.852933
+--- 7759.132656335831 seconds ---
+batch_number = 130, loss = 2.906763, acc = 0.849206
+--- 7767.016670465469 seconds ---
+batch_number = 140, loss = 2.962445, acc = 0.847264
+--- 7774.02543759346 seconds ---
+batch_number = 150, loss = 3.004852, acc = 0.845941
+--- 7781.811500787735 seconds ---
+batch_number = 160, loss = 3.028573, acc = 0.846534
+[epoch 62]: train_loss = 0.384911, train_acc = 0.845645, validation_loss = 4.425115, validation_acc = 0.739493
+--- 7795.518580198288 seconds ---
+batch_number = 10, loss = 3.119073, acc = 0.854893
+--- 7802.245053291321 seconds ---
+batch_number = 20, loss = 3.157511, acc = 0.860271
+--- 7810.125861644745 seconds ---
+batch_number = 30, loss = 2.936125, acc = 0.874834
+--- 7817.329464912415 seconds ---
+batch_number = 40, loss = 2.825533, acc = 0.879887
+--- 7825.839817762375 seconds ---
+batch_number = 50, loss = 2.694952, acc = 0.888664
+--- 7832.924621105194 seconds ---
+batch_number = 60, loss = 2.588963, acc = 0.895248
+--- 7840.065061569214 seconds ---
+batch_number = 70, loss = 2.565319, acc = 0.894975
+--- 7847.098371505737 seconds ---
+batch_number = 80, loss = 2.583240, acc = 0.892084
+--- 7855.402173280716 seconds ---
+batch_number = 90, loss = 2.532053, acc = 0.895145
+--- 7862.949998617172 seconds ---
+batch_number = 100, loss = 2.491559, acc = 0.899469
+--- 7869.910965681076 seconds ---
+batch_number = 110, loss = 2.445738, acc = 0.902420
+--- 7878.193593263626 seconds ---
+batch_number = 120, loss = 2.412428, acc = 0.904801
+--- 7885.106810808182 seconds ---
+batch_number = 130, loss = 2.381556, acc = 0.907099
+--- 7891.388687133789 seconds ---
+batch_number = 140, loss = 2.366320, acc = 0.907909
+--- 7899.052752256393 seconds ---
+batch_number = 150, loss = 2.331512, acc = 0.910261
+--- 7906.110087633133 seconds ---
+batch_number = 160, loss = 2.302497, acc = 0.912289
+[epoch 63]: train_loss = 0.289806, train_acc = 0.912773, validation_loss = 2.653237, validation_acc = 0.857102
+--- 7918.839883089066 seconds ---
+batch_number = 10, loss = 1.538754, acc = 0.952951
+--- 7926.41036438942 seconds ---
+batch_number = 20, loss = 1.542099, acc = 0.948122
+--- 7934.452083110809 seconds ---
+batch_number = 30, loss = 1.598308, acc = 0.948121
+--- 7941.804020166397 seconds ---
+batch_number = 40, loss = 1.792690, acc = 0.936412
+--- 7949.059439897537 seconds ---
+batch_number = 50, loss = 1.880291, acc = 0.929363
+--- 7956.583134889603 seconds ---
+batch_number = 60, loss = 1.920017, acc = 0.926770
+--- 7964.8926701545715 seconds ---
+batch_number = 70, loss = 1.942015, acc = 0.927715
+--- 7972.933637857437 seconds ---
+batch_number = 80, loss = 1.949980, acc = 0.929431
+--- 7981.107431411743 seconds ---
+batch_number = 90, loss = 1.936865, acc = 0.931618
+--- 7988.429509162903 seconds ---
+batch_number = 100, loss = 2.005197, acc = 0.928528
+--- 7996.297225952148 seconds ---
+batch_number = 110, loss = 2.023799, acc = 0.928331
+--- 8002.7508997917175 seconds ---
+batch_number = 120, loss = 2.029685, acc = 0.929105
+--- 8010.908867359161 seconds ---
+batch_number = 130, loss = 2.011259, acc = 0.930707
+--- 8016.889612674713 seconds ---
+batch_number = 140, loss = 2.006432, acc = 0.931090
+--- 8025.029758214951 seconds ---
+batch_number = 150, loss = 1.983522, acc = 0.931890
+--- 8031.34411072731 seconds ---
+batch_number = 160, loss = 1.975312, acc = 0.933034
+[epoch 64]: train_loss = 0.248417, train_acc = 0.933444, validation_loss = 2.274650, validation_acc = 0.855969
+--- 8046.62756061554 seconds ---
+batch_number = 10, loss = 1.360204, acc = 0.961364
+--- 8053.52860045433 seconds ---
+batch_number = 20, loss = 1.397658, acc = 0.962388
+--- 8060.7968163490295 seconds ---
+batch_number = 30, loss = 1.424826, acc = 0.963998
+--- 8068.656594991684 seconds ---
+batch_number = 40, loss = 1.409124, acc = 0.965158
+--- 8075.575451374054 seconds ---
+batch_number = 50, loss = 1.418387, acc = 0.966309
+--- 8082.6688232421875 seconds ---
+batch_number = 60, loss = 1.412460, acc = 0.966924
+--- 8090.223438739777 seconds ---
+batch_number = 70, loss = 1.393822, acc = 0.968196
+--- 8097.023009777069 seconds ---
+batch_number = 80, loss = 1.381084, acc = 0.968974
+--- 8104.444760084152 seconds ---
+batch_number = 90, loss = 1.378264, acc = 0.968712
+--- 8112.023527622223 seconds ---
+batch_number = 100, loss = 1.371207, acc = 0.968793
+--- 8119.101616382599 seconds ---
+batch_number = 110, loss = 1.356950, acc = 0.969329
+--- 8126.300288438797 seconds ---
+batch_number = 120, loss = 1.355860, acc = 0.969563
+--- 8134.420174837112 seconds ---
+batch_number = 130, loss = 1.345134, acc = 0.969900
+--- 8141.981927394867 seconds ---
+batch_number = 140, loss = 1.338908, acc = 0.970106
+--- 8150.350526809692 seconds ---
+batch_number = 150, loss = 1.338786, acc = 0.970247
+--- 8157.496169805527 seconds ---
+batch_number = 160, loss = 1.334974, acc = 0.970474
+[epoch 65]: train_loss = 0.169394, train_acc = 0.970293, validation_loss = 2.276579, validation_acc = 0.864959
+--- 8171.564278125763 seconds ---
+batch_number = 10, loss = 1.106295, acc = 0.968266
+--- 8179.230881929398 seconds ---
+batch_number = 20, loss = 1.211817, acc = 0.967578
+--- 8186.241781711578 seconds ---
+batch_number = 30, loss = 1.307581, acc = 0.966572
+--- 8194.435877799988 seconds ---
+batch_number = 40, loss = 1.295369, acc = 0.967408
+--- 8202.53797864914 seconds ---
+batch_number = 50, loss = 1.276815, acc = 0.968724
+--- 8210.249392747879 seconds ---
+batch_number = 60, loss = 1.271544, acc = 0.970228
+--- 8218.64481139183 seconds ---
+batch_number = 70, loss = 1.245792, acc = 0.971370
+--- 8225.756350755692 seconds ---
+batch_number = 80, loss = 1.238806, acc = 0.972057
+--- 8233.229624271393 seconds ---
+batch_number = 90, loss = 1.233374, acc = 0.972064
+--- 8241.065579414368 seconds ---
+batch_number = 100, loss = 1.223830, acc = 0.972672
+--- 8247.42810845375 seconds ---
+batch_number = 110, loss = 1.227337, acc = 0.973083
+--- 8253.47704410553 seconds ---
+batch_number = 120, loss = 1.228230, acc = 0.973063
+--- 8260.750440359116 seconds ---
+batch_number = 130, loss = 1.225195, acc = 0.973094
+--- 8267.483404874802 seconds ---
+batch_number = 140, loss = 1.228112, acc = 0.973016
+--- 8274.977140188217 seconds ---
+batch_number = 150, loss = 1.229465, acc = 0.972820
+--- 8282.31656384468 seconds ---
+batch_number = 160, loss = 1.226357, acc = 0.972769
+[epoch 66]: train_loss = 0.155431, train_acc = 0.972810, validation_loss = 2.292401, validation_acc = 0.869310
+--- 8295.801762580872 seconds ---
+batch_number = 10, loss = 1.091779, acc = 0.977405
+--- 8303.795766830444 seconds ---
+batch_number = 20, loss = 1.097498, acc = 0.978316
+--- 8311.417958259583 seconds ---
+batch_number = 30, loss = 1.100912, acc = 0.978341
+--- 8318.119896173477 seconds ---
+batch_number = 40, loss = 1.118944, acc = 0.978133
+--- 8325.627995491028 seconds ---
+batch_number = 50, loss = 1.120531, acc = 0.978194
+--- 8333.687808275223 seconds ---
+batch_number = 60, loss = 1.118200, acc = 0.978431
+--- 8339.838589429855 seconds ---
+batch_number = 70, loss = 1.129313, acc = 0.978221
+--- 8347.473842382431 seconds ---
+batch_number = 80, loss = 1.128251, acc = 0.978615
+--- 8355.30284333229 seconds ---
+batch_number = 90, loss = 1.127713, acc = 0.978357
+--- 8363.83781671524 seconds ---
+batch_number = 100, loss = 1.115325, acc = 0.978406
+--- 8370.956035375595 seconds ---
+batch_number = 110, loss = 1.127759, acc = 0.978063
+--- 8378.701183080673 seconds ---
+batch_number = 120, loss = 1.126201, acc = 0.977937
+--- 8386.409530639648 seconds ---
+batch_number = 130, loss = 1.124988, acc = 0.977954
+--- 8392.925757408142 seconds ---
+batch_number = 140, loss = 1.125491, acc = 0.978120
+--- 8400.810481786728 seconds ---
+batch_number = 150, loss = 1.121879, acc = 0.978227
+--- 8407.106395244598 seconds ---
+batch_number = 160, loss = 1.122002, acc = 0.978262
+[epoch 67]: train_loss = 0.142413, train_acc = 0.978218, validation_loss = 2.406294, validation_acc = 0.867972
+--- 8421.418190717697 seconds ---
+batch_number = 10, loss = 1.008840, acc = 0.979927
+--- 8429.949001312256 seconds ---
+batch_number = 20, loss = 1.041357, acc = 0.980530
+--- 8436.109960794449 seconds ---
+batch_number = 30, loss = 1.092300, acc = 0.979662
+--- 8442.550471782684 seconds ---
+batch_number = 40, loss = 1.106727, acc = 0.979258
+--- 8450.016477823257 seconds ---
+batch_number = 50, loss = 1.097241, acc = 0.978689
+--- 8457.164126873016 seconds ---
+batch_number = 60, loss = 1.088660, acc = 0.979192
+--- 8465.130784988403 seconds ---
+batch_number = 70, loss = 1.080842, acc = 0.979474
+--- 8471.739293813705 seconds ---
+batch_number = 80, loss = 1.082536, acc = 0.979228
+--- 8478.787470817566 seconds ---
+batch_number = 90, loss = 1.085564, acc = 0.979265
+--- 8486.933801412582 seconds ---
+batch_number = 100, loss = 1.081080, acc = 0.979141
+--- 8494.229550123215 seconds ---
+batch_number = 110, loss = 1.084701, acc = 0.979203
+--- 8501.585582256317 seconds ---
+batch_number = 120, loss = 1.080068, acc = 0.979297
+--- 8509.107720136642 seconds ---
+batch_number = 130, loss = 1.077841, acc = 0.979324
+--- 8516.466835975647 seconds ---
+batch_number = 140, loss = 1.073633, acc = 0.979503
+--- 8524.511600494385 seconds ---
+batch_number = 150, loss = 1.073415, acc = 0.979513
+--- 8532.803193569183 seconds ---
+batch_number = 160, loss = 1.065813, acc = 0.979578
+[epoch 68]: train_loss = 0.134817, train_acc = 0.979598, validation_loss = 2.413356, validation_acc = 0.862143
+--- 8546.946235179901 seconds ---
+batch_number = 10, loss = 0.963937, acc = 0.982177
+--- 8554.14458489418 seconds ---
+batch_number = 20, loss = 1.016680, acc = 0.981693
+--- 8561.764937400818 seconds ---
+batch_number = 30, loss = 1.055455, acc = 0.981588
+--- 8569.36829662323 seconds ---
+batch_number = 40, loss = 1.058685, acc = 0.981522
+--- 8578.533157110214 seconds ---
+batch_number = 50, loss = 1.034794, acc = 0.981356
+--- 8586.407325983047 seconds ---
+batch_number = 60, loss = 1.038503, acc = 0.981191
+--- 8593.426370859146 seconds ---
+batch_number = 70, loss = 1.039533, acc = 0.981028
+--- 8600.108949422836 seconds ---
+batch_number = 80, loss = 1.037898, acc = 0.981253
+--- 8608.880797863007 seconds ---
+batch_number = 90, loss = 1.028041, acc = 0.981456
+--- 8615.285057783127 seconds ---
+batch_number = 100, loss = 1.032511, acc = 0.981313
+--- 8623.119868040085 seconds ---
+batch_number = 110, loss = 1.029071, acc = 0.981267
+--- 8629.59670472145 seconds ---
+batch_number = 120, loss = 1.036640, acc = 0.980878
+--- 8637.41662478447 seconds ---
+batch_number = 130, loss = 1.031977, acc = 0.980822
+--- 8644.144249677658 seconds ---
+batch_number = 140, loss = 1.041124, acc = 0.980851
+--- 8651.784205675125 seconds ---
+batch_number = 150, loss = 1.040018, acc = 0.980781
+--- 8658.467272043228 seconds ---
+batch_number = 160, loss = 1.042656, acc = 0.980752
+[epoch 69]: train_loss = 0.131982, train_acc = 0.980785, validation_loss = 2.417822, validation_acc = 0.864451
+--- 8673.491589546204 seconds ---
+batch_number = 10, loss = 0.813493, acc = 0.981977
+--- 8679.39810681343 seconds ---
+batch_number = 20, loss = 0.987592, acc = 0.980082
+--- 8686.42089343071 seconds ---
+batch_number = 30, loss = 0.994653, acc = 0.980896
+--- 8693.592973709106 seconds ---
+batch_number = 40, loss = 0.991893, acc = 0.981486
+--- 8701.234771728516 seconds ---
+batch_number = 50, loss = 0.994029, acc = 0.981797
+--- 8708.617351770401 seconds ---
+batch_number = 60, loss = 0.986023, acc = 0.981520
+--- 8717.153253793716 seconds ---
+batch_number = 70, loss = 0.981095, acc = 0.981687
+--- 8724.3309237957 seconds ---
+batch_number = 80, loss = 0.982566, acc = 0.981505
+--- 8731.092346668243 seconds ---
+batch_number = 90, loss = 0.984699, acc = 0.981329
+--- 8737.661545038223 seconds ---
+batch_number = 100, loss = 0.996740, acc = 0.981126
+--- 8745.38170671463 seconds ---
+batch_number = 110, loss = 0.992870, acc = 0.981070
+--- 8752.816846609116 seconds ---
+batch_number = 120, loss = 0.992046, acc = 0.981103
+--- 8761.266812324524 seconds ---
+batch_number = 130, loss = 0.990640, acc = 0.981160
+--- 8768.986261606216 seconds ---
+batch_number = 140, loss = 0.994272, acc = 0.980994
+--- 8776.28125667572 seconds ---
+batch_number = 150, loss = 0.992403, acc = 0.980956
+--- 8782.423785209656 seconds ---
+batch_number = 160, loss = 0.999599, acc = 0.980999
+[epoch 70]: train_loss = 0.127097, train_acc = 0.981029, validation_loss = 2.465537, validation_acc = 0.862608
+--- 8797.22879576683 seconds ---
+batch_number = 10, loss = 1.011423, acc = 0.979940
+--- 8804.994001865387 seconds ---
+batch_number = 20, loss = 0.972431, acc = 0.980648
+--- 8811.537328481674 seconds ---
+batch_number = 30, loss = 0.996097, acc = 0.980840
+--- 8819.039372444153 seconds ---
+batch_number = 40, loss = 0.995090, acc = 0.981002
+--- 8825.859031677246 seconds ---
+batch_number = 50, loss = 1.008104, acc = 0.980240
+--- 8833.525209903717 seconds ---
+batch_number = 60, loss = 0.996443, acc = 0.980452
+--- 8840.6891746521 seconds ---
+batch_number = 70, loss = 1.002313, acc = 0.980433
+--- 8847.99274778366 seconds ---
+batch_number = 80, loss = 0.998319, acc = 0.980413
+--- 8855.903744220734 seconds ---
+batch_number = 90, loss = 1.004586, acc = 0.980380
+--- 8862.669730901718 seconds ---
+batch_number = 100, loss = 1.012769, acc = 0.979985
+--- 8869.29596710205 seconds ---
+batch_number = 110, loss = 1.012447, acc = 0.979808
+--- 8876.731844425201 seconds ---
+batch_number = 120, loss = 1.013250, acc = 0.979566
+--- 8886.600040912628 seconds ---
+batch_number = 130, loss = 1.003959, acc = 0.979851
+--- 8894.05482673645 seconds ---
+batch_number = 140, loss = 1.002378, acc = 0.979738
+--- 8900.069306612015 seconds ---
+batch_number = 150, loss = 1.007897, acc = 0.979718
+--- 8907.304348945618 seconds ---
+batch_number = 160, loss = 1.010393, acc = 0.979820
+[epoch 71]: train_loss = 0.128140, train_acc = 0.979837, validation_loss = 2.380278, validation_acc = 0.870642
+--- 8921.452246904373 seconds ---
+batch_number = 10, loss = 0.839026, acc = 0.978973
+--- 8929.405916690826 seconds ---
+batch_number = 20, loss = 0.967660, acc = 0.978079
+--- 8937.198342561722 seconds ---
+batch_number = 30, loss = 0.958749, acc = 0.978627
+--- 8944.784583330154 seconds ---
+batch_number = 40, loss = 0.959385, acc = 0.979987
+--- 8951.373138666153 seconds ---
+batch_number = 50, loss = 0.969571, acc = 0.980343
+--- 8957.832004070282 seconds ---
+batch_number = 60, loss = 1.001674, acc = 0.979804
+--- 8964.987348079681 seconds ---
+batch_number = 70, loss = 1.007294, acc = 0.978904
+--- 8971.598493814468 seconds ---
+batch_number = 80, loss = 1.009293, acc = 0.978744
+--- 8980.2889919281 seconds ---
+batch_number = 90, loss = 1.008489, acc = 0.978502
+--- 8987.604418992996 seconds ---
+batch_number = 100, loss = 1.020351, acc = 0.977993
+--- 8994.846301078796 seconds ---
+batch_number = 110, loss = 1.025033, acc = 0.977923
+--- 9002.251946926117 seconds ---
+batch_number = 120, loss = 1.024452, acc = 0.977659
+--- 9009.646991968155 seconds ---
+batch_number = 130, loss = 1.032197, acc = 0.977400
+--- 9016.767513275146 seconds ---
+batch_number = 140, loss = 1.040219, acc = 0.976809
+--- 9023.366761922836 seconds ---
+batch_number = 150, loss = 1.052419, acc = 0.976391
+--- 9030.672646284103 seconds ---
+batch_number = 160, loss = 1.054804, acc = 0.976236
+[epoch 72]: train_loss = 0.134596, train_acc = 0.975946, validation_loss = 3.073536, validation_acc = 0.853380
+--- 9047.063769578934 seconds ---
+batch_number = 10, loss = 1.092431, acc = 0.965235
+--- 9053.666180610657 seconds ---
+batch_number = 20, loss = 1.144800, acc = 0.966213
+--- 9060.353189706802 seconds ---
+batch_number = 30, loss = 1.156112, acc = 0.966457
+--- 9067.901755809784 seconds ---
+batch_number = 40, loss = 1.136628, acc = 0.968931
+--- 9075.59296131134 seconds ---
+batch_number = 50, loss = 1.128779, acc = 0.970022
+--- 9082.30490064621 seconds ---
+batch_number = 60, loss = 1.252426, acc = 0.963093
+--- 9089.638701677322 seconds ---
+batch_number = 70, loss = 1.313820, acc = 0.959679
+--- 9097.009048223495 seconds ---
+batch_number = 80, loss = 1.459714, acc = 0.952034
+--- 9104.953099489212 seconds ---
+batch_number = 90, loss = 1.681215, acc = 0.937213
+--- 9112.27592754364 seconds ---
+batch_number = 100, loss = 2.029821, acc = 0.920690
+--- 9119.334813117981 seconds ---
+batch_number = 110, loss = 2.208410, acc = 0.909982
+--- 9126.276245832443 seconds ---
+batch_number = 120, loss = 2.341741, acc = 0.900296
+--- 9132.516451358795 seconds ---
+batch_number = 130, loss = 2.417020, acc = 0.894872
+--- 9140.505067825317 seconds ---
+batch_number = 140, loss = 2.437797, acc = 0.894232
+--- 9148.021424293518 seconds ---
+batch_number = 150, loss = 2.438024, acc = 0.895400
+--- 9154.723433971405 seconds ---
+batch_number = 160, loss = 2.452074, acc = 0.894787
+[epoch 73]: train_loss = 0.313752, train_acc = 0.893299, validation_loss = 5.161210, validation_acc = 0.704005
+--- 9169.676842927933 seconds ---
+batch_number = 10, loss = 4.049946, acc = 0.764074
+--- 9176.638170719147 seconds ---
+batch_number = 20, loss = 3.554492, acc = 0.804974
+--- 9183.250982761383 seconds ---
+batch_number = 30, loss = 3.136099, acc = 0.836027
+--- 9189.648201227188 seconds ---
+batch_number = 40, loss = 2.892173, acc = 0.856174
+--- 9197.592324256897 seconds ---
+batch_number = 50, loss = 2.721517, acc = 0.873820
+--- 9205.082095384598 seconds ---
+batch_number = 60, loss = 2.591150, acc = 0.883349
+--- 9211.904054164886 seconds ---
+batch_number = 70, loss = 2.474246, acc = 0.892118
+--- 9219.49059176445 seconds ---
+batch_number = 80, loss = 2.378218, acc = 0.900620
+--- 9227.45192527771 seconds ---
+batch_number = 90, loss = 2.295287, acc = 0.906688
+--- 9235.841066122055 seconds ---
+batch_number = 100, loss = 2.219157, acc = 0.912585
+--- 9242.89169549942 seconds ---
+batch_number = 110, loss = 2.157707, acc = 0.916618
+--- 9249.867596626282 seconds ---
+batch_number = 120, loss = 2.100462, acc = 0.920127
+--- 9257.785982370377 seconds ---
+batch_number = 130, loss = 2.043070, acc = 0.923583
+--- 9265.81459069252 seconds ---
+batch_number = 140, loss = 1.997425, acc = 0.926350
+--- 9273.183522701263 seconds ---
+batch_number = 150, loss = 1.956750, acc = 0.929052
+--- 9280.375256061554 seconds ---
+batch_number = 160, loss = 1.922115, acc = 0.931616
+[epoch 74]: train_loss = 0.240406, train_acc = 0.932676, validation_loss = 2.394714, validation_acc = 0.870551
+--- 9294.81674003601 seconds ---
+batch_number = 10, loss = 1.053119, acc = 0.972290
+--- 9302.10156083107 seconds ---
+batch_number = 20, loss = 1.123746, acc = 0.972932
+--- 9309.390216350555 seconds ---
+batch_number = 30, loss = 1.158439, acc = 0.973526
+--- 9316.334223747253 seconds ---
+batch_number = 40, loss = 1.174374, acc = 0.973884
+--- 9324.992201089859 seconds ---
+batch_number = 50, loss = 1.154991, acc = 0.974807
+--- 9332.838187932968 seconds ---
+batch_number = 60, loss = 1.168436, acc = 0.974999
+--- 9340.685630083084 seconds ---
+batch_number = 70, loss = 1.163739, acc = 0.975295
+--- 9347.67182302475 seconds ---
+batch_number = 80, loss = 1.179386, acc = 0.974341
+--- 9353.326102733612 seconds ---
+batch_number = 90, loss = 1.186831, acc = 0.974548
+--- 9359.594426631927 seconds ---
+batch_number = 100, loss = 1.193675, acc = 0.974912
+--- 9366.427112817764 seconds ---
+batch_number = 110, loss = 1.191575, acc = 0.975106
+--- 9375.643959999084 seconds ---
+batch_number = 120, loss = 1.179392, acc = 0.975464
+--- 9382.952065467834 seconds ---
+batch_number = 130, loss = 1.176689, acc = 0.975498
+--- 9391.141417503357 seconds ---
+batch_number = 140, loss = 1.171850, acc = 0.975391
+--- 9397.831876039505 seconds ---
+batch_number = 150, loss = 1.171170, acc = 0.975387
+--- 9405.79704618454 seconds ---
+batch_number = 160, loss = 1.168267, acc = 0.975374
+[epoch 75]: train_loss = 0.148152, train_acc = 0.975373, validation_loss = 2.287743, validation_acc = 0.880430
+--- 9420.474310159683 seconds ---
+batch_number = 10, loss = 0.943661, acc = 0.982342
+--- 9427.770636796951 seconds ---
+batch_number = 20, loss = 1.016858, acc = 0.980260
+--- 9433.90955901146 seconds ---
+batch_number = 30, loss = 1.060084, acc = 0.979672
+--- 9440.510543584824 seconds ---
+batch_number = 40, loss = 1.083053, acc = 0.979282
+--- 9448.280988693237 seconds ---
+batch_number = 50, loss = 1.078976, acc = 0.979365
+--- 9456.629985570908 seconds ---
+batch_number = 60, loss = 1.075964, acc = 0.979374
+--- 9462.713223695755 seconds ---
+batch_number = 70, loss = 1.084719, acc = 0.979097
+--- 9470.392609119415 seconds ---
+batch_number = 80, loss = 1.087109, acc = 0.978974
+--- 9478.063260793686 seconds ---
+batch_number = 90, loss = 1.074786, acc = 0.979050
+--- 9483.654067754745 seconds ---
+batch_number = 100, loss = 1.091045, acc = 0.978891
+--- 9490.911368131638 seconds ---
+batch_number = 110, loss = 1.088331, acc = 0.978854
+--- 9499.97214102745 seconds ---
+batch_number = 120, loss = 1.082907, acc = 0.979379
+--- 9507.082463741302 seconds ---
+batch_number = 130, loss = 1.078819, acc = 0.979279
+--- 9514.500215530396 seconds ---
+batch_number = 140, loss = 1.074607, acc = 0.979321
+--- 9522.303045988083 seconds ---
+batch_number = 150, loss = 1.069421, acc = 0.979450
+--- 9528.970607995987 seconds ---
+batch_number = 160, loss = 1.069924, acc = 0.979331
+[epoch 76]: train_loss = 0.134692, train_acc = 0.979330, validation_loss = 2.252535, validation_acc = 0.883651
+--- 9543.822543382645 seconds ---
+batch_number = 10, loss = 0.915271, acc = 0.980673
+--- 9551.417032241821 seconds ---
+batch_number = 20, loss = 0.932131, acc = 0.981591
+--- 9559.580434083939 seconds ---
+batch_number = 30, loss = 0.955534, acc = 0.982202
+--- 9566.736402511597 seconds ---
+batch_number = 40, loss = 0.966929, acc = 0.982595
+--- 9573.626048326492 seconds ---
+batch_number = 50, loss = 0.982177, acc = 0.982369
+--- 9581.020019292831 seconds ---
+batch_number = 60, loss = 0.986245, acc = 0.982462
+--- 9588.129252433777 seconds ---
+batch_number = 70, loss = 0.990326, acc = 0.982303
+--- 9595.298649787903 seconds ---
+batch_number = 80, loss = 0.992251, acc = 0.981968
+--- 9602.284284830093 seconds ---
+batch_number = 90, loss = 1.001523, acc = 0.981677
+--- 9609.327163934708 seconds ---
+batch_number = 100, loss = 1.000494, acc = 0.981542
+--- 9616.22847533226 seconds ---
+batch_number = 110, loss = 1.005882, acc = 0.981556
+--- 9623.894792079926 seconds ---
+batch_number = 120, loss = 1.009543, acc = 0.981517
+--- 9630.250114917755 seconds ---
+batch_number = 130, loss = 1.015805, acc = 0.981430
+--- 9637.629603862762 seconds ---
+batch_number = 140, loss = 1.011059, acc = 0.981332
+--- 9644.760625362396 seconds ---
+batch_number = 150, loss = 1.015971, acc = 0.981213
+--- 9652.594211816788 seconds ---
+batch_number = 160, loss = 1.013785, acc = 0.981133
+[epoch 77]: train_loss = 0.128263, train_acc = 0.981117, validation_loss = 2.298651, validation_acc = 0.877946
+--- 9667.45579457283 seconds ---
+batch_number = 10, loss = 0.862751, acc = 0.981175
+--- 9674.371294736862 seconds ---
+batch_number = 20, loss = 0.914279, acc = 0.983396
+--- 9681.656884908676 seconds ---
+batch_number = 30, loss = 0.938715, acc = 0.981993
+--- 9689.81515789032 seconds ---
+batch_number = 40, loss = 0.943821, acc = 0.981910
+--- 9696.327075719833 seconds ---
+batch_number = 50, loss = 0.955849, acc = 0.982089
+--- 9703.655495405197 seconds ---
+batch_number = 60, loss = 0.953822, acc = 0.982291
+--- 9711.04530286789 seconds ---
+batch_number = 70, loss = 0.959624, acc = 0.982486
+--- 9718.826637029648 seconds ---
+batch_number = 80, loss = 0.948593, acc = 0.982673
+--- 9725.193318605423 seconds ---
+batch_number = 90, loss = 0.961223, acc = 0.982482
+--- 9731.286355018616 seconds ---
+batch_number = 100, loss = 0.972804, acc = 0.982227
+--- 9739.063335895538 seconds ---
+batch_number = 110, loss = 0.976354, acc = 0.981915
+--- 9747.367317676544 seconds ---
+batch_number = 120, loss = 0.975262, acc = 0.982052
+--- 9755.426190853119 seconds ---
+batch_number = 130, loss = 0.974384, acc = 0.982127
+--- 9762.111108779907 seconds ---
+batch_number = 140, loss = 0.975580, acc = 0.982050
+--- 9770.065943717957 seconds ---
+batch_number = 150, loss = 0.971494, acc = 0.982194
+--- 9776.480809688568 seconds ---
+batch_number = 160, loss = 0.977785, acc = 0.982036
+[epoch 78]: train_loss = 0.123381, train_acc = 0.982027, validation_loss = 2.408454, validation_acc = 0.870619
+--- 9792.986670970917 seconds ---
+batch_number = 10, loss = 0.824477, acc = 0.983982
+--- 9798.393450498581 seconds ---
+batch_number = 20, loss = 0.930761, acc = 0.982840
+--- 9807.52515912056 seconds ---
+batch_number = 30, loss = 0.899899, acc = 0.982906
+--- 9814.789488554 seconds ---
+batch_number = 40, loss = 0.896996, acc = 0.983431
+--- 9823.163414001465 seconds ---
+batch_number = 50, loss = 0.900310, acc = 0.983345
+--- 9829.801998615265 seconds ---
+batch_number = 60, loss = 0.905733, acc = 0.983333
+--- 9835.845581769943 seconds ---
+batch_number = 70, loss = 0.918909, acc = 0.983067
+--- 9842.919388532639 seconds ---
+batch_number = 80, loss = 0.921171, acc = 0.983091
+--- 9849.838443756104 seconds ---
+batch_number = 90, loss = 0.925561, acc = 0.982947
+--- 9856.775713443756 seconds ---
+batch_number = 100, loss = 0.934340, acc = 0.982981
+--- 9864.180060386658 seconds ---
+batch_number = 110, loss = 0.933562, acc = 0.982966
+--- 9871.97776222229 seconds ---
+batch_number = 120, loss = 0.938342, acc = 0.982825
+--- 9879.217796325684 seconds ---
+batch_number = 130, loss = 0.939882, acc = 0.982647
+--- 9886.547332525253 seconds ---
+batch_number = 140, loss = 0.939818, acc = 0.982611
+--- 9894.068369865417 seconds ---
+batch_number = 150, loss = 0.940379, acc = 0.982710
+--- 9901.041594982147 seconds ---
+batch_number = 160, loss = 0.947577, acc = 0.982570
+[epoch 79]: train_loss = 0.119921, train_acc = 0.982559, validation_loss = 2.373029, validation_acc = 0.878213
+--- 9915.424662828445 seconds ---
+batch_number = 10, loss = 0.867596, acc = 0.984486
+--- 9922.973910570145 seconds ---
+batch_number = 20, loss = 0.900951, acc = 0.983939
+--- 9931.237961053848 seconds ---
+batch_number = 30, loss = 0.887530, acc = 0.984335
+--- 9938.106744527817 seconds ---
+batch_number = 40, loss = 0.889892, acc = 0.983898
+--- 9944.61703658104 seconds ---
+batch_number = 50, loss = 0.909307, acc = 0.983776
+--- 9951.109548568726 seconds ---
+batch_number = 60, loss = 0.913020, acc = 0.983689
+--- 9959.307531118393 seconds ---
+batch_number = 70, loss = 0.914985, acc = 0.983970
+--- 9966.097203731537 seconds ---
+batch_number = 80, loss = 0.920835, acc = 0.983755
+--- 9974.294840574265 seconds ---
+batch_number = 90, loss = 0.913467, acc = 0.983642
+--- 9980.782548189163 seconds ---
+batch_number = 100, loss = 0.918343, acc = 0.983657
+--- 9987.41204047203 seconds ---
+batch_number = 110, loss = 0.918321, acc = 0.983583
+--- 9995.586243629456 seconds ---
+batch_number = 120, loss = 0.914451, acc = 0.983646
+--- 10002.447018146515 seconds ---
+batch_number = 130, loss = 0.918529, acc = 0.983461
+--- 10010.229736089706 seconds ---
+batch_number = 140, loss = 0.915220, acc = 0.983446
+--- 10017.391118049622 seconds ---
+batch_number = 150, loss = 0.915574, acc = 0.983434
+--- 10024.596875667572 seconds ---
+batch_number = 160, loss = 0.916082, acc = 0.983328
+[epoch 80]: train_loss = 0.115780, train_acc = 0.983333, validation_loss = 2.379836, validation_acc = 0.875536
+--- 10040.765394926071 seconds ---
+batch_number = 10, loss = 0.801588, acc = 0.985778
+--- 10048.098208904266 seconds ---
+batch_number = 20, loss = 0.851674, acc = 0.984985
+--- 10055.68915605545 seconds ---
+batch_number = 30, loss = 0.870080, acc = 0.984642
+--- 10062.600349664688 seconds ---
+batch_number = 40, loss = 0.876801, acc = 0.984140
+--- 10069.996721029282 seconds ---
+batch_number = 50, loss = 0.878063, acc = 0.984389
+--- 10076.939893722534 seconds ---
+batch_number = 60, loss = 0.882594, acc = 0.983724
+--- 10084.181327581406 seconds ---
+batch_number = 70, loss = 0.889240, acc = 0.983814
+--- 10091.608550786972 seconds ---
+batch_number = 80, loss = 0.894411, acc = 0.983703
+--- 10099.391674041748 seconds ---
+batch_number = 90, loss = 0.896945, acc = 0.983311
+--- 10107.620831489563 seconds ---
+batch_number = 100, loss = 0.898030, acc = 0.983187
+--- 10115.307260036469 seconds ---
+batch_number = 110, loss = 0.893665, acc = 0.983159
+--- 10121.80923485756 seconds ---
+batch_number = 120, loss = 0.899446, acc = 0.983050
+--- 10129.226371765137 seconds ---
+batch_number = 130, loss = 0.900948, acc = 0.982824
+--- 10136.197779655457 seconds ---
+batch_number = 140, loss = 0.900505, acc = 0.982950
+--- 10144.172547578812 seconds ---
+batch_number = 150, loss = 0.900727, acc = 0.982833
+--- 10151.093928575516 seconds ---
+batch_number = 160, loss = 0.904503, acc = 0.982727
+[epoch 81]: train_loss = 0.114675, train_acc = 0.982503, validation_loss = 2.478573, validation_acc = 0.860479
+--- 10164.876358032227 seconds ---
+batch_number = 10, loss = 1.014970, acc = 0.974464
+--- 10172.501850605011 seconds ---
+batch_number = 20, loss = 1.494586, acc = 0.951086
+--- 10180.278614521027 seconds ---
+batch_number = 30, loss = 1.882861, acc = 0.922368
+--- 10188.859185695648 seconds ---
+batch_number = 40, loss = 2.139435, acc = 0.903219
+--- 10196.808643341064 seconds ---
+batch_number = 50, loss = 2.181384, acc = 0.901299
+--- 10203.11241030693 seconds ---
+batch_number = 60, loss = 2.170849, acc = 0.901824
+--- 10210.222326517105 seconds ---
+batch_number = 70, loss = 2.179882, acc = 0.902011
+--- 10217.103902578354 seconds ---
+batch_number = 80, loss = 2.289372, acc = 0.895864
+--- 10224.428418159485 seconds ---
+batch_number = 90, loss = 2.395034, acc = 0.890512
+--- 10231.268298625946 seconds ---
+batch_number = 100, loss = 2.579688, acc = 0.883570
+--- 10237.612424612045 seconds ---
+batch_number = 110, loss = 2.634932, acc = 0.880231
+--- 10244.484631538391 seconds ---
+batch_number = 120, loss = 2.751582, acc = 0.874649
+--- 10252.150212526321 seconds ---
+batch_number = 130, loss = 2.821167, acc = 0.868736
+--- 10259.262009382248 seconds ---
+batch_number = 140, loss = 2.834906, acc = 0.868092
+--- 10266.553553581238 seconds ---
+batch_number = 150, loss = 2.863221, acc = 0.866008
+--- 10274.289728164673 seconds ---
+batch_number = 160, loss = 2.895212, acc = 0.864734
+[epoch 82]: train_loss = 0.367997, train_acc = 0.863523, validation_loss = 4.347807, validation_acc = 0.750297
+--- 10290.589162111282 seconds ---
+batch_number = 10, loss = 3.263342, acc = 0.840627
+--- 10297.675605297089 seconds ---
+batch_number = 20, loss = 3.349954, acc = 0.842895
+--- 10304.46676158905 seconds ---
+batch_number = 30, loss = 3.135735, acc = 0.852435
+--- 10311.665655374527 seconds ---
+batch_number = 40, loss = 2.934808, acc = 0.867497
+--- 10318.261598825455 seconds ---
+batch_number = 50, loss = 2.802284, acc = 0.877099
+--- 10326.193475723267 seconds ---
+batch_number = 60, loss = 2.674790, acc = 0.885496
+--- 10333.130341529846 seconds ---
+batch_number = 70, loss = 2.590591, acc = 0.891246
+--- 10340.897550821304 seconds ---
+batch_number = 80, loss = 2.545055, acc = 0.895062
+--- 10348.634689807892 seconds ---
+batch_number = 90, loss = 2.474673, acc = 0.901017
+--- 10355.688188552856 seconds ---
+batch_number = 100, loss = 2.408961, acc = 0.905573
+--- 10362.499081611633 seconds ---
+batch_number = 110, loss = 2.345983, acc = 0.908714
+--- 10370.01914358139 seconds ---
+batch_number = 120, loss = 2.289014, acc = 0.912715
+--- 10377.782539129257 seconds ---
+batch_number = 130, loss = 2.227590, acc = 0.916899
+--- 10385.073903083801 seconds ---
+batch_number = 140, loss = 2.176901, acc = 0.920145
+--- 10393.165375232697 seconds ---
+batch_number = 150, loss = 2.116192, acc = 0.922913
+--- 10400.936054706573 seconds ---
+batch_number = 160, loss = 2.066918, acc = 0.925732
+[epoch 83]: train_loss = 0.258407, train_acc = 0.926893, validation_loss = 2.529691, validation_acc = 0.867737
+--- 10415.271867990494 seconds ---
+batch_number = 10, loss = 1.230412, acc = 0.971869
+--- 10422.750354528427 seconds ---
+batch_number = 20, loss = 1.252300, acc = 0.971914
+--- 10429.48449087143 seconds ---
+batch_number = 30, loss = 1.258563, acc = 0.971958
+--- 10437.528643846512 seconds ---
+batch_number = 40, loss = 1.255969, acc = 0.974080
+--- 10444.071962833405 seconds ---
+batch_number = 50, loss = 1.256436, acc = 0.973778
+--- 10451.410707950592 seconds ---
+batch_number = 60, loss = 1.247954, acc = 0.974394
+--- 10458.850039243698 seconds ---
+batch_number = 70, loss = 1.229627, acc = 0.974350
+--- 10466.87784075737 seconds ---
+batch_number = 80, loss = 1.221972, acc = 0.974582
+--- 10475.243323802948 seconds ---
+batch_number = 90, loss = 1.215470, acc = 0.974949
+--- 10481.827160835266 seconds ---
+batch_number = 100, loss = 1.216917, acc = 0.975142
+--- 10489.463586091995 seconds ---
+batch_number = 110, loss = 1.210497, acc = 0.975554
+--- 10497.180136919022 seconds ---
+batch_number = 120, loss = 1.200386, acc = 0.975889
+--- 10504.07929611206 seconds ---
+batch_number = 130, loss = 1.192244, acc = 0.976038
+--- 10511.447857379913 seconds ---
+batch_number = 140, loss = 1.185467, acc = 0.975986
+--- 10518.97703051567 seconds ---
+batch_number = 150, loss = 1.179064, acc = 0.976031
+--- 10524.846772193909 seconds ---
+batch_number = 160, loss = 1.178542, acc = 0.976058
+[epoch 84]: train_loss = 0.148954, train_acc = 0.976188, validation_loss = 2.502946, validation_acc = 0.867499
+--- 10540.623168230057 seconds ---
+batch_number = 10, loss = 0.940870, acc = 0.979298
+--- 10547.915331363678 seconds ---
+batch_number = 20, loss = 1.003384, acc = 0.979451
+--- 10555.662501573563 seconds ---
+batch_number = 30, loss = 1.000275, acc = 0.979757
+--- 10563.682060956955 seconds ---
+batch_number = 40, loss = 0.990556, acc = 0.980416
+--- 10570.979454040527 seconds ---
+batch_number = 50, loss = 0.984893, acc = 0.980919
+--- 10578.037865400314 seconds ---
+batch_number = 60, loss = 1.000266, acc = 0.981378
+--- 10584.805715560913 seconds ---
+batch_number = 70, loss = 1.009543, acc = 0.981282
+--- 10592.73361992836 seconds ---
+batch_number = 80, loss = 1.014817, acc = 0.981240
+--- 10601.290115594864 seconds ---
+batch_number = 90, loss = 1.003909, acc = 0.981486
+--- 10608.292854309082 seconds ---
+batch_number = 100, loss = 1.007081, acc = 0.981423
+--- 10615.62471151352 seconds ---
+batch_number = 110, loss = 1.012680, acc = 0.981487
+--- 10622.11234498024 seconds ---
+batch_number = 120, loss = 1.024025, acc = 0.981147
+--- 10630.72230553627 seconds ---
+batch_number = 130, loss = 1.021786, acc = 0.981146
+--- 10638.420512199402 seconds ---
+batch_number = 140, loss = 1.022033, acc = 0.981179
+--- 10645.32193160057 seconds ---
+batch_number = 150, loss = 1.024913, acc = 0.981114
+--- 10653.790847063065 seconds ---
+batch_number = 160, loss = 1.020645, acc = 0.981211
+[epoch 85]: train_loss = 0.128950, train_acc = 0.981308, validation_loss = 2.352025, validation_acc = 0.880522
+--- 10668.192677974701 seconds ---
+batch_number = 10, loss = 0.915963, acc = 0.984368
+--- 10675.461200714111 seconds ---
+batch_number = 20, loss = 0.997256, acc = 0.983663
+--- 10683.13123011589 seconds ---
+batch_number = 30, loss = 0.972615, acc = 0.983881
+--- 10690.535102844238 seconds ---
+batch_number = 40, loss = 0.962146, acc = 0.983812
+--- 10698.448771715164 seconds ---
+batch_number = 50, loss = 0.956389, acc = 0.984347
+--- 10705.163187742233 seconds ---
+batch_number = 60, loss = 0.963867, acc = 0.983745
+--- 10713.130537986755 seconds ---
+batch_number = 70, loss = 0.953628, acc = 0.983788
+--- 10720.249864339828 seconds ---
+batch_number = 80, loss = 0.957103, acc = 0.983691
+--- 10727.635688781738 seconds ---
+batch_number = 90, loss = 0.959947, acc = 0.983782
+--- 10734.67651796341 seconds ---
+batch_number = 100, loss = 0.966316, acc = 0.983487
+--- 10743.234381437302 seconds ---
+batch_number = 110, loss = 0.959904, acc = 0.983695
+--- 10751.331533193588 seconds ---
+batch_number = 120, loss = 0.962370, acc = 0.983772
+--- 10757.627955436707 seconds ---
+batch_number = 130, loss = 0.965656, acc = 0.983835
+--- 10764.573853254318 seconds ---
+batch_number = 140, loss = 0.970205, acc = 0.983734
+--- 10772.775479316711 seconds ---
+batch_number = 150, loss = 0.966492, acc = 0.983788
+--- 10780.49137878418 seconds ---
+batch_number = 160, loss = 0.962587, acc = 0.983838
+[epoch 86]: train_loss = 0.122391, train_acc = 0.983742, validation_loss = 2.365704, validation_acc = 0.880763
+--- 10793.091052770615 seconds ---
+batch_number = 10, loss = 0.922465, acc = 0.981188
+--- 10799.867040157318 seconds ---
+batch_number = 20, loss = 0.981632, acc = 0.983408
+--- 10808.005749940872 seconds ---
+batch_number = 30, loss = 0.947869, acc = 0.983228
+--- 10815.304998636246 seconds ---
+batch_number = 40, loss = 0.955248, acc = 0.982801
+--- 10822.315689563751 seconds ---
+batch_number = 50, loss = 0.949835, acc = 0.982720
+--- 10829.982948064804 seconds ---
+batch_number = 60, loss = 0.954493, acc = 0.982975
+--- 10837.875658512115 seconds ---
+batch_number = 70, loss = 0.944750, acc = 0.983522
+--- 10844.231215953827 seconds ---
+batch_number = 80, loss = 0.956992, acc = 0.983783
+--- 10851.890297412872 seconds ---
+batch_number = 90, loss = 0.955478, acc = 0.983895
+--- 10859.11647105217 seconds ---
+batch_number = 100, loss = 0.949678, acc = 0.983969
+--- 10866.013348340988 seconds ---
+batch_number = 110, loss = 0.944147, acc = 0.984020
+--- 10873.87187552452 seconds ---
+batch_number = 120, loss = 0.944522, acc = 0.984009
+--- 10882.693654060364 seconds ---
+batch_number = 130, loss = 0.939455, acc = 0.984161
+--- 10889.576913356781 seconds ---
+batch_number = 140, loss = 0.940330, acc = 0.984102
+--- 10897.610368967056 seconds ---
+batch_number = 150, loss = 0.931206, acc = 0.984284
+--- 10905.53588271141 seconds ---
+batch_number = 160, loss = 0.924815, acc = 0.984278
+[epoch 87]: train_loss = 0.117775, train_acc = 0.984252, validation_loss = 2.467486, validation_acc = 0.873989
+--- 10919.551866531372 seconds ---
+batch_number = 10, loss = 0.796260, acc = 0.986004
+--- 10926.85546207428 seconds ---
+batch_number = 20, loss = 0.865380, acc = 0.984465
+--- 10935.048502922058 seconds ---
+batch_number = 30, loss = 0.844126, acc = 0.984399
+--- 10941.191619157791 seconds ---
+batch_number = 40, loss = 0.878332, acc = 0.984539
+--- 10947.229184627533 seconds ---
+batch_number = 50, loss = 0.897246, acc = 0.984643
+--- 10955.00819849968 seconds ---
+batch_number = 60, loss = 0.893388, acc = 0.984872
+--- 10962.31112575531 seconds ---
+batch_number = 70, loss = 0.887852, acc = 0.984957
+--- 10969.390251874924 seconds ---
+batch_number = 80, loss = 0.900958, acc = 0.984885
+--- 10977.673748493195 seconds ---
+batch_number = 90, loss = 0.894374, acc = 0.984973
+--- 10985.541301250458 seconds ---
+batch_number = 100, loss = 0.898070, acc = 0.984850
+--- 10992.191389083862 seconds ---
+batch_number = 110, loss = 0.907710, acc = 0.984713
+--- 10999.659278154373 seconds ---
+batch_number = 120, loss = 0.906952, acc = 0.984858
+--- 11007.64887213707 seconds ---
+batch_number = 130, loss = 0.904669, acc = 0.984924
+--- 11015.698424339294 seconds ---
+batch_number = 140, loss = 0.902158, acc = 0.984997
+--- 11023.487180709839 seconds ---
+batch_number = 150, loss = 0.901838, acc = 0.985114
+--- 11030.74753689766 seconds ---
+batch_number = 160, loss = 0.906641, acc = 0.985101
+[epoch 88]: train_loss = 0.115351, train_acc = 0.984976, validation_loss = 2.394761, validation_acc = 0.878281
+--- 11042.972762584686 seconds ---
+batch_number = 10, loss = 0.852155, acc = 0.984118
+--- 11050.361003160477 seconds ---
+batch_number = 20, loss = 0.888101, acc = 0.983745
+--- 11057.044513702393 seconds ---
+batch_number = 30, loss = 0.906383, acc = 0.984047
+--- 11064.18668103218 seconds ---
+batch_number = 40, loss = 0.901059, acc = 0.984524
+--- 11071.765100240707 seconds ---
+batch_number = 50, loss = 0.894527, acc = 0.984777
+--- 11080.429398536682 seconds ---
+batch_number = 60, loss = 0.884868, acc = 0.984880
+--- 11088.015943050385 seconds ---
+batch_number = 70, loss = 0.887092, acc = 0.984924
+--- 11095.645236253738 seconds ---
+batch_number = 80, loss = 0.890617, acc = 0.984678
+--- 11103.964431762695 seconds ---
+batch_number = 90, loss = 0.878769, acc = 0.984594
+--- 11110.69778418541 seconds ---
+batch_number = 100, loss = 0.878189, acc = 0.984327
+--- 11118.184355974197 seconds ---
+batch_number = 110, loss = 0.883812, acc = 0.984233
+--- 11126.134775400162 seconds ---
+batch_number = 120, loss = 0.878903, acc = 0.984248
+--- 11134.528566598892 seconds ---
+batch_number = 130, loss = 0.873995, acc = 0.984348
+--- 11141.003492355347 seconds ---
+batch_number = 140, loss = 0.873259, acc = 0.984226
+--- 11147.873790502548 seconds ---
+batch_number = 150, loss = 0.873624, acc = 0.984187
+--- 11155.61465716362 seconds ---
+batch_number = 160, loss = 0.873575, acc = 0.984294
+[epoch 89]: train_loss = 0.110718, train_acc = 0.984212, validation_loss = 2.518723, validation_acc = 0.874295
+--- 11170.649997234344 seconds ---
+batch_number = 10, loss = 0.719671, acc = 0.987230
+--- 11177.147155761719 seconds ---
+batch_number = 20, loss = 0.803908, acc = 0.984804
+--- 11183.870121240616 seconds ---
+batch_number = 30, loss = 0.834593, acc = 0.984215
+--- 11191.622153520584 seconds ---
+batch_number = 40, loss = 0.846646, acc = 0.984260
+--- 11198.765102863312 seconds ---
+batch_number = 50, loss = 0.856796, acc = 0.984648
+--- 11206.155733346939 seconds ---
+batch_number = 60, loss = 0.864281, acc = 0.985139
+--- 11212.182512283325 seconds ---
+batch_number = 70, loss = 0.870644, acc = 0.984874
+--- 11220.546418190002 seconds ---
+batch_number = 80, loss = 0.871058, acc = 0.984755
+--- 11228.510575294495 seconds ---
+batch_number = 90, loss = 0.870777, acc = 0.984710
+--- 11235.843735933304 seconds ---
+batch_number = 100, loss = 0.869801, acc = 0.984526
+--- 11243.145318984985 seconds ---
+batch_number = 110, loss = 0.868131, acc = 0.984490
+--- 11250.324697494507 seconds ---
+batch_number = 120, loss = 0.870512, acc = 0.984376
+--- 11258.221560955048 seconds ---
+batch_number = 130, loss = 0.870212, acc = 0.984390
+--- 11265.47657251358 seconds ---
+batch_number = 140, loss = 0.871980, acc = 0.984367
+--- 11274.325556755066 seconds ---
+batch_number = 150, loss = 0.871568, acc = 0.984143
+--- 11280.551432847977 seconds ---
+batch_number = 160, loss = 0.877936, acc = 0.983835
+[epoch 90]: train_loss = 0.111757, train_acc = 0.983756, validation_loss = 2.759460, validation_acc = 0.861804
+--- 11296.866644382477 seconds ---
+batch_number = 10, loss = 0.888429, acc = 0.974189
+--- 11303.226411819458 seconds ---
+batch_number = 20, loss = 1.033044, acc = 0.970526
+--- 11311.083224058151 seconds ---
+batch_number = 30, loss = 1.043041, acc = 0.967727
+--- 11317.4012799263 seconds ---
+batch_number = 40, loss = 1.064754, acc = 0.968002
+--- 11324.653917074203 seconds ---
+batch_number = 50, loss = 1.111263, acc = 0.965115
+--- 11332.108612060547 seconds ---
+batch_number = 60, loss = 1.149025, acc = 0.963497
+--- 11339.660192966461 seconds ---
+batch_number = 70, loss = 1.180864, acc = 0.962369
+--- 11347.179820537567 seconds ---
+batch_number = 80, loss = 1.186727, acc = 0.962038
+--- 11354.989349126816 seconds ---
+batch_number = 90, loss = 1.169254, acc = 0.963358
+--- 11362.84734916687 seconds ---
+batch_number = 100, loss = 1.156159, acc = 0.964775
+--- 11370.33777809143 seconds ---
+batch_number = 110, loss = 1.145762, acc = 0.965849
+--- 11376.38555598259 seconds ---
+batch_number = 120, loss = 1.141028, acc = 0.966819
+--- 11383.478969573975 seconds ---
+batch_number = 130, loss = 1.128779, acc = 0.967842
+--- 11391.164585590363 seconds ---
+batch_number = 140, loss = 1.116357, acc = 0.968382
+--- 11398.093421459198 seconds ---
+batch_number = 150, loss = 1.105199, acc = 0.969026
+--- 11404.829000711441 seconds ---
+batch_number = 160, loss = 1.101414, acc = 0.969476
+[epoch 91]: train_loss = 0.138880, train_acc = 0.969665, validation_loss = 2.504549, validation_acc = 0.875735
+--- 11419.326390266418 seconds ---
+batch_number = 10, loss = 0.994719, acc = 0.969935
+--- 11426.601826190948 seconds ---
+batch_number = 20, loss = 0.978356, acc = 0.972359
+--- 11434.317494392395 seconds ---
+batch_number = 30, loss = 0.979700, acc = 0.973422
+--- 11440.237699985504 seconds ---
+batch_number = 40, loss = 0.997587, acc = 0.973236
+--- 11448.443113088608 seconds ---
+batch_number = 50, loss = 0.995866, acc = 0.973904
+--- 11456.720466375351 seconds ---
+batch_number = 60, loss = 0.994953, acc = 0.974804
+--- 11464.427866220474 seconds ---
+batch_number = 70, loss = 0.994490, acc = 0.974973
+--- 11470.557589530945 seconds ---
+batch_number = 80, loss = 1.002320, acc = 0.974918
+--- 11478.446924686432 seconds ---
+batch_number = 90, loss = 1.008017, acc = 0.974339
+--- 11486.792633771896 seconds ---
+batch_number = 100, loss = 1.001415, acc = 0.974718
+--- 11494.113585948944 seconds ---
+batch_number = 110, loss = 0.994256, acc = 0.975052
+--- 11501.07459807396 seconds ---
+batch_number = 120, loss = 1.009244, acc = 0.974854
+--- 11508.924897909164 seconds ---
+batch_number = 130, loss = 1.008057, acc = 0.975220
+--- 11516.83025765419 seconds ---
+batch_number = 140, loss = 1.005946, acc = 0.975019
+--- 11524.173327684402 seconds ---
+batch_number = 150, loss = 1.002137, acc = 0.975143
+--- 11532.046122074127 seconds ---
+batch_number = 160, loss = 1.003198, acc = 0.975337
+[epoch 92]: train_loss = 0.126932, train_acc = 0.975337, validation_loss = 2.577628, validation_acc = 0.858004
+--- 11544.30982542038 seconds ---
+batch_number = 10, loss = 1.070254, acc = 0.968426
+--- 11551.015642881393 seconds ---
+batch_number = 20, loss = 1.023531, acc = 0.973709
+--- 11558.990579843521 seconds ---
+batch_number = 30, loss = 1.147599, acc = 0.969800
+--- 11567.208258152008 seconds ---
+batch_number = 40, loss = 1.606678, acc = 0.942487
+--- 11573.865015029907 seconds ---
+batch_number = 50, loss = 2.152805, acc = 0.910882
+--- 11580.464300632477 seconds ---
+batch_number = 60, loss = 2.510774, acc = 0.885639
+--- 11588.103982448578 seconds ---
+batch_number = 70, loss = 2.681483, acc = 0.875219
+--- 11596.083125591278 seconds ---
+batch_number = 80, loss = 2.968507, acc = 0.857511
+--- 11602.988138198853 seconds ---
+batch_number = 90, loss = 3.085553, acc = 0.847968
+--- 11610.713275671005 seconds ---
+batch_number = 100, loss = 3.102606, acc = 0.848199
+--- 11617.694960832596 seconds ---
+batch_number = 110, loss = 3.089205, acc = 0.849675
+--- 11625.301652908325 seconds ---
+batch_number = 120, loss = 3.045401, acc = 0.855219
+--- 11632.649054288864 seconds ---
+batch_number = 130, loss = 2.972248, acc = 0.860960
+--- 11640.04664516449 seconds ---
+batch_number = 140, loss = 2.909214, acc = 0.865878
+--- 11648.384934186935 seconds ---
+batch_number = 150, loss = 2.838763, acc = 0.870872
+--- 11655.211661815643 seconds ---
+batch_number = 160, loss = 2.778068, acc = 0.874160
+[epoch 93]: train_loss = 0.347174, train_acc = 0.876607, validation_loss = 2.556547, validation_acc = 0.859072
+--- 11670.530535936356 seconds ---
+batch_number = 10, loss = 1.327985, acc = 0.958661
+--- 11679.159276723862 seconds ---
+batch_number = 20, loss = 1.442152, acc = 0.956506
+--- 11685.810723304749 seconds ---
+batch_number = 30, loss = 1.467070, acc = 0.958132
+--- 11693.46807384491 seconds ---
+batch_number = 40, loss = 1.433949, acc = 0.959415
+--- 11701.732855319977 seconds ---
+batch_number = 50, loss = 1.383326, acc = 0.962025
+--- 11707.901571512222 seconds ---
+batch_number = 60, loss = 1.372014, acc = 0.962700
+--- 11715.45041847229 seconds ---
+batch_number = 70, loss = 1.375131, acc = 0.963222
+--- 11722.527915239334 seconds ---
+batch_number = 80, loss = 1.363471, acc = 0.964574
+--- 11730.56088590622 seconds ---
+batch_number = 90, loss = 1.341347, acc = 0.965880
+--- 11737.685124635696 seconds ---
+batch_number = 100, loss = 1.333444, acc = 0.966253
+--- 11745.18248963356 seconds ---
+batch_number = 110, loss = 1.335852, acc = 0.966073
+--- 11753.580263853073 seconds ---
+batch_number = 120, loss = 1.325781, acc = 0.966897
+--- 11760.644522666931 seconds ---
+batch_number = 130, loss = 1.318925, acc = 0.967150
+--- 11767.253973960876 seconds ---
+batch_number = 140, loss = 1.312180, acc = 0.967654
+--- 11775.087956428528 seconds ---
+batch_number = 150, loss = 1.301136, acc = 0.968495
+--- 11782.68737077713 seconds ---
+batch_number = 160, loss = 1.290110, acc = 0.969089
+[epoch 94]: train_loss = 0.162529, train_acc = 0.969234, validation_loss = 2.443823, validation_acc = 0.877115
+--- 11796.943927526474 seconds ---
+batch_number = 10, loss = 0.935373, acc = 0.979026
+--- 11805.03054022789 seconds ---
+batch_number = 20, loss = 0.992074, acc = 0.979854
+--- 11812.470207214355 seconds ---
+batch_number = 30, loss = 1.021896, acc = 0.980612
+--- 11820.09699678421 seconds ---
+batch_number = 40, loss = 1.030018, acc = 0.981067
+--- 11827.79227399826 seconds ---
+batch_number = 50, loss = 1.039801, acc = 0.980610
+--- 11833.904783248901 seconds ---
+batch_number = 60, loss = 1.044875, acc = 0.980820
+--- 11841.23268032074 seconds ---
+batch_number = 70, loss = 1.039860, acc = 0.981147
+--- 11847.87306523323 seconds ---
+batch_number = 80, loss = 1.046650, acc = 0.981281
+--- 11855.441447019577 seconds ---
+batch_number = 90, loss = 1.040321, acc = 0.981564
+--- 11863.570261001587 seconds ---
+batch_number = 100, loss = 1.034995, acc = 0.981847
+--- 11870.057323932648 seconds ---
+batch_number = 110, loss = 1.071194, acc = 0.980757
+--- 11875.693022727966 seconds ---
+batch_number = 120, loss = 1.081136, acc = 0.980019
+--- 11882.945397138596 seconds ---
+batch_number = 130, loss = 1.077824, acc = 0.979891
+--- 11890.160706043243 seconds ---
+batch_number = 140, loss = 1.082936, acc = 0.979173
+--- 11898.557082891464 seconds ---
+batch_number = 150, loss = 1.082506, acc = 0.979269
+--- 11907.233124256134 seconds ---
+batch_number = 160, loss = 1.077376, acc = 0.979534
+[epoch 95]: train_loss = 0.135768, train_acc = 0.979592, validation_loss = 2.491005, validation_acc = 0.871716
+--- 11923.27989268303 seconds ---
+batch_number = 10, loss = 1.075141, acc = 0.974559
+--- 11930.469294309616 seconds ---
+batch_number = 20, loss = 1.085505, acc = 0.977649
+--- 11938.87553191185 seconds ---
+batch_number = 30, loss = 1.142711, acc = 0.976559
+--- 11946.242202758789 seconds ---
+batch_number = 40, loss = 1.114239, acc = 0.975532
+--- 11953.05980682373 seconds ---
+batch_number = 50, loss = 1.095595, acc = 0.975990
+--- 11960.065874099731 seconds ---
+batch_number = 60, loss = 1.090483, acc = 0.976391
+--- 11966.962005376816 seconds ---
+batch_number = 70, loss = 1.090870, acc = 0.976785
+--- 11973.469099283218 seconds ---
+batch_number = 80, loss = 1.086479, acc = 0.977223
+--- 11980.779736042023 seconds ---
+batch_number = 90, loss = 1.073855, acc = 0.977585
+--- 11989.501710414886 seconds ---
+batch_number = 100, loss = 1.057408, acc = 0.978419
+--- 11997.024234771729 seconds ---
+batch_number = 110, loss = 1.047767, acc = 0.978867
+--- 12004.545323848724 seconds ---
+batch_number = 120, loss = 1.040279, acc = 0.979291
+--- 12012.796072721481 seconds ---
+batch_number = 130, loss = 1.032205, acc = 0.979879
+--- 12018.878482103348 seconds ---
+batch_number = 140, loss = 1.034569, acc = 0.980171
+--- 12025.759221553802 seconds ---
+batch_number = 150, loss = 1.028522, acc = 0.980368
+--- 12032.802197933197 seconds ---
+batch_number = 160, loss = 1.024124, acc = 0.980619
+[epoch 96]: train_loss = 0.129973, train_acc = 0.980635, validation_loss = 2.411351, validation_acc = 0.877421
+--- 12047.074690580368 seconds ---
+batch_number = 10, loss = 0.834880, acc = 0.982806
+--- 12054.692326545715 seconds ---
+batch_number = 20, loss = 0.878125, acc = 0.983575
+--- 12062.307164907455 seconds ---
+batch_number = 30, loss = 0.864906, acc = 0.984500
+--- 12069.180283546448 seconds ---
+batch_number = 40, loss = 0.890797, acc = 0.984793
+--- 12075.87241101265 seconds ---
+batch_number = 50, loss = 0.916219, acc = 0.984532
+--- 12082.465002536774 seconds ---
+batch_number = 60, loss = 0.945317, acc = 0.983922
+--- 12090.373420238495 seconds ---
+batch_number = 70, loss = 0.948170, acc = 0.983889
+--- 12098.666854143143 seconds ---
+batch_number = 80, loss = 0.942869, acc = 0.983878
+--- 12106.925631046295 seconds ---
+batch_number = 90, loss = 0.937730, acc = 0.983836
+--- 12113.631618976593 seconds ---
+batch_number = 100, loss = 0.937995, acc = 0.983843
+--- 12121.078563928604 seconds ---
+batch_number = 110, loss = 0.933378, acc = 0.983868
+--- 12128.352922439575 seconds ---
+batch_number = 120, loss = 0.931060, acc = 0.983723
+--- 12135.304298877716 seconds ---
+batch_number = 130, loss = 0.938540, acc = 0.983321
+--- 12142.613427877426 seconds ---
+batch_number = 140, loss = 0.941119, acc = 0.983113
+--- 12150.99231004715 seconds ---
+batch_number = 150, loss = 0.937131, acc = 0.982978
+--- 12158.86197566986 seconds ---
+batch_number = 160, loss = 0.932024, acc = 0.983040
+[epoch 97]: train_loss = 0.117913, train_acc = 0.983017, validation_loss = 2.354992, validation_acc = 0.879493
+--- 12174.205067873001 seconds ---
+batch_number = 10, loss = 0.770933, acc = 0.985676
+--- 12182.4127471447 seconds ---
+batch_number = 20, loss = 0.803386, acc = 0.985861
+--- 12190.156450033188 seconds ---
+batch_number = 30, loss = 0.816943, acc = 0.985811
+--- 12197.262231111526 seconds ---
+batch_number = 40, loss = 0.845298, acc = 0.986065
+--- 12203.998054742813 seconds ---
+batch_number = 50, loss = 0.847541, acc = 0.985784
+--- 12210.431196928024 seconds ---
+batch_number = 60, loss = 0.859744, acc = 0.985626
+--- 12217.569929122925 seconds ---
+batch_number = 70, loss = 0.862439, acc = 0.985758
+--- 12224.471633434296 seconds ---
+batch_number = 80, loss = 0.868257, acc = 0.985895
+--- 12232.332029342651 seconds ---
+batch_number = 90, loss = 0.865005, acc = 0.985939
+--- 12240.31705212593 seconds ---
+batch_number = 100, loss = 0.863076, acc = 0.986043
+--- 12248.557501792908 seconds ---
+batch_number = 110, loss = 0.859042, acc = 0.985993
+--- 12256.247159004211 seconds ---
+batch_number = 120, loss = 0.853352, acc = 0.985970
+--- 12263.726726293564 seconds ---
+batch_number = 130, loss = 0.852845, acc = 0.985842
+--- 12271.3382229805 seconds ---
+batch_number = 140, loss = 0.854366, acc = 0.985930
+--- 12278.689336776733 seconds ---
+batch_number = 150, loss = 0.857166, acc = 0.985973
+--- 12285.45074391365 seconds ---
+batch_number = 160, loss = 0.857102, acc = 0.985994
+[epoch 98]: train_loss = 0.108710, train_acc = 0.985923, validation_loss = 2.467955, validation_acc = 0.875966
+--- 12299.393992424011 seconds ---
+batch_number = 10, loss = 0.786114, acc = 0.986120
+--- 12307.13914847374 seconds ---
+batch_number = 20, loss = 0.806819, acc = 0.986575
+--- 12314.044621706009 seconds ---
+batch_number = 30, loss = 0.832924, acc = 0.986356
+--- 12321.5963037014 seconds ---
+batch_number = 40, loss = 0.822854, acc = 0.986780
+--- 12329.79740691185 seconds ---
+batch_number = 50, loss = 0.811492, acc = 0.987033
+--- 12337.745989561081 seconds ---
+batch_number = 60, loss = 0.811257, acc = 0.987283
+--- 12345.554760217667 seconds ---
+batch_number = 70, loss = 0.823497, acc = 0.987162
+--- 12352.077284812927 seconds ---
+batch_number = 80, loss = 0.831403, acc = 0.986994
+--- 12359.012533664703 seconds ---
+batch_number = 90, loss = 0.827975, acc = 0.987032
+--- 12366.932221889496 seconds ---
+batch_number = 100, loss = 0.828236, acc = 0.986838
+--- 12373.417666435242 seconds ---
+batch_number = 110, loss = 0.832431, acc = 0.986761
+--- 12381.30970621109 seconds ---
+batch_number = 120, loss = 0.839804, acc = 0.986603
+--- 12389.739697694778 seconds ---
+batch_number = 130, loss = 0.834646, acc = 0.986645
+--- 12396.448325872421 seconds ---
+batch_number = 140, loss = 0.833797, acc = 0.986475
+--- 12403.501981019974 seconds ---
+batch_number = 150, loss = 0.836439, acc = 0.986406
+--- 12410.845401525497 seconds ---
+batch_number = 160, loss = 0.837660, acc = 0.986328
+[epoch 99]: train_loss = 0.105921, train_acc = 0.986351, validation_loss = 2.540342, validation_acc = 0.873856
+--- 12425.570083618164 seconds ---
+batch_number = 10, loss = 0.817757, acc = 0.982551
+--- 12433.172585725784 seconds ---
+batch_number = 20, loss = 0.815781, acc = 0.984990
+--- 12441.30620265007 seconds ---
+batch_number = 30, loss = 0.807163, acc = 0.985595
+--- 12448.288033246994 seconds ---
+batch_number = 40, loss = 0.801744, acc = 0.985382
+--- 12455.584939718246 seconds ---
+batch_number = 50, loss = 0.811901, acc = 0.985558
+--- 12463.085191011429 seconds ---
+batch_number = 60, loss = 0.821779, acc = 0.985768
+--- 12471.111369609833 seconds ---
+batch_number = 70, loss = 0.825412, acc = 0.985954
+--- 12477.83301949501 seconds ---
+batch_number = 80, loss = 0.829085, acc = 0.985929
+--- 12484.991512060165 seconds ---
+batch_number = 90, loss = 0.826955, acc = 0.985761
+--- 12491.72796869278 seconds ---
+batch_number = 100, loss = 0.830436, acc = 0.985740
+--- 12501.638532400131 seconds ---
+batch_number = 110, loss = 0.822053, acc = 0.986017
+--- 12507.924046754837 seconds ---
+batch_number = 120, loss = 0.827201, acc = 0.985845
+--- 12516.301097631454 seconds ---
+batch_number = 130, loss = 0.825685, acc = 0.986020
+--- 12522.992040634155 seconds ---
+batch_number = 140, loss = 0.826023, acc = 0.986033
+--- 12529.73310661316 seconds ---
+batch_number = 150, loss = 0.826751, acc = 0.986064
+--- 12536.500919818878 seconds ---
+batch_number = 160, loss = 0.821631, acc = 0.986081
+[epoch 100]: train_loss = 0.103966, train_acc = 0.986101, validation_loss = 2.516065, validation_acc = 0.878288
