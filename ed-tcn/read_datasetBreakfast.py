@@ -9,7 +9,7 @@ import torch
 import numpy as np
 import os.path 
  
- 
+    
 def _isArrayLike(obj):
     return hasattr(obj, '__iter__') and hasattr(obj, '__len__')
 
@@ -38,9 +38,7 @@ def load_one_data(split_load, actions_dict, GT_folder, DATA_folder, datatype='tr
 
             data_breakfast.append(torch.tensor(curr_data, dtype=torch.float64))
             labels_breakfast.append(label_curr_video)
-            count += 1
-            if(count > 10):
-                break
+
         labels_uniq, labels_uniq_loc = get_label_bounds(labels_breakfast)
         print("Finish Load the Training data and labels!!!")
         return data_breakfast, labels_uniq, labels_uniq_loc
@@ -65,7 +63,7 @@ def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'trai
     content_all = file_ptr.read().split('\n')[1:-1]
     content_all = [x.strip('./data/groundTruth/') + 't' for x in content_all]
     all_tasks = ['tea', 'cereals', 'coffee', 'friedegg', 'juice', 'milk', 'sandwich', 'scrambledegg', 'pancake', 'salat']
-    count=0
+
     if datatype == 'training':
         data_breakfast = []
         labels_breakfast = []
@@ -81,19 +79,17 @@ def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'trai
             label_curr_video = []
             for iik in range(len(curr_gt)):
                 label_curr_video.append( actions_dict[curr_gt[iik]] )
-         
+
             data_breakfast.append(torch.tensor(curr_data,  dtype=torch.float64 ) )
             labels_breakfast.append(label_curr_video)
-            count += 1
-#             if(count > 10):
-#                 break
+                
         labels_uniq, labels_uniq_loc = get_label_bounds(labels_breakfast)
         print("Finish Load the Training data and labels!!!")     
         return data_breakfast, labels_uniq, labels_uniq_loc
     
     if datatype == 'test':
         data_breakfast = []
-        count=0
+
         for content in content_all:
         
             loc_curr_data = DATA_folder + os.path.splitext(content)[0] + '.gz'
@@ -101,9 +97,7 @@ def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'trai
             curr_data = np.loadtxt(loc_curr_data, dtype='float32')
             
             data_breakfast.append(torch.tensor(curr_data,  dtype=torch.float64 ) )
-            count += 1
-#             if(count > 10):
-#                 break
+
         print("Finish Load the Test data!!!")
         return data_breakfast
 
