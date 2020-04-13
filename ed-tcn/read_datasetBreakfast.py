@@ -24,7 +24,7 @@ def load_one_data(split_load, actions_dict, GT_folder, DATA_folder, datatype='tr
     if datatype == 'training':
         data_breakfast = []
         labels_breakfast = []
-        count = 0
+
         for content in content_all:
             file_ptr = open(GT_folder + content, 'r')
             curr_gt = file_ptr.read().split('\n')[:-1]
@@ -42,8 +42,9 @@ def load_one_data(split_load, actions_dict, GT_folder, DATA_folder, datatype='tr
         labels_uniq, labels_uniq_loc = get_label_bounds(labels_breakfast)
         print("Finish Load the Training data and labels!!!")
         return data_breakfast, labels_uniq, labels_uniq_loc
+       
     if datatype == 'test':
-        count = 0
+
         data_breakfast = []
         for content in content_all:
             loc_curr_data = DATA_folder + os.path.splitext(content)[0] + '.gz'
@@ -62,7 +63,7 @@ def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'trai
     content_all = [x.strip('./data/groundTruth/') + 't' for x in content_all]
     all_tasks = ['tea', 'cereals', 'coffee', 'friedegg', 'juice', 'milk', 'sandwich', 'scrambledegg', 'pancake', 'salat']
     
-    count = 0
+#     count = 0
 
     if datatype == 'training':
         data_breakfast = []
@@ -83,8 +84,8 @@ def load_data(split_load, actions_dict, GT_folder, DATA_folder, datatype = 'trai
             data_breakfast.append(torch.tensor(curr_data,  dtype=torch.float64 ) )
             labels_breakfast.append(label_curr_video)
             
-            count += 1
-            if count > 50: break
+#             count += 1
+#             if count > 50: break
                 
         labels_uniq, labels_uniq_loc = get_label_bounds(labels_breakfast)
         print("Finish Load the Training data and labels!!!")     
