@@ -1,5 +1,4 @@
-# CS5242-Breakfast
-Breakfast actions classification. 
+# CS5242-Breakfast Action Classification
 
 The goal of this test case is to classify each segment to any of the 47 sub-actions (excluding SIL). During the training stage, you can obtain the segments based on the labels. For the test stage, we give you the video segments. Your task is to experiment with different ways of segment representations and to perform action classification on top of these representations. You should submit your classification results for each segment in the test set in csv format.
 
